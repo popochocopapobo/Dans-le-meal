@@ -1,0 +1,44 @@
+{
+  "id": 75,
+  "name": "Mousse chocolat sans œufs",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_mousse-au-chocolat-sans-oeufs_54659.aspx",
+  "image": "https://assets.afcdn.com/recipe/20181219/84940_w225h225c1cx755cy1277cxt0cyt0cxb2574cyb3862.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4,
+  "reviews": 5,
+  "time": 140,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 93,
+  "health": 45,
+  "p": 4,
+  "c": 15,
+  "f": 40,
+  "b": 4,
+  "kcal": 445,
+  "ing": [
+    {
+      "n": "chocolat noir",
+      "q": 35,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide entière",
+      "q": 85,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Hacher le chocolat et le faire fondre doucement au bain-marie.",
+    "Le laisser redescendre à température tiède.",
+    "Fouetter la crème très froide jusqu’à ce qu’elle soit aérienne.",
+    "Incorporer une cuillerée de crème au chocolat, puis le reste délicatement.",
+    "Dresser en verrines et laisser prendre deux heures au réfrigérateur."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

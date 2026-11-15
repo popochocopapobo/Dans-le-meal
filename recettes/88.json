@@ -1,0 +1,66 @@
+{
+  "id": 88,
+  "name": "Tarte tatin",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_tarte-tatin_12456.aspx",
+  "image": "https://assets.afcdn.com/recipe/20210203/117779_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 560,
+  "time": 70,
+  "tools": [
+    "four",
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 98,
+  "health": 53,
+  "p": 3,
+  "c": 57,
+  "f": 25,
+  "b": 5,
+  "kcal": 471,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 180,
+      "u": "g"
+    },
+    {
+      "n": "pâte feuilletée",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 17,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 17,
+      "u": "g"
+    },
+    {
+      "n": "sucre vanillé",
+      "q": 2,
+      "u": "g"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Chauffer le four à 180 °C.",
+    "Peler les pommes puis les couper en quartiers.",
+    "Faire un caramel blond avec le beurre et le sucre dans une poêle compatible four.",
+    "Disposer les pommes et les cuire quelques minutes en les enrobant.",
+    "Hors du feu, recouvrir de pâte en rentrant les bords; cuire 35 à 40 min.",
+    "Laisser reposer quelques minutes puis retourner prudemment sur un plat (caramel brûlant)."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

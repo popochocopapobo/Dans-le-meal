@@ -1,0 +1,65 @@
+{
+  "id": 78,
+  "name": "Crumble pommes et poires",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_crumble-aux-pommes-aux-poires_24635.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130813/57925_w225h225c1cx1728cy2496.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 85,
+  "time": 50,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 93,
+  "health": 68,
+  "p": 4,
+  "c": 61,
+  "f": 19,
+  "b": 5,
+  "kcal": 437,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 80,
+      "u": "g"
+    },
+    {
+      "n": "poire",
+      "q": 80,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 22,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Préparer les fruits et les découper en morceaux; disposer dans un plat.",
+    "Mélanger la farine, le sucre et la cannelle.",
+    "Sabler avec le beurre froid du bout des doigts afin de former des miettes.",
+    "Répartir la pâte sur les fruits et enfourner 30 à 35 minutes.",
+    "Laisser tiédir avant de servir."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

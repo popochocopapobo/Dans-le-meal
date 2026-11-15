@@ -1,0 +1,65 @@
+{
+  "id": 80,
+  "name": "Gâteau fondant banane chocolat",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_gateau-fondant-banane-chocolat_32066.aspx",
+  "image": "https://assets.afcdn.com/recipe/20181108/83703_w225h225c1cx2288cy3023cxt0cyt0cxb3999cyb5223.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 163,
+  "time": 60,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 96,
+  "health": 53,
+  "p": 7,
+  "c": 54,
+  "f": 23,
+  "b": 3,
+  "kcal": 458,
+  "ing": [
+    {
+      "n": "banane",
+      "q": 45,
+      "u": "g"
+    },
+    {
+      "n": "chocolat noir",
+      "q": 15,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 25,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 16.7,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Travailler le beurre ramolli et le sucre, puis incorporer les jaunes.",
+    "Ajouter la farine, puis les blancs montés au fouet.",
+    "Couper les bananes et le chocolat en morceaux.",
+    "Verser dans un moule chemisé en répartissant fruits et chocolat.",
+    "Cuire environ 40 min et laisser refroidir avant de couper."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

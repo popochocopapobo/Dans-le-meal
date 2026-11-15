@@ -1,0 +1,65 @@
+{
+  "id": 87,
+  "name": "Gâteau aux pommes",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_gateau-aux-pommes-facile_13493.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170529/37207_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 1900,
+  "time": 50,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 90,
+  "health": 64,
+  "p": 7,
+  "c": 52,
+  "f": 14,
+  "b": 2,
+  "kcal": 371,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 80,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 14,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "levure chimique",
+      "q": 1,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Peler et couper les pommes en petits morceaux.",
+    "Fouetter les œufs et le sucre puis ajouter le beurre mou.",
+    "Incorporer la farine et la levure, puis les pommes.",
+    "Verser dans un moule chemisé et cuire 35 à 40 min.",
+    "Vérifier la cuisson au centre et laisser refroidir."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

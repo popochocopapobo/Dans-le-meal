@@ -1,0 +1,55 @@
+{
+  "id": 96,
+  "name": "Crêpes sans œufs",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_pate-a-crepes-sans-oeufs-simple_62552.aspx",
+  "image": "https://assets.afcdn.com/recipe/20250129/157797_w225h225c1cx2500cy2300cxt0cyt0cxb5250cyb3500.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.9,
+  "reviews": 196,
+  "time": 45,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 89,
+  "health": 70,
+  "p": 9,
+  "c": 51,
+  "f": 7,
+  "b": 2,
+  "kcal": 307,
+  "ing": [
+    {
+      "n": "farine",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 125,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 8,
+      "u": "g"
+    },
+    {
+      "n": "huile de colza",
+      "q": 5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Verser la farine et le sucre dans un saladier.",
+    "Incorporer progressivement le lait au fouet.",
+    "Ajouter une partie de l’huile et laisser la pâte reposer 20 minutes.",
+    "Chauffer une poêle légèrement huilée.",
+    "Étaler une petite louche, cuire jusqu’à ce que les bords se décollent puis retourner.",
+    "Répéter pour le reste de la pâte et servir chaud."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 81,
+  "name": "Cookies aux pépites de chocolat",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_cookies-aux-pepites-de-chocolat-super-moelleux_57330.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230621/143725_w225h225c1cx960cy540cxt0cyt0cxb1920cyb1080.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 786,
+  "time": 25,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 98,
+  "health": 42,
+  "p": 6,
+  "c": 45,
+  "f": 21,
+  "b": 2,
+  "kcal": 393,
+  "ing": [
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 16,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 17,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.2,
+      "u": "pièce"
+    },
+    {
+      "n": "chocolat noir",
+      "q": 15,
+      "u": "g"
+    },
+    {
+      "n": "levure chimique",
+      "q": 0.5,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Chauffer le four à 180 °C et préparer une plaque avec du papier cuisson.",
+    "Mélanger beurre mou et sucre, puis l’œuf battu.",
+    "Incorporer farine et levure puis le chocolat haché.",
+    "Former de petites boules et les espacer sur la plaque.",
+    "Cuire 10 à 12 min jusqu’à ce que les bords dorent.",
+    "Laisser raffermir sur la plaque avant de déplacer."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 70,
+  "name": "Pancakes à la banane",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_pancakes-a-la-banane_45575.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150727/41821_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.2,
+  "reviews": 98,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 88,
+  "health": 78,
+  "p": 13,
+  "c": 52,
+  "f": 9,
+  "b": 4,
+  "kcal": 349,
+  "ing": [
+    {
+      "n": "banane",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "lait",
+      "q": 35,
+      "u": "ml"
+    },
+    {
+      "n": "levure chimique",
+      "q": 2,
+      "u": "g"
+    },
+    {
+      "n": "huile de colza",
+      "q": 3,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Écraser la banane dans un bol.",
+    "Ajouter l’œuf et le lait puis incorporer farine et levure.",
+    "Faire chauffer une poêle légèrement huilée sur feu moyen.",
+    "Déposer de petites louches de pâte et attendre que les bords prennent.",
+    "Retourner puis cuire encore environ une minute.",
+    "Servir chaud, sans garniture supplémentaire pour les macros indiquées."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 76,
+  "name": "Mousse aux fraises",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_mousse-aux-fraises-facile_90815.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221013/136048_w225h225c1cxt0cyt0cxb3216cyb2144.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.5,
+  "reviews": 14,
+  "time": 140,
+  "tools": [],
+  "veg": true,
+  "side": false,
+  "taste": 84,
+  "health": 72,
+  "p": 2,
+  "c": 21,
+  "f": 19,
+  "b": 2,
+  "kcal": 264,
+  "ing": [
+    {
+      "n": "fraises",
+      "q": 120,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide entière",
+      "q": 60,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 12,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Rincer les fraises et retirer les queues.",
+    "Écraser finement les fruits à la fourchette et mélanger avec le sucre.",
+    "Fouetter la crème froide jusqu’à une texture ferme.",
+    "Incorporer les fruits sans écraser la crème.",
+    "Servir en verrines après deux heures au frais."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

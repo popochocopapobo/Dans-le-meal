@@ -1,0 +1,59 @@
+{
+  "id": 68,
+  "name": "Smoothie aux fruits",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_smoothie-aux-fruits_34628.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130524/63305_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.2,
+  "reviews": 26,
+  "time": 5,
+  "tools": [
+    "mixeur"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 82,
+  "health": 88,
+  "p": 6,
+  "c": 37,
+  "f": 3,
+  "b": 7,
+  "kcal": 215,
+  "ing": [
+    {
+      "n": "banane",
+      "q": 70,
+      "u": "g"
+    },
+    {
+      "n": "mangue",
+      "q": 70,
+      "u": "g"
+    },
+    {
+      "n": "kiwi",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "framboises",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 120,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Peler les fruits et retirer les noyaux.",
+    "Couper en morceaux de taille régulière.",
+    "Déposer les fruits dans le bol du mixeur avec le lait.",
+    "Mixer jusqu’à obtenir une boisson homogène; ajouter un peu d’eau si nécessaire.",
+    "Servir immédiatement frais."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

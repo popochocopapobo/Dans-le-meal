@@ -1,0 +1,65 @@
+{
+  "id": 93,
+  "name": "Gâteau au yaourt",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_gateau-au-yaourt_12719.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200828/113345_w225h225c1cx2841cy1816cxt0cyt0cxb5760cyb3840.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 2551,
+  "time": 45,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 88,
+  "health": 62,
+  "p": 6,
+  "c": 49,
+  "f": 12,
+  "b": 1,
+  "kcal": 327,
+  "ing": [
+    {
+      "n": "yaourt nature",
+      "q": 21,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 25,
+      "u": "g"
+    },
+    {
+      "n": "huile de colza",
+      "q": 10,
+      "u": "ml"
+    },
+    {
+      "n": "œufs",
+      "q": 0.33,
+      "u": "pièce"
+    },
+    {
+      "n": "levure chimique",
+      "q": 1,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C et chemiser un moule.",
+    "Mélanger le yaourt avec le sucre et les œufs.",
+    "Verser l’huile puis incorporer farine et levure.",
+    "Remuer juste assez pour obtenir une pâte homogène.",
+    "Cuire environ 30 minutes; une lame doit ressortir propre.",
+    "Laisser tiédir avant de démouler."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

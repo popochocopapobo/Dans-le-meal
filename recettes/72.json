@@ -1,0 +1,50 @@
+{
+  "id": 72,
+  "name": "Mousse au chocolat facile",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_mousse-au-chocolat-facile_13585.aspx",
+  "image": "https://assets.afcdn.com/recipe/20210311/118508_w225h225c1cx300cy168cxt0cyt0cxb600cyb337.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 1342,
+  "time": 135,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 96,
+  "health": 58,
+  "p": 9,
+  "c": 14,
+  "f": 19,
+  "b": 3,
+  "kcal": 268,
+  "ing": [
+    {
+      "n": "chocolat noir",
+      "q": 33,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "sucre vanillé",
+      "q": 2,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Séparer les blancs des jaunes (utiliser des œufs pasteurisés pour une préparation crue).",
+    "Faire fondre le chocolat au bain-marie sur les plaques puis le laisser tiédir.",
+    "Incorporer les jaunes et le sucre vanillé.",
+    "Fouetter les blancs jusqu’à ce qu’ils tiennent, puis les réunir à la préparation avec une spatule.",
+    "Répartir en verrines, couvrir et réfrigérer au moins deux heures.",
+    "Consommer rapidement; éviter les œufs crus non pasteurisés pour les personnes fragiles."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

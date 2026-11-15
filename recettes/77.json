@@ -1,0 +1,60 @@
+{
+  "id": 77,
+  "name": "Crumble aux pommes",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_le-crumble-aux-pommes-du-chat-qui-tousse_10534.aspx",
+  "image": "https://assets.afcdn.com/recipe/20171020/73718_w565h358c1cx640cy960cxt0cyt0cxb1280cyb1920.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 2276,
+  "time": 50,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 95,
+  "health": 66,
+  "p": 4,
+  "c": 62,
+  "f": 19,
+  "b": 4,
+  "kcal": 438,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 160,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 22,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Préparer les fruits et les découper en morceaux; disposer dans un plat.",
+    "Mélanger la farine, le sucre et la cannelle.",
+    "Sabler avec le beurre froid du bout des doigts afin de former des miettes.",
+    "Répartir la pâte sur les fruits et enfourner 30 à 35 minutes.",
+    "Laisser tiédir avant de servir."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

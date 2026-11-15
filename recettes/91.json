@@ -1,0 +1,54 @@
+{
+  "id": 91,
+  "name": "Riz au lait crémeux",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_riz-au-lait-de-ma-maman_20380.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221007/135811_w225h225c1cx1190cy893cxt0cyt0cxb2121cyb1414.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 671,
+  "time": 55,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 90,
+  "health": 67,
+  "p": 11,
+  "c": 61,
+  "f": 4,
+  "b": 0,
+  "kcal": 326,
+  "ing": [
+    {
+      "n": "riz rond",
+      "q": 45,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 240,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 14,
+      "u": "g"
+    },
+    {
+      "n": "vanille",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Faire chauffer le lait avec la vanille dans une casserole.",
+    "Ajouter le riz et réduire le feu dès les premiers frémissements.",
+    "Cuire doucement 35 à 45 minutes en remuant régulièrement pour éviter que le riz accroche.",
+    "Ajouter le sucre vers la fin, vérifier que le riz est tendre.",
+    "Répartir en bols; laisser tiédir ou refroidir au réfrigérateur."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

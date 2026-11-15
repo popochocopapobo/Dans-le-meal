@@ -1,0 +1,69 @@
+{
+  "id": 89,
+  "name": "Beignets aux pommes",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_beignets-aux-pommes-tres-faciles_81592.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170228/37194_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 135,
+  "time": 30,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 94,
+  "health": 55,
+  "p": 8,
+  "c": 48,
+  "f": 15,
+  "b": 3,
+  "kcal": 363,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 35,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "lait",
+      "q": 35,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 8,
+      "u": "g"
+    },
+    {
+      "n": "levure chimique",
+      "q": 1,
+      "u": "g"
+    },
+    {
+      "n": "huile de friture",
+      "q": 12,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Préparer une pâte lisse avec farine, levure, lait et œufs.",
+    "Peler les pommes, retirer le cœur et couper en rondelles.",
+    "Chauffer un fond d’huile dans une poêle à feu modéré.",
+    "Tremper les rondelles dans la pâte et les dorer des deux côtés, en petites fournées.",
+    "Égoutter sur du papier absorbant, saupoudrer de sucre et servir tiède. La quantité d’huile correspond à une absorption estimée."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

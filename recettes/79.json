@@ -1,0 +1,65 @@
+{
+  "id": 79,
+  "name": "Crumble pommes framboises",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_crumble-pomme-framboises_28411.aspx",
+  "image": "https://assets.afcdn.com/recipe/20120316/51773_w225h225c1cx256cy192.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 38,
+  "time": 50,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 94,
+  "health": 72,
+  "p": 4,
+  "c": 58,
+  "f": 19,
+  "b": 7,
+  "kcal": 433,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 90,
+      "u": "g"
+    },
+    {
+      "n": "framboises",
+      "q": 70,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 22,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C.",
+    "Préparer les fruits et les découper en morceaux; disposer dans un plat.",
+    "Mélanger la farine, le sucre et la cannelle.",
+    "Sabler avec le beurre froid du bout des doigts afin de former des miettes.",
+    "Répartir la pâte sur les fruits et enfourner 30 à 35 minutes.",
+    "Laisser tiédir avant de servir."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

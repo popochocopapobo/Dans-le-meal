@@ -1,0 +1,75 @@
+{
+  "id": 67,
+  "name": "Banana bread",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_cake-a-la-banane-banana-bread-usa_12042.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160729/6921_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 558,
+  "time": 90,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 91,
+  "health": 64,
+  "p": 5,
+  "c": 50,
+  "f": 10,
+  "b": 2,
+  "kcal": 318,
+  "ing": [
+    {
+      "n": "farine",
+      "q": 31.25,
+      "u": "g"
+    },
+    {
+      "n": "banane",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 10.6,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "lait",
+      "q": 4,
+      "u": "ml"
+    },
+    {
+      "n": "levure chimique",
+      "q": 1,
+      "u": "g"
+    },
+    {
+      "n": "bicarbonate",
+      "q": 0.3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer à 165 °C et chemiser un moule à cake.",
+    "Écraser les bananes mûres à la fourchette.",
+    "Travailler le beurre ramolli avec le sucre, puis les œufs et le lait.",
+    "Incorporer les bananes et les ingrédients secs sans trop battre.",
+    "Verser dans le moule et cuire 55 à 60 min; vérifier à la lame.",
+    "Laisser tiédir avant de trancher."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

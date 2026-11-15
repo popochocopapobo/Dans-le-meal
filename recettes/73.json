@@ -1,0 +1,52 @@
+{
+  "id": 73,
+  "name": "Mousse citron mascarpone",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_mousse-au-citron-et-au-mascarpone-tres-facile_23974.aspx",
+  "image": "https://assets.afcdn.com/recipe/20201203/116055_w225h225c1cx960cy540cxt0cyt0cxb1920cyb1080.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 447,
+  "time": 130,
+  "tools": [],
+  "veg": true,
+  "side": false,
+  "taste": 94,
+  "health": 48,
+  "p": 4,
+  "c": 19,
+  "f": 36,
+  "b": 0,
+  "kcal": 417,
+  "ing": [
+    {
+      "n": "mascarpone",
+      "q": 60,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide entière",
+      "q": 40,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 15,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 20,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Placer la crème et le saladier au réfrigérateur avant de commencer.",
+    "Presser le citron et prélever un peu de zeste.",
+    "Assouplir le mascarpone au fouet avec le sucre et le jus.",
+    "Monter la crème froide au fouet manuel et l’incorporer doucement.",
+    "Répartir en petits verres et laisser prendre deux heures au frais."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

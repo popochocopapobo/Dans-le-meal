@@ -1,0 +1,60 @@
+{
+  "id": 95,
+  "name": "Crêpes sucrées simples",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx",
+  "image": "https://assets.afcdn.com/recipe/20250131/157847_w225h225c1cx3345cy1709cxt0cyt0cxb6240cyb4160.jpeg",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 1143,
+  "time": 45,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 89,
+  "health": 70,
+  "p": 12,
+  "c": 50,
+  "f": 9,
+  "b": 2,
+  "kcal": 332,
+  "ing": [
+    {
+      "n": "farine",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 100,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 8,
+      "u": "g"
+    },
+    {
+      "n": "huile de colza",
+      "q": 5,
+      "u": "ml"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Verser la farine et le sucre dans un saladier.",
+    "Incorporer progressivement le lait et les œufs battus au fouet.",
+    "Ajouter une partie de l’huile et laisser la pâte reposer 20 minutes.",
+    "Chauffer une poêle légèrement huilée.",
+    "Étaler une petite louche, cuire jusqu’à ce que les bords se décollent puis retourner.",
+    "Répéter pour le reste de la pâte et servir chaud."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

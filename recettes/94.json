@@ -1,0 +1,70 @@
+{
+  "id": 94,
+  "name": "Gâteau au yaourt citron",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_gateau-au-yaourt-au-citron_73913.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200509/110887_w225h225c1cx540cy754cxt0cyt0cxb1080cyb1508.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 138,
+  "time": 45,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 88,
+  "health": 62,
+  "p": 6,
+  "c": 49,
+  "f": 12,
+  "b": 1,
+  "kcal": 328,
+  "ing": [
+    {
+      "n": "yaourt nature",
+      "q": 21,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 25,
+      "u": "g"
+    },
+    {
+      "n": "huile de colza",
+      "q": 10,
+      "u": "ml"
+    },
+    {
+      "n": "œufs",
+      "q": 0.33,
+      "u": "pièce"
+    },
+    {
+      "n": "levure chimique",
+      "q": 1,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 8,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 180 °C et chemiser un moule.",
+    "Mélanger le yaourt avec le sucre et les œufs.",
+    "Verser l’huile et le jus et zeste de citron puis incorporer farine et levure.",
+    "Remuer juste assez pour obtenir une pâte homogène.",
+    "Cuire environ 30 minutes; une lame doit ressortir propre.",
+    "Laisser tiédir avant de démouler."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 74,
+  "name": "Mousse aux framboises",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_mousse-aux-framboises_12358.aspx",
+  "image": "https://assets.afcdn.com/recipe/20210203/117777_w225h225c1cx707cy1060cxt0cyt0cxb1414cyb2121.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 130,
+  "time": 150,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 70,
+  "p": 4,
+  "c": 23,
+  "f": 17,
+  "b": 6,
+  "kcal": 273,
+  "ing": [
+    {
+      "n": "framboises",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide entière",
+      "q": 55,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 15,
+      "u": "g"
+    },
+    {
+      "n": "gélatine",
+      "q": 1.5,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Écraser les framboises et passer au tamis si souhaité.",
+    "Faire tremper la gélatine dans de l’eau froide.",
+    "Chauffer une petite partie de la purée avec le sucre puis y dissoudre la gélatine essorée.",
+    "Mélanger au reste des fruits et laisser revenir à température ambiante.",
+    "Fouetter la crème bien froide et l’incorporer à la purée.",
+    "Répartir en verrines et réfrigérer au moins deux heures."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

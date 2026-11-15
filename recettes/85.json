@@ -1,0 +1,60 @@
+{
+  "id": 85,
+  "name": "Fondant au chocolat à la poêle",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_fondant-au-chocolat-a-la-poele_308108.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130504/23089_w225h225c1cx192cy256.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5,
+  "reviews": 2,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 97,
+  "health": 44,
+  "p": 8,
+  "c": 46,
+  "f": 40,
+  "b": 4,
+  "kcal": 582,
+  "ing": [
+    {
+      "n": "chocolat noir",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 25,
+      "u": "g"
+    },
+    {
+      "n": "sucre",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "farine",
+      "q": 15,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Faire fondre le chocolat et le beurre sur feu très doux.",
+    "Laisser tiédir, puis incorporer le sucre et les œufs battus.",
+    "Ajouter la farine et mélanger.",
+    "Verser dans une petite poêle antiadhésive sur feu faible et couvrir.",
+    "Cuire 10 à 15 min, jusqu’à ce que le centre soit pris; prolonger si la pâte est encore crue.",
+    "Laisser reposer avant de servir."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

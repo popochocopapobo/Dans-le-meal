@@ -1,0 +1,59 @@
+{
+  "id": 71,
+  "name": "Fondue au chocolat",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_fondue-au-chocolat_12207.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230623/143772_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 69,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 98,
+  "health": 62,
+  "p": 5,
+  "c": 40,
+  "f": 29,
+  "b": 9,
+  "kcal": 455,
+  "ing": [
+    {
+      "n": "chocolat noir",
+      "q": 45,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide entière",
+      "q": 30,
+      "u": "ml"
+    },
+    {
+      "n": "banane",
+      "q": 60,
+      "u": "g"
+    },
+    {
+      "n": "fraises",
+      "q": 70,
+      "u": "g"
+    },
+    {
+      "n": "pomme",
+      "q": 60,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Laver et couper les fruits en bouchées.",
+    "Hacher le chocolat.",
+    "Faire chauffer la crème doucement dans une casserole, sans ébullition prolongée.",
+    "Retirer du feu, incorporer le chocolat et remuer jusqu’à ce qu’il soit fondu.",
+    "Transvaser dans un bol chaud et tremper les fruits."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

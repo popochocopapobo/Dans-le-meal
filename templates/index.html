@@ -13,7 +13,7 @@
   <script defer="" src="app.js">
   </script>
  </head>
- <body data-root="" data-standalone="false">
+ <body data-root="" data-standalone="false" data-category="{{CATEGORY}}">
   <header>
    <a class="brand" href="index.html">
     <span>
@@ -32,19 +32,23 @@
   </header>
   <main>
    <section class="view" id="recipes">
+    <div class="category-tabs" aria-label="Univers de recettes">
+      <a class="{{SAVORYACTIVE}}" href="index.html"><span>Salé</span><small>{{SAVORY}} recettes</small></a>
+      <a class="{{SWEETACTIVE}}" href="sucre.html"><span>Sucré</span><small>{{SWEET}} recettes</small></a>
+    </div>
     <div class="hero-intro">
      <div class="eyebrow">
       TON CARNET DE RECETTES
      </div>
      <h1>
-      On mange quoi aujourd’hui ?
+      {{HEADING}}
      </h1>
      <p>
-      Des recettes salées, à ton rythme.
+      {{INTRO}}
      </p>
      <div class="hero-actions">
       <button id="surprise">
-       ↻ Surprends-moi
+       ↻ Surprends-moi (compatible)
       </button>
       <a class="lightbtn" href="menu.html">
        Composer mon menu →
@@ -52,10 +56,10 @@
      </div>
      <div class="hero-stats">
       <span>
-       {{COUNT}} recettes
+       <span id="hero-count">{{COUNT}} recettes</span>
       </span>
       <span>
-       {{QUICK}} en ≤ 25 min
+       <span id="hero-quick">{{QUICK}} en ≤ 25 min</span>
       </span>
       <span>
        Notes Marmiton
@@ -80,7 +84,7 @@
      <label for="search">
       Trouver une recette
      </label>
-     <input id="search" placeholder="Ex. poulet, pâtes, avocat…" type="search"/>
+     <input id="search" placeholder="Nom ou ingrédient…" type="search"/>
      <details class="advanced-filters">
       <summary>
        Durée, portions et tri
@@ -166,14 +170,15 @@
      </div>
      <div class="filter-extras">
       <label>
-       <input id="only-compatible" type="checkbox"/>
-       Selon mes équipements
+       <input id="only-compatible" type="checkbox" checked/>
+       Uniquement réalisables avec ma cuisine
       </label>
       <button id="reset-filters">
        Réinitialiser
       </button>
      </div>
     </div>
+    <p class="equipment-notice" id="equipment-notice">Les suggestions tiennent compte de tes appareils. <a href="cuisine.html">Ma cuisine →</a></p>
     <div class="catalog-toolbar">
      <div>
       <h2>

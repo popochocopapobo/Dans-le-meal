@@ -1,0 +1,59 @@
+{
+  "id": 92,
+  "name": "Riz au lait coco vanille",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_riz-au-lait-coco-vanille_225054.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160414/27997_w225h225c1cx1456cy2184.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 8,
+  "time": 55,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 90,
+  "health": 67,
+  "p": 10,
+  "c": 59,
+  "f": 18,
+  "b": 0,
+  "kcal": 442,
+  "ing": [
+    {
+      "n": "riz rond",
+      "q": 45,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 160,
+      "u": "ml"
+    },
+    {
+      "n": "sucre",
+      "q": 14,
+      "u": "g"
+    },
+    {
+      "n": "vanille",
+      "q": 0.3,
+      "u": "g"
+    },
+    {
+      "n": "lait de coco",
+      "q": 80,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Faire chauffer le lait et le lait de coco avec la vanille dans une casserole.",
+    "Ajouter le riz et réduire le feu dès les premiers frémissements.",
+    "Cuire doucement 35 à 45 minutes en remuant régulièrement pour éviter que le riz accroche.",
+    "Ajouter le sucre vers la fin, vérifier que le riz est tendre.",
+    "Répartir en bols; laisser tiédir ou refroidir au réfrigérateur."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

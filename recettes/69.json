@@ -1,0 +1,62 @@
+{
+  "id": 69,
+  "name": "Salade de fruits frais",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-fruits-frais-extra-et-rafraichissante_72039.aspx",
+  "image": "https://assets.afcdn.com/recipe/20121128/4729_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 38,
+  "time": 20,
+  "tools": [],
+  "veg": true,
+  "side": false,
+  "taste": 80,
+  "health": 93,
+  "p": 3,
+  "c": 40,
+  "f": 1,
+  "b": 6,
+  "kcal": 190,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 65,
+      "u": "g"
+    },
+    {
+      "n": "banane",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "orange",
+      "q": 65,
+      "u": "g"
+    },
+    {
+      "n": "kiwi",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "mangue",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "jus d’orange",
+      "q": 40,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Laver les fruits, puis peler ceux qui le nécessitent.",
+    "Retirer les pépins et découper en cubes.",
+    "Couper la banane en dernier.",
+    "Réunir dans un saladier et verser le jus d’orange.",
+    "Mélanger délicatement et servir ou conserver au frais."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

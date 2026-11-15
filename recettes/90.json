@@ -1,0 +1,49 @@
+{
+  "id": 90,
+  "name": "Compote de pommes",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_compote-de-pomme-simple_82104.aspx",
+  "image": "https://assets.afcdn.com/recipe/20161207/16495_w225h225c1.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.6,
+  "reviews": 84,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 78,
+  "health": 92,
+  "p": 1,
+  "c": 24,
+  "f": 0,
+  "b": 4,
+  "kcal": 112,
+  "ing": [
+    {
+      "n": "pomme",
+      "q": 200,
+      "u": "g"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.3,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Peler les pommes, retirer les cœurs et couper en petits cubes.",
+    "Mettre dans une casserole avec le citron et un fond d’eau.",
+    "Couvrir et cuire doucement 15 à 20 minutes, en remuant.",
+    "Écraser à la fourchette lorsque les pommes sont tendres.",
+    "Parfumer à la cannelle puis servir tiède ou froid."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}

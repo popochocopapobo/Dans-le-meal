@@ -1,0 +1,64 @@
+{
+  "id": 82,
+  "name": "Bowl cake aux flocons d’avoine",
+  "category": "sweet",
+  "source": "https://www.marmiton.org/recettes/recette_bowl-cake-aux-flocons-d-avoine_340404.aspx",
+  "image": "https://assets.afcdn.com/recipe/20260320/166738_w225h225c1cx4344cy2896cxt0cyt0cxb8688cyb5792.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 32,
+  "time": 8,
+  "tools": [
+    "micro-ondes"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 87,
+  "health": 85,
+  "p": 15,
+  "c": 50,
+  "f": 13,
+  "b": 8,
+  "kcal": 393,
+  "ing": [
+    {
+      "n": "banane",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "flocons d’avoine",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "lait",
+      "q": 45,
+      "u": "ml"
+    },
+    {
+      "n": "chocolat noir",
+      "q": 10,
+      "u": "g"
+    },
+    {
+      "n": "levure chimique",
+      "q": 2,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Écraser la banane dans un bol compatible micro-ondes assez grand.",
+    "Mélanger avec l’œuf, les flocons, le lait et la levure.",
+    "Incorporer quelques morceaux de chocolat.",
+    "Cuire environ 3 min à 800 W, puis par tranches de 20 secondes si le centre reste cru.",
+    "Laisser reposer une minute avant de démouler."
+  ],
+  "emoji": "🍰",
+  "rating_date": "Consulté le 15/11/2026"
+}
