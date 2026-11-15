@@ -1,4 +1,5 @@
 'use strict';
+const BY_ID = Object.fromEntries(RECIPES.map(r => [r.id, r]));
 const $ = id => document.getElementById(id);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
 const root = document.body.dataset.root || '';
@@ -13,9 +14,9 @@ let storageAvailable = true;
 try { saved = JSON.parse(localStorage.getItem('atable-v7') || '{}') || {}; } catch(e) { storageAvailable = false; }
 let state = {
   tools: Array.isArray(saved.tools) ? saved.tools.filter(t=>ALL_TOOLS.includes(t)) : ['plaques','four'],
-  menu: Array.isArray(saved.menu) ? saved.menu.filter(x=>x && RECIPES[x.id]).map(x=>({id:Number(x.id),p:clamp(x.p)})) : [],
+  menu: Array.isArray(saved.menu) ? saved.menu.filter(x=>x && BY_ID[x.id]).map(x=>({id:Number(x.id),p:clamp(x.p)})) : [],
   people: clamp(saved.people || 2),
-  fav: Array.isArray(saved.fav) ? saved.fav.filter(x=>RECIPES[x]) : [],
+  fav: Array.isArray(saved.fav) ? saved.fav.filter(x=>BY_ID[x]) : [],
   checked: saved.checked && typeof saved.checked === 'object' ? saved.checked : {},
   compatibleOnly: saved.compatibleOnly === true,
   layout: saved.layout==='list'?'list':'grid',
@@ -40,13 +41,13 @@ function recipeLink(id) { return standalone ? '#r-'+id : root+'recettes/'+id+'.h
 function navigate(page) { location.href = link(page); }
 function compatible(r) { return r.tools.every(t=>state.tools.includes(t)); }
 function matches(r, type) {
-  return type==='compatible' ? compatible(r) : type==='fav' ? state.fav.includes(r.id) : type==='veg' ? r.veg : type==='express' ? r.time<=15 : type==='quick' ? r.time<=25 : type==='nocook' ? r.tools.length===0 : type==='new' ? r.id>=21 : type==='quick30' ? r.time<=30 : type==='balanced' ? r.health>=80 : type==='gourmet' ? r.taste>=90 : true;
+  return type==='compatible' ? compatible(r) : type==='fav' ? state.fav.includes(r.id) : type==='veg' ? r.veg : type==='express' ? r.time<=15 : type==='quick' ? r.time<=25 : type==='nocook' ? r.tools.length===0 : type==='new' ? RECIPES.slice(-15).some(x=>x.id===r.id) : type==='quick30' ? r.time<=30 : type==='balanced' ? r.health>=80 : type==='gourmet' ? r.taste>=90 : true;
 }
 function refreshCommon() {
   save();
   $$('[data-fav]').forEach(b=>{ const on=state.fav.includes(+b.dataset.fav); b.textContent=on?'♥':'♡'; b.setAttribute('aria-pressed',String(on)); b.setAttribute('aria-label',on?'Retirer des favoris':'Ajouter aux favoris'); });
-  $$('[data-compat]').forEach(el=>{const r=RECIPES[+el.dataset.compat];const missing=r.tools.filter(t=>!state.tools.includes(t));el.classList.toggle('missing',missing.length>0);el.textContent=missing.length?'Manque : '+missing.join(', '):(r.tools.join(' · ')||'Sans cuisson');});
-  $$('[data-add]').forEach(b=>{b.disabled=!compatible(RECIPES[+b.dataset.add]);});
+  $$('[data-compat]').forEach(el=>{const r=BY_ID[+el.dataset.compat];const missing=r.tools.filter(t=>!state.tools.includes(t));el.classList.toggle('missing',missing.length>0);el.textContent=missing.length?'Manque : '+missing.join(', '):(r.tools.join(' · ')||'Sans cuisson');});
+  $$('[data-add]').forEach(b=>{b.disabled=!compatible(BY_ID[+b.dataset.add]);});
 }
 function filterCatalog() {
   if (!$('catalog')) return;
@@ -54,10 +55,10 @@ function filterCatalog() {
   const q=normalize($('search').value.trim());
   const duration=Number($('duration').value); const sort=$('sort').value;
   const cards=$$('.recipe-card',$('catalog'));
-  cards.sort((a,b)=>{const x=RECIPES[+a.dataset.id],y=RECIPES[+b.dataset.id];return sort==='name'?x.name.localeCompare(y.name,'fr'):['time','kcal'].includes(sort)?x[sort]-y[sort]:y[sort]-x[sort];});
+  cards.sort((a,b)=>{const x=BY_ID[+a.dataset.id],y=BY_ID[+b.dataset.id];return sort==='name'?x.name.localeCompare(y.name,'fr'):['time','kcal'].includes(sort)?x[sort]-y[sort]:y[sort]-x[sort];});
   let n=0;
   const needsReorder=cards.some((card,i)=>card!==$('catalog').querySelectorAll('.recipe-card')[i]);
-  cards.forEach(card=>{const r=RECIPES[+card.dataset.id];const ok=matches(r,filter)&&(!state.catalogCompatible||compatible(r))&&r.time<=duration&&normalize(r.name+' '+r.ing.map(i=>i.n).join(' ')).includes(q);card.hidden=!ok;if(ok)n++;if(needsReorder)$('catalog').append(card);});
+  cards.forEach(card=>{const r=BY_ID[+card.dataset.id];const ok=matches(r,filter)&&(!state.catalogCompatible||compatible(r))&&r.time<=duration&&normalize(r.name+' '+r.ing.map(i=>i.n).join(' ')).includes(q);card.hidden=!ok;if(ok)n++;if(needsReorder)$('catalog').append(card);});
   $('results').textContent=n+' recette'+(n>1?'s':'');
   $('catalog').classList.toggle('list-mode',state.layout==='list');
   $$('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===state.layout)));
@@ -67,7 +68,7 @@ function filterCatalog() {
   let empty=$('catalog-empty'); if(!empty) { empty=document.createElement('p');empty.className='empty';empty.id='catalog-empty';empty.textContent='Aucune recette ne correspond. Essaie un autre filtre.';$('catalog').append(empty); } empty.hidden=!!n;
 }
 function adjustDetail(section,p) {
-  const r=RECIPES[+section.dataset.detail]; p=clamp(p); lastPortions[r.id]=p;
+  const r=BY_ID[+section.dataset.detail]; p=clamp(p); lastPortions[r.id]=p;
   section.querySelector('.portions').value=p;
   $$('.portion-label',section).forEach(x=>x.textContent=p);
   $$('[data-q]',section).forEach(x=>{ x.textContent=fmt(Number(x.dataset.q)*p)+' '+x.parentElement.querySelector('[data-unit]').dataset.unit; });
@@ -77,9 +78,9 @@ function progressSteps(section) {
   const boxes=$$('.step-check',section);section.querySelector('.step-progress').textContent=boxes.filter(x=>x.checked).length+'/'+boxes.length;
 }
 function addToMenu(id,p,shopping=false) {
-  if(!compatible(RECIPES[id])){notify('Il manque un appareil pour cette recette.');return;}
+  if(!compatible(BY_ID[id])){notify('Il manque un appareil pour cette recette.');return;}
   state.menu.push({id,p:clamp(p)});state.checked={};save();refreshCommon();renderMenu();renderShopping();
-  if(shopping) navigate('shopping');else notify(RECIPES[id].name+' ajouté au menu');
+  if(shopping) navigate('shopping');else notify(BY_ID[id].name+' ajouté au menu');
 }
 function randomMenu() {
   const type=$('random-style').value;const n=clamp($('random-count').value,RECIPES.length);const p=clamp($('random-people').value);const sides=$('random-sides').checked;
@@ -94,8 +95,8 @@ function randomMenu() {
 function renderMenu(updateItems = true) {
   if(!$('menu-items'))return;
   $('menu-summary').textContent=state.menu.length+' plat(s) · '+state.menu.reduce((s,x)=>s+x.p,0)+' portion(s)';
-  if(updateItems) $('menu-items').innerHTML=state.menu.map((x,i)=>{const r=RECIPES[x.id];return `<article class="menu-item"><a href="${recipeLink(r.id)}"><img class="food" src="${r.image}" referrerpolicy="no-referrer" alt="${esc(r.name)}" width="110" height="73"></a><div><a href="${recipeLink(r.id)}">${esc(r.name)}</a><p class="muted">${r.time} min · ${r.kcal} kcal/pers.${compatible(r)?'':' · ⚠ appareil manquant'}</p></div><div class="menu-control"><label><small>Pers.</small><input type="number" min="1" max="30" value="${x.p}" data-menu-p="${i}" aria-label="Nombre de personnes pour ${esc(r.name)}"></label><button data-remove="${i}" aria-label="Retirer ${esc(r.name)}">×</button></div></article>`;}).join('')||'<p class="empty">Ton menu est vide. Ajoute des plats depuis le catalogue ou lance un tirage.</p>';
-  const totals=state.menu.reduce((a,x)=>{const r=RECIPES[x.id];['kcal','p','c','f','b'].forEach(k=>a[k]+=r[k]*x.p);return a;},{kcal:0,p:0,c:0,f:0,b:0});
+  if(updateItems) $('menu-items').innerHTML=state.menu.map((x,i)=>{const r=BY_ID[x.id];return `<article class="menu-item"><a href="${recipeLink(r.id)}"><img class="food" src="${esc(r.image)}" referrerpolicy="no-referrer" alt="${esc(r.name)}" width="110" height="73"></a><div><a href="${recipeLink(r.id)}">${esc(r.name)}</a><p class="muted">${r.time} min · ${r.kcal} kcal/pers.${compatible(r)?'':' · ⚠ appareil manquant'}</p></div><div class="menu-control"><label><small>Pers.</small><input type="number" min="1" max="30" value="${x.p}" data-menu-p="${i}" aria-label="Nombre de personnes pour ${esc(r.name)}"></label><button data-remove="${i}" aria-label="Retirer ${esc(r.name)}">×</button></div></article>`;}).join('')||'<p class="empty">Ton menu est vide. Ajoute des plats depuis le catalogue ou lance un tirage.</p>';
+  const totals=state.menu.reduce((a,x)=>{const r=BY_ID[x.id];['kcal','p','c','f','b'].forEach(k=>a[k]+=r[k]*x.p);return a;},{kcal:0,p:0,c:0,f:0,b:0});
   $('menu-total').innerHTML=state.menu.length?`<section class="panel"><h2>Nutrition du menu entier</h2><p class="muted">Somme de toutes les portions, pas une journée type.</p><div class="macros">${[['kcal',totals.kcal],['Protéines',totals.p+' g'],['Glucides',totals.c+' g'],['Lipides',totals.f+' g'],['Fibres',totals.b+' g']].map(x=>`<div><b>${x[1]}</b><small>${x[0]}</small></div>`).join('')}</div></section>`:'';
 }
 function aisle(name) {
@@ -107,7 +108,7 @@ function aisle(name) {
 }
 function shoppingItems() {
   const grouped=new Map();
-  for(const x of state.menu)for(const ing of RECIPES[x.id].ing){const name=ing.n;const key=name+'|'+ing.u;const line=grouped.get(key)||{key,n:name,u:ing.u,q:0,group:aisle(name)};line.q+=ing.q*x.p;grouped.set(key,line);}
+  for(const x of state.menu)for(const ing of BY_ID[x.id].ing){const name=ing.n;const key=name+'|'+ing.u;const line=grouped.get(key)||{key,n:name,u:ing.u,q:0,group:aisle(name)};line.q+=ing.q*x.p;grouped.set(key,line);}
   return Array.from(grouped.values()).sort((a,b)=>a.group.localeCompare(b.group,'fr')||a.n.localeCompare(b.n,'fr'));
 }
 function renderShopping() {
@@ -185,3 +186,6 @@ if(!storageAvailable)notify('Stockage local indisponible : les données ne seron
 
 // Images du CDN Marmiton : aucune requête fetch/CORS requise.
 document.addEventListener('error',e=>{const im=e.target;if(im.tagName==='IMG'&&im.classList.contains('food')&&im.src.startsWith('https:')){im.dataset.failed='true';im.src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20720%20480%22%3E%3Crect%20width%3D%22720%22%20height%3D%22480%22%20fill%3D%22%23e8eee5%22/%3E%3Ctext%20x%3D%22360%22%20y%3D%22230%22%20font-family%3D%22sans-serif%22%20font-size%3D%2227%22%20text-anchor%3D%22middle%22%20fill%3D%22%23375748%22%3EPhoto%20inaccessible%3C/text%3E%3Ctext%20x%3D%22360%22%20y%3D%22270%22%20font-family%3D%22sans-serif%22%20font-size%3D%2217%22%20text-anchor%3D%22middle%22%20fill%3D%22%23375748%22%3EOuvrir%20la%20recette%20Marmiton%3C/text%3E%3C/svg%3E";}},true);
+
+// Prend également en charge les photos qui ont échoué avant le chargement de JavaScript.
+$$(`img.food`).forEach(im => { if (im.complete && !im.naturalWidth && im.src.startsWith("https:")) im.dispatchEvent(new Event("error")); });

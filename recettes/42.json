@@ -1,0 +1,63 @@
+{
+  "id": 42,
+  "name": "Gratin de gnocchis aux courgettes",
+  "source": "https://www.marmiton.org/recettes/recette_gnocchis-aux-courgettes_314311.aspx",
+  "image": "https://assets.afcdn.com/recipe/20220126/128052_w640cx1062cy706cxt0cyt0cxb2124cyb1412.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 29,
+  "time": 45,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 91,
+  "health": 61,
+  "p": 25,
+  "c": 55,
+  "f": 30,
+  "b": 5,
+  "kcal": 600,
+  "ing": [
+    {
+      "n": "gnocchi",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "courgette",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide",
+      "q": 60.0,
+      "u": "ml"
+    },
+    {
+      "n": "gruyère râpé",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Mettre le four à chauffer à 180 °C.",
+    "Laver la courgette et la découper en petits cubes.",
+    "Faire rissoler les lardons, puis ajouter la courgette et l’huile si nécessaire.",
+    "Répartir les gnocchis, la courgette et les lardons dans un plat; napper de crème.",
+    "Saupoudrer de gruyère et cuire environ 20 à 25 minutes, jusqu’à ce que les gnocchis soient tendres et le dessus doré."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 25,
+  "name": "Wrap jambon et chèvre frais",
+  "source": "https://www.marmiton.org/recettes/recette_wrap-tres-frais-jambon-et-chevre_231049.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230614/143433_w640cx2300cy2575cxt0cyt0cxb5760cyb3840.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 9,
+  "time": 10,
+  "tools": [],
+  "veg": false,
+  "side": false,
+  "taste": 88,
+  "health": 77,
+  "p": 22,
+  "c": 43,
+  "f": 18,
+  "b": 5,
+  "kcal": 432,
+  "ing": [
+    {
+      "n": "tortillas",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "jambon",
+      "q": 1.0,
+      "u": "tranche"
+    },
+    {
+      "n": "carotte",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "tomates cerises",
+      "q": 3.0,
+      "u": "pièce"
+    },
+    {
+      "n": "chèvre frais",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "salade",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "concombre",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "vinaigre balsamique",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "ciboulette",
+      "q": 2.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Utiliser une tortilla souple prête à consommer, à température ambiante.",
+    "Éplucher et râper la carotte; couper concombre et tomates.",
+    "Répartir le chèvre sur la tortilla, ajouter jambon, salade et crudités.",
+    "Arroser légèrement de vinaigre, parsemer de ciboulette.",
+    "Rabattre les côtés, rouler serré puis couper en deux."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 45,
+  "name": "Émincé de poulet aux épices et au miel",
+  "source": "https://www.marmiton.org/recettes/recette_emince-de-poulet-aux-epices-et-au-miel_35498.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130122/63407_w150h150c1cx750cy794.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 347,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 78,
+  "p": 39,
+  "c": 14,
+  "f": 17,
+  "b": 2,
+  "kcal": 369,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 1.0,
+      "u": "gousse"
+    },
+    {
+      "n": "beurre",
+      "q": 8.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "miel",
+      "q": 7.0,
+      "u": "g"
+    },
+    {
+      "n": "sauce soja",
+      "q": 15.0,
+      "u": "ml"
+    },
+    {
+      "n": "cannelle",
+      "q": 0.5,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Émincer l’oignon et l’ail, puis couper le poulet en lanières.",
+    "Réunir la sauce soja, le miel et la cannelle dans un bol.",
+    "Faire suer l’oignon dans le mélange beurre-huile puis ajouter l’ail.",
+    "Saisir le poulet en remuant et poursuivre jusqu’à 74 °C à cœur.",
+    "Ajouter la sauce et laisser réduire brièvement pour obtenir un enrobage brillant. Servir avec le féculent de ton choix non compté."
+  ],
+  "emoji": "🍽️"
+}

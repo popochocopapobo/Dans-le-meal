@@ -1,0 +1,84 @@
+{
+  "id": 58,
+  "name": "Wrap léger poulet et fromage frais",
+  "source": "https://www.marmiton.org/recettes/recette_wrap-minceur-poulet_341888.aspx",
+  "image": "https://assets.afcdn.com/recipe/20190108/85685_w640cx1685cy2250cxt0cyt0cxb3370cyb4500.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5,
+  "reviews": 3,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 84,
+  "health": 82,
+  "p": 40,
+  "c": 39,
+  "f": 18,
+  "b": 5,
+  "kcal": 478,
+  "ing": [
+    {
+      "n": "tortillas",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "poulet",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "blanc de dinde",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "fromage frais",
+      "q": 25,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "salade",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "épinards",
+      "q": 15,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10,
+      "u": "ml"
+    },
+    {
+      "n": "paprika",
+      "q": 1,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Émincer l’oignon et couper le poulet en petits cubes.",
+    "Chauffer l’huile et faire revenir l’oignon, puis ajouter le poulet et le paprika.",
+    "Poursuivre jusqu’à cuisson complète du poulet (74 °C à cœur).",
+    "Laver salade, épinards et tomate, couper cette dernière en rondelles.",
+    "Tiédir la tortilla à la poêle, étaler le fromage frais puis déposer la dinde et les légumes.",
+    "Répartir le poulet, plier et rouler bien serré."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 14,
+  "name": "Omelette aux champignons de Paris facile",
+  "source": "https://www.marmiton.org/recettes/recette_omelette-aux-champignons-de-paris-facile_308286.aspx",
+  "image": "https://assets.afcdn.com/recipe/20131009/59997_w640cx1345cy938.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.7,
+  "reviews": 13,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 83,
+  "health": 79,
+  "p": 23,
+  "c": 6,
+  "f": 22,
+  "b": 2,
+  "kcal": 318,
+  "ing": [
+    {
+      "n": "œufs",
+      "q": 2.0,
+      "u": "pièce"
+    },
+    {
+      "n": "champignons",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "gruyère râpé",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "huile",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Brosser les champignons et les découper en lamelles.",
+    "Battre les œufs avec une pincée de sel et de poivre.",
+    "Faire revenir les champignons dans une poêle avec un peu d’huile pour éliminer l’eau.",
+    "Mélanger les champignons et le gruyère avec les œufs.",
+    "Verser dans la poêle chaude et cuire à feu moyen jusqu’à la texture désirée.",
+    "Replier délicatement et servir. Cuire complètement les œufs pour les personnes fragiles."
+  ],
+  "emoji": "🍽️"
+}

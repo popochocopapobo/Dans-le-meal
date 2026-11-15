@@ -1,0 +1,67 @@
+{
+  "id": 50,
+  "name": "Pâtes au saumon fumé et à la crème",
+  "source": "https://www.marmiton.org/recettes/recette_pates-au-creme-fraiche-saumon_315842.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140818/51274_w640cx1024cy768.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 38,
+  "time": 40,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 92,
+  "health": 65,
+  "p": 31,
+  "c": 74,
+  "f": 26,
+  "b": 4,
+  "kcal": 662,
+  "ing": [
+    {
+      "n": "pâtes",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "saumon fumé",
+      "q": 70.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide",
+      "q": 30.0,
+      "u": "ml"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "ciboulette",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Faire chauffer l’eau des pâtes et les cuire selon le paquet.",
+    "Faire fondre l’oignon émincé dans un filet d’huile à feu moyen.",
+    "Découper le saumon en lanières.",
+    "Verser les deux crèmes sur l’oignon, ajouter le saumon et la ciboulette et chauffer doucement.",
+    "Égoutter les pâtes, les mêler à la sauce et poivrer; goûter avant de saler."
+  ],
+  "emoji": "🍽️"
+}

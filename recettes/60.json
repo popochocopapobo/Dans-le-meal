@@ -1,0 +1,59 @@
+{
+  "id": 60,
+  "name": "Tagliatelles crémeuses au citron",
+  "source": "https://www.marmiton.org/recettes/recette_pates-au-citron_19349.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221205/138213_w640cx2016cy1512cxt0cyt0cxb4032cyb3024.jpeg",
+  "kind": "Photo Marmiton",
+  "rating": 4.4,
+  "reviews": 14,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 88,
+  "health": 61,
+  "p": 15,
+  "c": 77,
+  "f": 25,
+  "b": 3,
+  "kcal": 593,
+  "ing": [
+    {
+      "n": "tagliatelles fraîches",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "beurre",
+      "q": 10,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 50,
+      "u": "ml"
+    },
+    {
+      "n": "vin blanc sec",
+      "q": 40,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Laver le citron et râper uniquement la partie jaune du zeste.",
+    "Faire chauffer l’eau des tagliatelles.",
+    "À feu doux, parfumer le beurre avec le zeste sans le brûler.",
+    "Verser le vin blanc et réduire environ cinq minutes; ajouter la crème et poivrer.",
+    "Cuire puis égoutter les pâtes en gardant un peu d’eau de cuisson.",
+    "Mélanger à la sauce et ajuster la texture avec une cuillerée d’eau de cuisson."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

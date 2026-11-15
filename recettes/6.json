@@ -1,0 +1,63 @@
+{
+  "id": 6,
+  "name": "Pavés de saumon au four facile",
+  "source": "https://www.marmiton.org/recettes/recette_paves-de-saumon-au-four-facile_80135.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200219/107897_w150h150c1cx4218cy1918cxt2309cyt0cxb6000cyb3842.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 39,
+  "time": 30,
+  "tools": [
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 87,
+  "health": 87,
+  "p": 31,
+  "c": 6,
+  "f": 24,
+  "b": 1,
+  "kcal": 366,
+  "ing": [
+    {
+      "n": "saumon",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "oignon grelot",
+      "q": 2.5,
+      "u": "pièce"
+    },
+    {
+      "n": "vin blanc",
+      "q": 60.0,
+      "u": "ml"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "câpres",
+      "q": 5.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer à 180 °C et préparer un petit plat.",
+    "Déposer le poisson peau vers le bas.",
+    "Presser une partie du citron et couper le reste en rondelles.",
+    "Disperser les oignons émincés et les câpres autour des pavés.",
+    "Ajouter le vin, le jus de citron et l’huile; cuire environ 25 minutes selon l’épaisseur.",
+    "Vérifier que le poisson est cuit à cœur (63 °C) et servir avec le jus de cuisson."
+  ],
+  "emoji": "🍽️"
+}

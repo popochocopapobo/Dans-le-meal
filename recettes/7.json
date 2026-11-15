@@ -1,0 +1,88 @@
+{
+  "id": 7,
+  "name": "Risotto aux champignons : la vraie recette",
+  "source": "https://www.marmiton.org/recettes/recette_risotto-aux-champignons_312215.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221020/136481_w150h150c1cx3588cy2733cxt0cyt0cxb7216cyb5412.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 120,
+  "time": 75,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 90,
+  "health": 74,
+  "p": 12,
+  "c": 82,
+  "f": 17,
+  "b": 5,
+  "kcal": 539,
+  "ing": [
+    {
+      "n": "riz carnaroli",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "champignons",
+      "q": 125.0,
+      "u": "g"
+    },
+    {
+      "n": "bouillon de légumes",
+      "q": 350.0,
+      "u": "ml"
+    },
+    {
+      "n": "vin blanc",
+      "q": 100.0,
+      "u": "ml"
+    },
+    {
+      "n": "parmesan",
+      "q": 8.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 8.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.0,
+      "u": "ml"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    },
+    {
+      "n": "échalote",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "persil",
+      "q": 3.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Nettoyer les champignons et séparer deux portions. Émincer les aromates.",
+    "Préparer un bouillon chaud avec une partie des champignons.",
+    "Faire revenir oignon et riz dans un mélange d’huile et de beurre, jusqu’à ce que le grain devienne nacré.",
+    "Déglacer au vin blanc puis ajouter le bouillon chaud par petites louches, en remuant.",
+    "Saisir séparément les champignons restants avec ail et échalote.",
+    "Lorsque le riz est tendre mais ferme, incorporer parmesan et champignons poêlés. Servir avec le persil."
+  ],
+  "emoji": "🍽️"
+}

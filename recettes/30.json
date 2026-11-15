@@ -1,0 +1,54 @@
+{
+  "id": 30,
+  "name": "Salade tomates, concombre et feta",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-tomates-concombres-a-la-feta_81955.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230616/143469_w640cx2541cy1770cxt0cyt0cxb4000cyb2733.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 9,
+  "time": 10,
+  "tools": [],
+  "veg": true,
+  "side": true,
+  "taste": 77,
+  "health": 86,
+  "p": 10,
+  "c": 12,
+  "f": 20,
+  "b": 4,
+  "kcal": 276,
+  "ing": [
+    {
+      "n": "tomate",
+      "q": 1.5,
+      "u": "pièce"
+    },
+    {
+      "n": "concombre",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "feta",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.5,
+      "u": "ml"
+    },
+    {
+      "n": "vinaigre",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Laver les légumes et peler le concombre si souhaité.",
+    "Découper concombre et tomates en dés réguliers.",
+    "Couper la feta en cubes et l’ajouter aux légumes.",
+    "Assaisonner d’huile, de vinaigre et de poivre; mélanger doucement."
+  ],
+  "emoji": "🍽️"
+}

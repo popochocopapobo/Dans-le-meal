@@ -1,0 +1,67 @@
+{
+  "id": 21,
+  "name": "Pâtes au thon et à la tomate",
+  "source": "https://www.marmiton.org/recettes/recette_pates-au-thon-et-a-la-tomate_15874.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130823/21373_w640cx1632cy2344.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 51,
+  "time": 15,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 81,
+  "p": 36,
+  "c": 72,
+  "f": 11,
+  "b": 7,
+  "kcal": 545,
+  "ing": [
+    {
+      "n": "pâtes",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "thon au naturel",
+      "q": 90.0,
+      "u": "g"
+    },
+    {
+      "n": "tomates concassées",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "thym",
+      "q": 0.5,
+      "u": "g"
+    },
+    {
+      "n": "laurier",
+      "q": 0.25,
+      "u": "feuille"
+    }
+  ],
+  "steps": [
+    "Faire chauffer une casserole d’eau salée et préparer les pâtes.",
+    "Hacher l’oignon et le faire blondir doucement dans l’huile.",
+    "Verser les tomates et les aromates dans la poêle; laisser réduire cinq minutes.",
+    "Égoutter le thon, le fragmenter à la fourchette et le réchauffer dans la sauce.",
+    "Égoutter les pâtes al dente, mélanger et servir chaud."
+  ],
+  "emoji": "🍽️"
+}

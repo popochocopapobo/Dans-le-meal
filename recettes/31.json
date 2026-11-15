@@ -1,0 +1,62 @@
+{
+  "id": 31,
+  "name": "Pâtes au poulet et à la moutarde",
+  "source": "https://www.marmiton.org/recettes/recette_pates-a-la-moutarde_18516.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230119/139614_w640cx1448cy788cxt0cyt0cxb2000cyb1500.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 19,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 93,
+  "health": 72,
+  "p": 43,
+  "c": 65,
+  "f": 24,
+  "b": 4,
+  "kcal": 656,
+  "ing": [
+    {
+      "n": "pâtes",
+      "q": 85.0,
+      "u": "g"
+    },
+    {
+      "n": "poulet",
+      "q": 125.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 60.0,
+      "u": "ml"
+    },
+    {
+      "n": "moutarde",
+      "q": 10.0,
+      "u": "g"
+    },
+    {
+      "n": "moutarde à l’ancienne",
+      "q": 10.0,
+      "u": "g"
+    },
+    {
+      "n": "huile",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Faire cuire les pâtes dans une grande quantité d’eau.",
+    "Couper le poulet en petits dés et le faire dorer à la poêle.",
+    "Dans une petite casserole, chauffer la crème et incorporer les moutardes.",
+    "Vérifier la cuisson du poulet (74 °C à cœur), puis ajouter la sauce.",
+    "Égoutter les pâtes, les mélanger au poulet et rectifier l’assaisonnement."
+  ],
+  "emoji": "🍽️"
+}

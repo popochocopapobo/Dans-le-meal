@@ -1,0 +1,67 @@
+{
+  "id": 52,
+  "name": "Quiche sans pâte au jambon",
+  "source": "https://www.marmiton.org/recettes/recette_quiche-sans-pate_12744.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221010/135902_w150h150c1cx1360cy887cxt0cyt0cxb2121cyb1414.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 610,
+  "time": 40,
+  "tools": [
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 66,
+  "p": 23,
+  "c": 14,
+  "f": 24,
+  "b": 1,
+  "kcal": 366,
+  "ing": [
+    {
+      "n": "œufs",
+      "q": 0.75,
+      "u": "pièce"
+    },
+    {
+      "n": "lait",
+      "q": 65.0,
+      "u": "ml"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "gruyère râpé",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 12.0,
+      "u": "g"
+    },
+    {
+      "n": "jambon",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 3.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 200 °C et beurrer un petit moule adapté au nombre de portions.",
+    "Battre les œufs avec le lait et la crème.",
+    "Incorporer la farine progressivement en fouettant, puis le fromage.",
+    "Ajouter le jambon détaillé et verser dans le moule.",
+    "Cuire environ 30 minutes jusqu’à ce que le centre soit pris. Laisser tiédir avant de découper."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 27,
+  "name": "Omelette au Kiri",
+  "source": "https://www.marmiton.org/recettes/recette_omelette-au-kiri_36721.aspx",
+  "image": "https://assets.afcdn.com/recipe/20131025/38244_w640cx1212cy1640.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.4,
+  "reviews": 21,
+  "time": 15,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 85,
+  "health": 72,
+  "p": 24,
+  "c": 4,
+  "f": 26,
+  "b": 0,
+  "kcal": 346,
+  "ing": [
+    {
+      "n": "œufs",
+      "q": 2.0,
+      "u": "pièce"
+    },
+    {
+      "n": "kiri",
+      "q": 2.0,
+      "u": "carré"
+    },
+    {
+      "n": "lait",
+      "q": 20.0,
+      "u": "ml"
+    },
+    {
+      "n": "beurre",
+      "q": 5.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Fouetter les œufs avec le lait et le poivre.",
+    "Couper le fromage en petits morceaux.",
+    "Faire fondre le beurre dans une poêle à feu modéré.",
+    "Verser les œufs et répartir aussitôt le fromage.",
+    "Laisser prendre, replier puis servir; cuire complètement pour les personnes fragiles."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 26,
+  "name": "Sandwich cake saumon et herbes",
+  "source": "https://www.marmiton.org/recettes/recette_sandwich-cakse-indivuels-au-saumon-fume-et-aux-herbes_340289.aspx",
+  "image": "https://assets.afcdn.com/recipe/20151009/3929_w150h150c1cx1000cy1236.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 13,
+  "time": 15,
+  "tools": [],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 60,
+  "p": 28,
+  "c": 35,
+  "f": 27,
+  "b": 3,
+  "kcal": 501,
+  "ing": [
+    {
+      "n": "pain de mie",
+      "q": 3.0,
+      "u": "tranche"
+    },
+    {
+      "n": "fromage frais",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "saumon fumé",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "salade",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "aneth",
+      "q": 3.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Tailler les tranches de pain en disques ou conserver leur forme.",
+    "Laver et émincer la salade; détailler le saumon.",
+    "Tartiner le pain de fromage frais et superposer saumon, salade, citron et aneth.",
+    "Répéter pour former deux étages et terminer par du pain.",
+    "Recouvrir de fromage frais et décorer avec les herbes; garder au frais."
+  ],
+  "emoji": "🍽️"
+}

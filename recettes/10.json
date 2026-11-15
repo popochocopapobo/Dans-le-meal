@@ -1,0 +1,83 @@
+{
+  "id": 10,
+  "name": "Dahl de lentilles corail",
+  "source": "https://www.marmiton.org/recettes/recette_dahl-de-lentilles-corail_166862.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200928/114451_w225h225c1cx540cy844cxt0cyt0cxb1080cyb1689.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 46,
+  "time": 30,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 84,
+  "health": 89,
+  "p": 20,
+  "c": 52,
+  "f": 18,
+  "b": 13,
+  "kcal": 476,
+  "ing": [
+    {
+      "n": "lentilles corail",
+      "q": 75.0,
+      "u": "g"
+    },
+    {
+      "n": "carotte",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 1.25,
+      "u": "pièce"
+    },
+    {
+      "n": "lait de coco",
+      "q": 62.5,
+      "u": "ml"
+    },
+    {
+      "n": "huile",
+      "q": 4.0,
+      "u": "ml"
+    },
+    {
+      "n": "ail",
+      "q": 0.25,
+      "u": "gousse"
+    },
+    {
+      "n": "concentré de tomates",
+      "q": 4.0,
+      "u": "g"
+    },
+    {
+      "n": "curcuma",
+      "q": 0.25,
+      "u": "c. à soupe"
+    },
+    {
+      "n": "gingembre",
+      "q": 0.13,
+      "u": "c. à café"
+    },
+    {
+      "n": "cumin",
+      "q": 0.13,
+      "u": "c. à café"
+    }
+  ],
+  "steps": [
+    "Rincer les lentilles à l’eau froide.",
+    "Tailler les tomates et les carottes en petits morceaux.",
+    "Faire chauffer l’huile dans une sauteuse avec l’ail et les épices.",
+    "Faire revenir les légumes et incorporer lentilles, concentré et lait de coco.",
+    "Ajouter un peu d’eau et laisser frémir jusqu’à tendreté des lentilles en remuant.",
+    "Ajuster l’assaisonnement et servir quand la texture est crémeuse."
+  ],
+  "emoji": "🍽️"
+}

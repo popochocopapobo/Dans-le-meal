@@ -1,0 +1,63 @@
+{
+  "id": 29,
+  "name": "Tartines montagnardes",
+  "source": "https://www.marmiton.org/recettes/recette_tartines-montagnardes_36147.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150122/17919_w640cx1224cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 11,
+  "time": 25,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 96,
+  "health": 45,
+  "p": 26,
+  "c": 40,
+  "f": 38,
+  "b": 3,
+  "kcal": 612,
+  "ing": [
+    {
+      "n": "pain de campagne",
+      "q": 1.0,
+      "u": "tranche"
+    },
+    {
+      "n": "lardons",
+      "q": 62.5,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "reblochon",
+      "q": 56.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 50.0,
+      "u": "ml"
+    },
+    {
+      "n": "huile",
+      "q": 3.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 220 °C.",
+    "Émincer l’oignon et le faire revenir dans un peu d’huile.",
+    "Colorer les lardons, puis incorporer l’oignon et la crème.",
+    "Répartir sur le pain et couvrir de lamelles de reblochon.",
+    "Enfourner jusqu’à ce que le fromage soit fondu et légèrement doré."
+  ],
+  "emoji": "🍽️"
+}

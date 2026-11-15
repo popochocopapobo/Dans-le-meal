@@ -1,0 +1,50 @@
+{
+  "id": 48,
+  "name": "Sandwichs frais au concombre",
+  "source": "https://www.marmiton.org/recettes/recette_sandwichs-de-concombre_63337.aspx",
+  "image": "https://assets.afcdn.com/recipe/20161012/43051_w640cx1224cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 10,
+  "time": 10,
+  "tools": [],
+  "veg": true,
+  "side": false,
+  "taste": 76,
+  "health": 69,
+  "p": 10,
+  "c": 37,
+  "f": 16,
+  "b": 5,
+  "kcal": 342,
+  "ing": [
+    {
+      "n": "pain de mie complet",
+      "q": 4.0,
+      "u": "tranche"
+    },
+    {
+      "n": "concombre",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "ciboulette",
+      "q": 5.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Laver le concombre et le tailler en fines rondelles.",
+    "Éponger les rondelles pour éviter de détremper le pain.",
+    "Assaisonner la crème avec la ciboulette ciselée et du poivre.",
+    "Tartiner le pain, répartir le concombre en couches et refermer les sandwichs.",
+    "Couper en triangles et conserver au frais jusqu’au repas."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 39,
+  "name": "Bagel au saumon fumé et fromage frais",
+  "source": "https://www.marmiton.org/recettes/recette_bagel-toaste-au-saumon-fume_73662.aspx",
+  "image": "https://assets.afcdn.com/recipe/20201210/116274_w150h150c1cx676cy673cxt0cyt0cxb1352cyb1346.png",
+  "kind": "Photo Marmiton",
+  "rating": 4.4,
+  "reviews": 25,
+  "time": 5,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 87,
+  "health": 73,
+  "p": 28,
+  "c": 49,
+  "f": 16,
+  "b": 3,
+  "kcal": 458,
+  "ing": [
+    {
+      "n": "bagel",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "saumon fumé",
+      "q": 80.0,
+      "u": "g"
+    },
+    {
+      "n": "fromage frais",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "jus de citron",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "aneth",
+      "q": 2.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Ouvrir le bagel dans l’épaisseur.",
+    "Le placer côté mie dans une poêle sèche pour le rendre légèrement croustillant.",
+    "Étaler le fromage frais sur les deux faces.",
+    "Ajouter le saumon, le citron et l’aneth; fermer et servir immédiatement."
+  ],
+  "emoji": "🍽️"
+}

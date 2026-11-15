@@ -1,0 +1,67 @@
+{
+  "id": 24,
+  "name": "Nouilles chinoises aux légumes",
+  "source": "https://www.marmiton.org/recettes/recette_nouilles-chinoises-aux-legumes_67540.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170131/37621_w640cx2464cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5,
+  "reviews": 2,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 83,
+  "health": 82,
+  "p": 15,
+  "c": 78,
+  "f": 13,
+  "b": 8,
+  "kcal": 505,
+  "ing": [
+    {
+      "n": "nouilles chinoises",
+      "q": 75.0,
+      "u": "g"
+    },
+    {
+      "n": "maïs",
+      "q": 75.0,
+      "u": "g"
+    },
+    {
+      "n": "macédoine de légumes",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "huile de sésame",
+      "q": 7.5,
+      "u": "ml"
+    },
+    {
+      "n": "miso",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "gingembre",
+      "q": 3.0,
+      "u": "g"
+    },
+    {
+      "n": "germes de luzerne",
+      "q": 10.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préparer les nouilles selon leur emballage.",
+    "Égoutter les légumes et chauffer l’huile dans une grande poêle.",
+    "Sauter les légumes quelques minutes; délayer le miso dans un peu d’eau chaude.",
+    "Ajouter les nouilles égouttées, le gingembre et le miso; mélanger à feu vif.",
+    "Ajouter les germes lavés, ou les cuire pour les personnes fragiles."
+  ],
+  "emoji": "🍽️"
+}

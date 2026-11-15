@@ -1,0 +1,72 @@
+{
+  "id": 36,
+  "name": "Salade d’avocat, thon, œufs et maïs",
+  "source": "https://www.marmiton.org/recettes/recette_salade-d-avocats-et-thon_227701.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160927/7808_w640cx918cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 16,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 82,
+  "health": 91,
+  "p": 32,
+  "c": 25,
+  "f": 26,
+  "b": 8,
+  "kcal": 478,
+  "ing": [
+    {
+      "n": "avocat",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "œufs",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "thon au naturel",
+      "q": 80.0,
+      "u": "g"
+    },
+    {
+      "n": "maïs",
+      "q": 80.0,
+      "u": "g"
+    },
+    {
+      "n": "échalote",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "ciboulette",
+      "q": 3.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "jus de citron",
+      "q": 10.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Faire durcir l’œuf 10 minutes dans l’eau frémissante.",
+    "Refroidir sous l’eau froide, écaler puis couper en quartiers.",
+    "Égoutter les conserves et couper l’avocat en cubes.",
+    "Ciseler l’échalote et la ciboulette; les réunir avec l’huile et le citron.",
+    "Mélanger délicatement thon, maïs et avocat avec la sauce, puis déposer les quartiers d’œuf."
+  ],
+  "emoji": "🍽️"
+}

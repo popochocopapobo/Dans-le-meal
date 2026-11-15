@@ -1,0 +1,57 @@
+{
+  "id": 38,
+  "name": "Crevettes à l’ail et au persil",
+  "source": "https://www.marmiton.org/recettes/recette_crevettes-a-l-ail_23490.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200513/111128_w150h150c1cx540cy960cxt0cyt0cxb1080cyb1920.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 88,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": true,
+  "taste": 86,
+  "health": 85,
+  "p": 31,
+  "c": 5,
+  "f": 15,
+  "b": 1,
+  "kcal": 281,
+  "ing": [
+    {
+      "n": "crevettes décortiquées",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 15.0,
+      "u": "ml"
+    },
+    {
+      "n": "ail",
+      "q": 2.0,
+      "u": "gousse"
+    },
+    {
+      "n": "persil",
+      "q": 8.0,
+      "u": "g"
+    },
+    {
+      "n": "piment doux",
+      "q": 0.25,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Sécher les crevettes avec du papier absorbant.",
+    "Hacher à la main l’ail, le persil et le piment.",
+    "Saisir les crevettes dans la moitié de l’huile jusqu’à ce qu’elles soient opaques et les réserver.",
+    "Faire revenir brièvement la persillade dans le reste de l’huile sans brunir l’ail.",
+    "Remettre les crevettes dans la poêle, les enrober et servir chaud avec un accompagnement au choix non compté."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 5,
+  "name": "Chili con carne facile",
+  "source": "https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx",
+  "image": "https://assets.afcdn.com/recipe/20211222/126214_w150h150c1cx1124cy721cxt0cyt0cxb2119cyb1415.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 650,
+  "time": 35,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 92,
+  "health": 78,
+  "p": 35,
+  "c": 27,
+  "f": 24,
+  "b": 10,
+  "kcal": 484,
+  "ing": [
+    {
+      "n": "bœuf haché",
+      "q": 125.0,
+      "u": "g"
+    },
+    {
+      "n": "haricots rouges",
+      "q": 125.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 12.5,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    },
+    {
+      "n": "concentré de tomates",
+      "q": 16.0,
+      "u": "g"
+    },
+    {
+      "n": "bouillon de bœuf",
+      "q": 75.0,
+      "u": "ml"
+    },
+    {
+      "n": "cumin",
+      "q": 0.5,
+      "u": "c. à café"
+    },
+    {
+      "n": "chili en poudre",
+      "q": 0.25,
+      "u": "c. à café"
+    },
+    {
+      "n": "persil",
+      "q": 2.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préparer les aromates et allumer le four à 180 °C.",
+    "Faire fondre le beurre dans une cocotte et attendrir ail et oignon.",
+    "Émietter la viande dans la cocotte et la faire colorer.",
+    "Délayer le concentré avec le bouillon et les épices.",
+    "Mélanger avec les haricots égouttés; couvrir et enfourner environ 25 minutes.",
+    "Contrôler la cuisson de la viande puis servir avec du persil."
+  ],
+  "emoji": "🍽️"
+}

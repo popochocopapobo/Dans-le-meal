@@ -1,0 +1,64 @@
+{
+  "id": 61,
+  "name": "Émincé de poulet au citron et paprika",
+  "source": "https://www.marmiton.org/recettes/recette_emince-de-poulet-au-citron-facile_16645.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230619/143551_w150h150c1cx960cy540cxt0cyt0cxb1920cyb1080.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.2,
+  "reviews": 147,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 83,
+  "health": 85,
+  "p": 35,
+  "c": 8,
+  "f": 9,
+  "b": 2,
+  "kcal": 253,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "paprika",
+      "q": 2,
+      "u": "g"
+    },
+    {
+      "n": "piment",
+      "q": 0.2,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Trancher le poulet finement, assaisonner de paprika, piment et poivre.",
+    "Ajouter le jus de citron et laisser quelques minutes au frais.",
+    "Émincer l’oignon et le dorer dans une poêle huilée.",
+    "Égoutter le poulet et l’ajouter à la poêle.",
+    "Remuer jusqu’à ce que les morceaux atteignent 74 °C à cœur.",
+    "Rectifier l’assaisonnement et servir, éventuellement avec une salade."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

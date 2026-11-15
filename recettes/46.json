@@ -1,0 +1,57 @@
+{
+  "id": 46,
+  "name": "Filets de poulet au sésame",
+  "source": "https://www.marmiton.org/recettes/recette_filets-de-poulet-au-sesame_30075.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170427/9723_w640cx2080cy1560.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 28,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 87,
+  "health": 80,
+  "p": 39,
+  "c": 4,
+  "f": 22,
+  "b": 2,
+  "kcal": 374,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "sésame",
+      "q": 12.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "beurre",
+      "q": 5.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Griller les graines de sésame à feu moyen dans une poêle sèche, sous surveillance; les mettre de côté.",
+    "Chauffer l’huile et le beurre dans la poêle.",
+    "Saisir les filets de poulet et poursuivre la cuisson à feu modéré jusqu’à 74 °C à cœur.",
+    "Ajouter la crème et les graines grillées.",
+    "Chauffer doucement pour obtenir une sauce nappante, poivrer et servir avec un accompagnement non compté."
+  ],
+  "emoji": "🍽️"
+}

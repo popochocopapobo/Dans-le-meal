@@ -1,0 +1,59 @@
+{
+  "id": 62,
+  "name": "Saumon poêlé mariné au citron",
+  "source": "https://www.marmiton.org/recettes/recette_saumon-poele-marine-au-citron_54699.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140521/32913_w640cx1224cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 8,
+  "time": 140,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 91,
+  "health": 78,
+  "p": 31,
+  "c": 4,
+  "f": 29,
+  "b": 1,
+  "kcal": 401,
+  "ing": [
+    {
+      "n": "saumon",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 30,
+      "u": "ml"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5,
+      "u": "ml"
+    },
+    {
+      "n": "persil",
+      "q": 3,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Prévoir deux heures de marinade en plus des vingt minutes de préparation et cuisson.",
+    "Déposer les pavés dans un récipient couvert avec le jus de citron; réserver au réfrigérateur.",
+    "Égoutter le poisson; chauffer l’huile dans une poêle.",
+    "Saisir de chaque côté quelques minutes puis baisser le feu.",
+    "Incorporer la crème et le persil; couvrir jusqu’à ce que le poisson atteigne 63 °C à cœur.",
+    "Servir avec une garniture au choix (non incluse)."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

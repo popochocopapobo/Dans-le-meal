@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="#173e30" name="theme-color"/>
+  <title>{{NAME}} | À table !</title>
+  <link href="../style.css" rel="stylesheet"/>
+  <script defer="" src="../data.js">
+  </script>
+  <script defer="" src="../app.js">
+  </script>
+ </head>
+ <body data-root="../" data-standalone="false">
+  <header>
+   <a class="brand" href="../index.html">
+    <span>
+     À table
+     <span class="dot">
+      .
+     </span>
+    </span>
+    <small>
+     La cuisine à ton rythme.
+    </small>
+   </a>
+   <a class="header-link" href="../cuisine.html">
+    ⚙ Ma cuisine
+   </a>
+  </header>
+  <main>
+{{DETAIL}}
+</main>
+  <nav aria-label="Navigation principale">
+   <a class="active" data-nav="recipes" href="../index.html">
+    <span aria-hidden="true">
+     ⌂
+    </span>
+    Recettes
+   </a>
+   <a class="" data-nav="menu" href="../menu.html">
+    <span aria-hidden="true">
+     ▤
+    </span>
+    Menu
+    <b id="menu-count">
+    </b>
+   </a>
+   <a class="" data-nav="shopping" href="../courses.html">
+    <span aria-hidden="true">
+     ✓
+    </span>
+    Courses
+   </a>
+   <a class="" data-nav="kitchen" href="../cuisine.html">
+    <span aria-hidden="true">
+     ⚙
+    </span>
+    Cuisine
+   </a>
+  </nav>
+  <div aria-live="polite" id="toast" role="status">
+  </div>
+  <noscript>
+   <p class="noscript">
+    Le catalogue et les fiches sont disponibles. Active JavaScript dans un navigateur pour les portions, menus, courses et favoris.
+   </p>
+  </noscript>
+ </body>
+</html>

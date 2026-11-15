@@ -1,0 +1,82 @@
+{
+  "id": 55,
+  "name": "Burger maison à l’emmental",
+  "source": "https://www.marmiton.org/recettes/recette_home-burger_93645.aspx",
+  "image": "https://assets.afcdn.com/recipe/20190206/87301_w640cx2213cy1453cxt0cyt0cxb4500cyb3000.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5.0,
+  "reviews": 7,
+  "time": 40,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 98,
+  "health": 56,
+  "p": 30,
+  "c": 49,
+  "f": 33,
+  "b": 5,
+  "kcal": 623,
+  "ing": [
+    {
+      "n": "pain burger",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "bœuf haché",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "emmental",
+      "q": 10.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "cornichon",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "salade",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "mayonnaise",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "ketchup",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Émincer l’oignon, couper la tomate et les cornichons, laver la salade.",
+    "Faire doucement dorer l’oignon dans l’huile.",
+    "Façonner le bœuf en steak et le cuire à la poêle jusqu’à 71 °C à cœur; poser le fromage dessus à la fin.",
+    "Griller les faces du pain dans la poêle.",
+    "Tartiner de mayonnaise et ketchup, ajouter salade, tomate, steak, oignons et cornichons. Refermer et déguster aussitôt."
+  ],
+  "emoji": "🍽️"
+}

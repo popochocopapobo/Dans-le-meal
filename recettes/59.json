@@ -1,0 +1,65 @@
+{
+  "id": 59,
+  "name": "Spaghetti ail, tomate et basilic",
+  "source": "https://www.marmiton.org/recettes/recette_les-pates-a-l-ail_22869.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160223/48536_w640cx250cy375.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 33,
+  "time": 25,
+  "tools": [
+    "plaques",
+    "mixeur"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 78,
+  "p": 16,
+  "c": 79,
+  "f": 23,
+  "b": 6,
+  "kcal": 587,
+  "ing": [
+    {
+      "n": "spaghetti",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "tomate",
+      "q": 1.5,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 1.5,
+      "u": "gousse"
+    },
+    {
+      "n": "basilic",
+      "q": 3,
+      "u": "feuille"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 15,
+      "u": "ml"
+    },
+    {
+      "n": "parmesan",
+      "q": 15,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Porter à ébullition une casserole d’eau pour les pâtes.",
+    "Rincer tomates et basilic; peler l’ail.",
+    "Mixer ail, basilic et tomates sans chauffer; ajouter l’huile et assaisonner.",
+    "Cuire les spaghetti al dente selon le temps du paquet.",
+    "Égoutter, verser sur la sauce fraîche et mélanger.",
+    "Terminer avec le parmesan râpé."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 13,
+  "name": "Salade grecque",
+  "source": "https://www.marmiton.org/recettes/recette_salade-grecque_34399.aspx",
+  "image": "https://assets.afcdn.com/recipe/20190704/94666_w150h150c1cx2689cy1920cxt0cyt0cxb5378cyb3840.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 63,
+  "time": 20,
+  "tools": [],
+  "veg": true,
+  "side": true,
+  "taste": 81,
+  "health": 83,
+  "p": 10,
+  "c": 14,
+  "f": 23,
+  "b": 5,
+  "kcal": 313,
+  "ing": [
+    {
+      "n": "tomate",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "concombre",
+      "q": 0.125,
+      "u": "pièce"
+    },
+    {
+      "n": "poivron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "feta",
+      "q": 37.5,
+      "u": "g"
+    },
+    {
+      "n": "olives noires",
+      "q": 12.5,
+      "u": "g"
+    },
+    {
+      "n": "citron",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10.0,
+      "u": "ml"
+    },
+    {
+      "n": "origan",
+      "q": 0.25,
+      "u": "c. à café"
+    }
+  ],
+  "steps": [
+    "Laver tous les légumes.",
+    "Couper tomates et concombre en cubes, émincer les poivrons et l’oignon.",
+    "Déposer les légumes dans un saladier avec les olives.",
+    "Couper la feta en cubes et en incorporer la moitié.",
+    "Préparer une vinaigrette avec huile, citron et origan.",
+    "Mélanger délicatement, ajouter le reste de feta et servir frais."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 8,
+  "name": "Riz cantonais facile",
+  "source": "https://www.marmiton.org/recettes/recette_riz-cantonais-facile_27686.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160517/45721_w225h225c1cx2000cy3000.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 145,
+  "time": 50,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 76,
+  "p": 22,
+  "c": 70,
+  "f": 16,
+  "b": 4,
+  "kcal": 520,
+  "ing": [
+    {
+      "n": "riz",
+      "q": 75.0,
+      "u": "g"
+    },
+    {
+      "n": "jambon",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "crevettes",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "petits pois",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "huile",
+      "q": 10.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Cuire le riz en respectant les indications du paquet et l’égoutter.",
+    "Découper le jambon et émincer les oignons.",
+    "Sauter les petits pois et les oignons dans une partie de l’huile; réserver.",
+    "Cuire les œufs en omelette puis les tailler en bandes.",
+    "Faire revenir les crevettes jusqu’à cuisson, ajouter le riz et toutes les garnitures.",
+    "Mélanger à feu vif quelques minutes avant de servir bien chaud."
+  ],
+  "emoji": "🍽️"
+}

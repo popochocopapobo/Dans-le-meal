@@ -1,0 +1,77 @@
+{
+  "id": 32,
+  "name": "Poulet à la mangue rapide",
+  "source": "https://www.marmiton.org/recettes/recette_poulet-a-la-mangue-rapide_66834.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130909/8753_w640cx1936cy1296.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 76,
+  "time": 30,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 91,
+  "health": 86,
+  "p": 37,
+  "c": 77,
+  "f": 12,
+  "b": 5,
+  "kcal": 574,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "mangue",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "fromage frais",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "sauce soja",
+      "q": 10.0,
+      "u": "ml"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    },
+    {
+      "n": "curry",
+      "q": 2.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "riz",
+      "q": 65.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Lancer la cuisson du riz et couper le poulet en dés.",
+    "Mélanger la viande à la sauce soja pendant la préparation de l’oignon et de la mangue.",
+    "Faire revenir l’oignon, ajouter le poulet, l’ail et le poivre.",
+    "Lorsque le poulet atteint 74 °C à cœur, ajouter la mangue et le curry quelques minutes.",
+    "Hors du feu, incorporer le fromage frais puis servir avec le riz."
+  ],
+  "emoji": "🍽️"
+}

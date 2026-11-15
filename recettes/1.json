@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "name": "Gratin dauphinois",
+  "source": "https://www.marmiton.org/recettes/recette_gratin-dauphinois-recette-originale_22307.aspx",
+  "image": "https://assets.afcdn.com/recipe/20201217/116564_w150h150c1cx1009cy951cxt0cyt0cxb2119cyb1415.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 757,
+  "time": 90,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": true,
+  "taste": 94,
+  "health": 43,
+  "p": 8,
+  "c": 45,
+  "f": 38,
+  "b": 4,
+  "kcal": 562,
+  "ing": [
+    {
+      "n": "pommes de terre",
+      "q": 250.0,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide",
+      "q": 125.0,
+      "u": "ml"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    }
+  ],
+  "steps": [
+    "Chauffer le four à 150 °C.",
+    "Éplucher les pommes de terre et réaliser de fines rondelles régulières.",
+    "Hacher l’ail puis verser un peu de crème dans le fond du plat.",
+    "Superposer les rondelles en répartissant l’ail, l’assaisonnement et la crème.",
+    "Cuire au moins une heure en contrôlant la tendreté au couteau. Prolonger si nécessaire.",
+    "Laisser tiédir quelques minutes pour faciliter le service."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 2,
+  "name": "Poulet au curry et lait de coco",
+  "source": "https://www.marmiton.org/recettes/recette_poulet-au-curry-et-lait-de-coco_371498.aspx",
+  "image": "https://assets.afcdn.com/recipe/20190118/86314_w640cx1972cy1900cxt0cyt0cxb3838cyb5755.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 4,
+  "time": 35,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 94,
+  "health": 72,
+  "p": 36,
+  "c": 14,
+  "f": 41,
+  "b": 4,
+  "kcal": 577,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "lait de coco",
+      "q": 200.0,
+      "u": "ml"
+    },
+    {
+      "n": "pousses de bambou",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "citron vert",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "curry",
+      "q": 1.5,
+      "u": "c. à soupe"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 15.0,
+      "u": "ml"
+    },
+    {
+      "n": "purée de piment",
+      "q": 0.25,
+      "u": "c. à café"
+    },
+    {
+      "n": "gingembre",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "coriandre",
+      "q": 3.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Émincer l’oignon, le gingembre et le poulet.",
+    "Dorer l’oignon dans l’huile puis ajouter le poulet et les épices.",
+    "Verser le lait de coco et la purée de piment.",
+    "Égoutter les pousses de bambou puis les incorporer.",
+    "Laisser frémir jusqu’à épaississement et cuisson complète du poulet (74 °C à cœur).",
+    "Ajuster avec le citron vert et la coriandre fraîche."
+  ],
+  "emoji": "🍽️"
+}

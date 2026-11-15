@@ -1,0 +1,93 @@
+{
+  "id": 12,
+  "name": "Salade César au poulet light",
+  "source": "https://www.marmiton.org/recettes/recette_salade-cesar-au-poulet-light_73517.aspx",
+  "image": "https://assets.afcdn.com/recipe/20130621/54428_w225h225c1cx944cy1338.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 41,
+  "time": 270,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 87,
+  "health": 88,
+  "p": 42,
+  "c": 17,
+  "f": 16,
+  "b": 4,
+  "kcal": 388,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "salade verte",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "parmesan",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "biscottes",
+      "q": 1.75,
+      "u": "pièce"
+    },
+    {
+      "n": "œufs",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "échalote",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "beurre",
+      "q": 2.0,
+      "u": "g"
+    },
+    {
+      "n": "crème légère",
+      "q": 15.0,
+      "u": "ml"
+    },
+    {
+      "n": "moutarde",
+      "q": 4.0,
+      "u": "g"
+    },
+    {
+      "n": "vinaigre balsamique",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "paprika",
+      "q": 1.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Couper le poulet et le laisser mariner au frais avec du jus de citron pendant quatre heures si possible.",
+    "Cuire les œufs durs et les refroidir.",
+    "Réduire les biscottes en miettes, les assaisonner et enrober le poulet.",
+    "Dorer le poulet au beurre jusqu’à cuisson complète (74 °C).",
+    "Fouetter crème, moutarde, citron, vinaigre et parmesan pour la sauce.",
+    "Assembler salade, œuf, poulet et échalote puis napper de sauce au moment de servir."
+  ],
+  "emoji": "🍽️"
+}

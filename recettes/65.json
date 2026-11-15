@@ -1,0 +1,76 @@
+{
+  "id": 65,
+  "name": "Salade cubaine au thon et avocat",
+  "source": "https://www.marmiton.org/recettes/recette_salade-cubaine_220560.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200608/111790_w640cx2736cy1539cxt0cyt0cxb5472cyb3078.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 4,
+  "time": 10,
+  "tools": [],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 93,
+  "p": 27,
+  "c": 33,
+  "f": 24,
+  "b": 12,
+  "kcal": 456,
+  "ing": [
+    {
+      "n": "haricots rouges",
+      "q": 125,
+      "u": "g"
+    },
+    {
+      "n": "thon",
+      "q": 75,
+      "u": "g"
+    },
+    {
+      "n": "avocat",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "poivron vert",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "oignon rouge",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "coriandre",
+      "q": 5,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10,
+      "u": "ml"
+    },
+    {
+      "n": "vinaigre de vin rouge",
+      "q": 10,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Égoutter thon et haricots; rincer les haricots.",
+    "Laver tomate, poivron et coriandre puis découper les légumes.",
+    "Émincer l’oignon et couper la chair d’avocat en cubes.",
+    "Réunir le tout dans un grand bol, émietter le thon.",
+    "Mélanger vinaigre, huile et poivre, verser sur la salade puis servir."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

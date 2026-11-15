@@ -1,0 +1,57 @@
+{
+  "id": 34,
+  "name": "Omelette jambon et fromage",
+  "source": "https://www.marmiton.org/recettes/recette_omelette-jambon-fromage_68824.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150218/43131_w640cx1632cy1224.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 12,
+  "time": 10,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 68,
+  "p": 26,
+  "c": 3,
+  "f": 25,
+  "b": 0,
+  "kcal": 341,
+  "ing": [
+    {
+      "n": "œufs",
+      "q": 2.0,
+      "u": "pièce"
+    },
+    {
+      "n": "jambon",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "emmental",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "parmesan",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Tailler le jambon en lanières et préparer le fromage.",
+    "Fouetter les œufs avec le parmesan, un peu de poivre et une pincée de sel.",
+    "Chauffer une poêle antiadhésive avec l’huile, puis verser les œufs.",
+    "Quand le dessous se tient, répartir le jambon et l’emmental sur une moitié.",
+    "Replier l’omelette et laisser le fromage fondre à feu doux, jusqu’à la cuisson souhaitée. Servir chaud."
+  ],
+  "emoji": "🍽️"
+}

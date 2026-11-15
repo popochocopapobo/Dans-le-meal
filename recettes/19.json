@@ -1,0 +1,89 @@
+{
+  "id": 19,
+  "name": "Hachis Parmentier",
+  "source": "https://www.marmiton.org/recettes/recette_hachis-parmentier_17639.aspx",
+  "image": "https://assets.afcdn.com/recipe/20221012/136013_w225h225c1cx727cy1355cxt0cyt0cxb1462cyb2051.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 977,
+  "time": 45,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 91,
+  "health": 69,
+  "p": 31,
+  "c": 29,
+  "f": 25,
+  "b": 4,
+  "kcal": 473,
+  "ing": [
+    {
+      "n": "bœuf haché",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "purée de pommes de terre",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    },
+    {
+      "n": "beurre",
+      "q": 7.5,
+      "u": "g"
+    },
+    {
+      "n": "farine",
+      "q": 4.0,
+      "u": "g"
+    },
+    {
+      "n": "jaune d’œuf",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "fromage râpé",
+      "q": 12.5,
+      "u": "g"
+    },
+    {
+      "n": "parmesan",
+      "q": 7.5,
+      "u": "g"
+    },
+    {
+      "n": "herbes de Provence",
+      "q": 0.25,
+      "u": "pincée"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 200 °C et préparer ou réchauffer la purée.",
+    "Hacher oignon et ail, les faire revenir au beurre.",
+    "Ajouter la viande, les tomates et les herbes. Cuire jusqu’à réduction du jus.",
+    "Lier avec la farine, puis incorporer le jaune et le parmesan hors du feu.",
+    "Répartir la viande dans un plat, couvrir de purée et parsemer de fromage.",
+    "Enfourner jusqu’à ce que le dessus soit doré et que le tout soit chaud à cœur."
+  ],
+  "emoji": "🍽️"
+}

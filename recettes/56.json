@@ -1,0 +1,74 @@
+{
+  "id": 56,
+  "name": "Wrap de poulet pané",
+  "source": "https://www.marmiton.org/recettes/recette_wrap-au-poulet_212867.aspx",
+  "image": "https://assets.afcdn.com/recipe/20181126/84241_w150h150c1cx1805cy2931cxt0cyt0cxb3647cyb5468.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.5,
+  "reviews": 8,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 69,
+  "p": 43,
+  "c": 47,
+  "f": 22,
+  "b": 4,
+  "kcal": 558,
+  "ing": [
+    {
+      "n": "tortillas",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "poulet",
+      "q": 130,
+      "u": "g"
+    },
+    {
+      "n": "œufs",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "chapelure",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "emmental",
+      "q": 20,
+      "u": "g"
+    },
+    {
+      "n": "fromage blanc",
+      "q": 60,
+      "u": "g"
+    },
+    {
+      "n": "salade",
+      "q": 30,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Tailler le poulet en bandes de taille régulière.",
+    "Battre l’œuf dans un bol; déposer la chapelure dans une autre assiette.",
+    "Enrober les bandes de poulet d’œuf puis de chapelure.",
+    "Faire cuire à la poêle huilée, en retournant les morceaux jusqu’à 74 °C à cœur.",
+    "Assouplir la tortilla quelques secondes dans une poêle propre. Garnir de fromage blanc, salade, emmental et poulet.",
+    "Replier les côtés puis rouler et déguster."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

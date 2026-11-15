@@ -1,0 +1,68 @@
+{
+  "id": 15,
+  "name": "Poulet au four simple et savoureux",
+  "source": "https://www.marmiton.org/recettes/recette_poulet-au-four-version-light_218020.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200408/109519_w225h225c1cx1933cy2466cxt0cyt0cxb3744cyb5616.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 204,
+  "time": 115,
+  "tools": [
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 90,
+  "health": 85,
+  "p": 39,
+  "c": 5,
+  "f": 21,
+  "b": 2,
+  "kcal": 369,
+  "ing": [
+    {
+      "n": "poulet entier",
+      "q": 300.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.33,
+      "u": "pièce"
+    },
+    {
+      "n": "tomates cerises",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "ail",
+      "q": 0.5,
+      "u": "gousse"
+    },
+    {
+      "n": "citron",
+      "q": 0.17,
+      "u": "pièce"
+    },
+    {
+      "n": "bouillon de volaille",
+      "q": 40.0,
+      "u": "ml"
+    },
+    {
+      "n": "laurier",
+      "q": 0.33,
+      "u": "feuille"
+    }
+  ],
+  "steps": [
+    "Chauffer le four à 200 °C. Prévoir un poulet entier adapté au nombre de convives.",
+    "Mettre l’ail et le laurier dans le poulet.",
+    "Mélanger le bouillon et le jus de citron et arroser le poulet.",
+    "Disposer des quartiers d’oignon et les tomates dans le plat, puis assaisonner.",
+    "Cuire en arrosant régulièrement; un poulet de 1,8 kg nécessite environ 1 h 40. Adapter selon le poids.",
+    "Vérifier 74 °C à cœur dans les parties épaisses, laisser reposer puis découper."
+  ],
+  "emoji": "🍽️"
+}

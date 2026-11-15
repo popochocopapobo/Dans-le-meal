@@ -1,0 +1,68 @@
+{
+  "id": 64,
+  "name": "Salade aux trois haricots",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-haricots-verts-blancs-et-rouges_225401.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150831/24724_w640cx2800cy1860.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4,
+  "reviews": 1,
+  "time": 15,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 75,
+  "health": 94,
+  "p": 17,
+  "c": 42,
+  "f": 10,
+  "b": 14,
+  "kcal": 326,
+  "ing": [
+    {
+      "n": "haricots rouges",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "haricots blancs",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "n": "haricots verts",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "persil",
+      "q": 4,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.5,
+      "u": "ml"
+    },
+    {
+      "n": "vinaigre balsamique",
+      "q": 7.5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Équeuter les haricots verts puis les cuire à l’eau bouillante environ sept minutes.",
+    "Rincer et égoutter les haricots blancs et rouges en conserve.",
+    "Refroidir les haricots verts sous l’eau froide puis les couper.",
+    "Ciseler oignon et persil et réunir les trois haricots.",
+    "Fouetter l’huile et le vinaigre; assaisonner juste avant de servir."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

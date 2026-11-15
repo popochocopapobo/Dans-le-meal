@@ -1,0 +1,62 @@
+{
+  "id": 51,
+  "name": "Pâtes sauce Alfredo",
+  "source": "https://www.marmiton.org/recettes/recette_pates-sauce-alfredo_82510.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140310/25516_w640cx1224cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 11,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 94,
+  "health": 43,
+  "p": 23,
+  "c": 74,
+  "f": 38,
+  "b": 4,
+  "kcal": 738,
+  "ing": [
+    {
+      "n": "tagliatelles",
+      "q": 90.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 23.0,
+      "u": "g"
+    },
+    {
+      "n": "parmesan",
+      "q": 23.0,
+      "u": "g"
+    },
+    {
+      "n": "crème liquide",
+      "q": 40.0,
+      "u": "ml"
+    },
+    {
+      "n": "persil",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "piment",
+      "q": 0.25,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Mettre les tagliatelles à cuire.",
+    "Dans une grande poêle, faire fondre doucement le beurre avec la crème.",
+    "Incorporer le fromage râpé, une partie du persil et le piment entier fendu.",
+    "Prélever un peu d’eau de cuisson et égoutter les pâtes; retirer le piment de la sauce.",
+    "Mélanger les pâtes à la sauce et détendre avec l’eau réservée si besoin. Parsemer du reste de persil."
+  ],
+  "emoji": "🍽️"
+}

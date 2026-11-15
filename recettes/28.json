@@ -1,0 +1,62 @@
+{
+  "id": 28,
+  "name": "Tartines expresses jambon mozzarella",
+  "source": "https://www.marmiton.org/recettes/recette_tartines-expresses_39177.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160519/26004_w640cx2128cy1416.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 12,
+  "time": 20,
+  "tools": [
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 89,
+  "health": 70,
+  "p": 29,
+  "c": 36,
+  "f": 24,
+  "b": 4,
+  "kcal": 484,
+  "ing": [
+    {
+      "n": "pain de mie",
+      "q": 2.0,
+      "u": "tranche"
+    },
+    {
+      "n": "jambon",
+      "q": 1.0,
+      "u": "tranche"
+    },
+    {
+      "n": "tomate",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "mozzarella",
+      "q": 62.5,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10.0,
+      "u": "ml"
+    },
+    {
+      "n": "thym",
+      "q": 0.5,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 200 °C et préparer une plaque.",
+    "Badigeonner le pain avec l’huile.",
+    "Découper les tomates et la mozzarella en rondelles.",
+    "Disposer tomate, jambon et mozzarella sur le pain; ajouter le thym.",
+    "Enfourner environ cinq minutes, jusqu’à ce que le fromage soit fondu."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,119 @@
+{
+  "id": 4,
+  "name": "Lasagnes à la bolognaise",
+  "source": "https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200408/109520_w150h150c1cx1866cy2800cxt0cyt0cxb3732cyb5600.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 1429,
+  "time": 125,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 98,
+  "health": 65,
+  "p": 42,
+  "c": 64,
+  "f": 34,
+  "b": 7,
+  "kcal": 744,
+  "ing": [
+    {
+      "n": "feuilles de lasagnes",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "bœuf haché",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "purée de tomate",
+      "q": 133.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "carotte",
+      "q": 0.17,
+      "u": "pièce"
+    },
+    {
+      "n": "céleri",
+      "q": 0.17,
+      "u": "branche"
+    },
+    {
+      "n": "ail",
+      "q": 0.33,
+      "u": "gousse"
+    },
+    {
+      "n": "vin rouge",
+      "q": 33.0,
+      "u": "ml"
+    },
+    {
+      "n": "lait",
+      "q": 167.0,
+      "u": "ml"
+    },
+    {
+      "n": "farine",
+      "q": 17.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 21.0,
+      "u": "g"
+    },
+    {
+      "n": "parmesan",
+      "q": 21.0,
+      "u": "g"
+    },
+    {
+      "n": "fromage râpé",
+      "q": 12.0,
+      "u": "g"
+    },
+    {
+      "n": "laurier",
+      "q": 0.33,
+      "u": "feuille"
+    },
+    {
+      "n": "thym",
+      "q": 0.5,
+      "u": "g"
+    },
+    {
+      "n": "basilic",
+      "q": 2.0,
+      "u": "g"
+    },
+    {
+      "n": "muscade",
+      "q": 0.5,
+      "u": "pincée"
+    }
+  ],
+  "steps": [
+    "Hacher les légumes et les faire suer dans une cocotte.",
+    "Ajouter la viande, puis le vin, la purée de tomate et les aromates. Laisser réduire à petit feu.",
+    "Préparer une béchamel : cuire beurre et farine brièvement, incorporer le lait progressivement et fouetter à feu doux.",
+    "Étaler de la sauce dans un plat puis alterner lasagnes, bolognaise, béchamel et parmesan.",
+    "Terminer avec béchamel et fromage râpé; enfourner à 180 °C environ 40 minutes, jusqu’à tendreté des pâtes.",
+    "Patienter dix minutes avant de découper les parts."
+  ],
+  "emoji": "🍽️"
+}

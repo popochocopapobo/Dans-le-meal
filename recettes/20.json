@@ -1,0 +1,48 @@
+{
+  "id": 20,
+  "name": "Aubergines au four",
+  "source": "https://www.marmiton.org/recettes/recette_aubergines-au-four_13572.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200503/110328_w225h225c1cx960cy540cxt0cyt0cxb1920cyb1080.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.3,
+  "reviews": 176,
+  "time": 40,
+  "tools": [
+    "four"
+  ],
+  "veg": true,
+  "side": true,
+  "taste": 76,
+  "health": 91,
+  "p": 3,
+  "c": 13,
+  "f": 10,
+  "b": 8,
+  "kcal": 170,
+  "ing": [
+    {
+      "n": "aubergine",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10.0,
+      "u": "ml"
+    },
+    {
+      "n": "herbes de Provence",
+      "q": 1.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Préchauffer le four à 200 °C.",
+    "Laver les aubergines, les partager dans la longueur.",
+    "Inciser la chair en croisillons sans traverser la peau.",
+    "Badigeonner avec l’huile et répartir les herbes, sel et poivre.",
+    "Disposer côté chair vers le haut et cuire environ 35 minutes jusqu’à ce que la chair soit souple.",
+    "Servir chaud, directement dans la peau ou en prélevant la chair."
+  ],
+  "emoji": "🍽️"
+}

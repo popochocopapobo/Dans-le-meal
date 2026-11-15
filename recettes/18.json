@@ -1,0 +1,78 @@
+{
+  "id": 18,
+  "name": "Rougail saucisse",
+  "source": "https://www.marmiton.org/recettes/recette_rougail-saucisse_22851.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200219/107902_w225h225c1cx4330cy2886cxt0cyt0cxb8660cyb5773.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 431,
+  "time": 40,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 92,
+  "health": 62,
+  "p": 25,
+  "c": 13,
+  "f": 35,
+  "b": 4,
+  "kcal": 475,
+  "ing": [
+    {
+      "n": "saucisse fumée",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "tomate",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "oignon",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 1.5,
+      "u": "gousse"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "curcuma",
+      "q": 0.25,
+      "u": "c. à café"
+    },
+    {
+      "n": "thym",
+      "q": 1.0,
+      "u": "g"
+    },
+    {
+      "n": "laurier",
+      "q": 0.25,
+      "u": "feuille"
+    },
+    {
+      "n": "piment",
+      "q": 0.25,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Émincer les oignons, l’ail et les tomates.",
+    "Blanchir les saucisses fumées si nécessaire, puis les couper en rondelles.",
+    "Faire revenir les rondelles dans une cocotte huilée.",
+    "Incorporer les oignons, l’ail et les épices, puis les tomates.",
+    "Laisser mijoter à couvert jusqu’à ce que la sauce soit réduite et les saucisses bien cuites.",
+    "Retirer le laurier et servir, par exemple avec du riz préparé séparément."
+  ],
+  "emoji": "🍽️"
+}

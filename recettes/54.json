@@ -1,0 +1,52 @@
+{
+  "id": 54,
+  "name": "Poêlée de courgettes aux lardons",
+  "source": "https://www.marmiton.org/recettes/recette_poelee-de-courgette_25061.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140806/55157_w640cx1224cy1632.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 37,
+  "time": 30,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": true,
+  "taste": 84,
+  "health": 75,
+  "p": 15,
+  "c": 11,
+  "f": 19,
+  "b": 4,
+  "kcal": 283,
+  "ing": [
+    {
+      "n": "courgette",
+      "q": 250.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "muscade",
+      "q": 0.5,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Couper les courgettes lavées en dés réguliers.",
+    "Saisir les lardons dans une poêle bien chaude.",
+    "Ajouter les courgettes et remuer pendant cinq minutes pour les colorer.",
+    "Couvrir et poursuivre la cuisson à feu doux, environ quinze minutes; ajouter un filet d’eau au besoin.",
+    "Lorsque les légumes sont tendres, ajouter crème et muscade puis mélanger et servir."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 17,
+  "name": "Filet mignon de porc à la moutarde",
+  "source": "https://www.marmiton.org/recettes/recette_filet-mignon-de-porc-a-la-moutarde_36310.aspx",
+  "image": "https://assets.afcdn.com/recipe/20171004/72705_w225h225c1cx2000cy3000cxt0cyt0cxb4000cyb6000.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.9,
+  "reviews": 361,
+  "time": 65,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 92,
+  "health": 66,
+  "p": 36,
+  "c": 8,
+  "f": 35,
+  "b": 3,
+  "kcal": 497,
+  "ing": [
+    {
+      "n": "filet mignon de porc",
+      "q": 162.5,
+      "u": "g"
+    },
+    {
+      "n": "champignons",
+      "q": 125.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 100.0,
+      "u": "ml"
+    },
+    {
+      "n": "vin blanc",
+      "q": 62.5,
+      "u": "ml"
+    },
+    {
+      "n": "moutarde",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "bouillon de légumes",
+      "q": 0.25,
+      "u": "cube"
+    },
+    {
+      "n": "beurre",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Tailler le filet en médaillons et égoutter les champignons.",
+    "Saisir les morceaux dans l’huile et le beurre puis les réserver.",
+    "Déglacer la cocotte avec le vin et incorporer le bouillon.",
+    "Ajouter la crème, la moutarde et les champignons, mélanger.",
+    "Remettre la viande et laisser cuire doucement jusqu’à tendreté; contrôler la cuisson à cœur.",
+    "Faire épaissir la sauce à découvert si nécessaire et servir."
+  ],
+  "emoji": "🍽️"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 63,
+  "name": "Salade haricots rouges, feta et maïs",
+  "source": "https://www.marmiton.org/recettes/recette_salade-originale-de-haricots-rouges_167562.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230117/139543_w640cx1059cy707cxt0cyt0cxb2119cyb1414.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5,
+  "reviews": 4,
+  "time": 10,
+  "tools": [],
+  "veg": true,
+  "side": false,
+  "taste": 80,
+  "health": 91,
+  "p": 20,
+  "c": 43,
+  "f": 19,
+  "b": 12,
+  "kcal": 423,
+  "ing": [
+    {
+      "n": "haricots rouges",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "tomate",
+      "q": 1,
+      "u": "pièce"
+    },
+    {
+      "n": "feta",
+      "q": 40,
+      "u": "g"
+    },
+    {
+      "n": "maïs",
+      "q": 50,
+      "u": "g"
+    },
+    {
+      "n": "oignon rouge",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 10,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Rincer les haricots et le maïs en conserve puis les laisser égoutter.",
+    "Laver la tomate, la tailler en dés et émincer l’oignon rouge.",
+    "Émietter ou découper la feta en petits morceaux.",
+    "Réunir légumes et haricots dans un saladier.",
+    "Assaisonner avec l’huile, du poivre et peu de sel; mélanger délicatement.",
+    "Servir frais immédiatement ou garder couvert au réfrigérateur."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

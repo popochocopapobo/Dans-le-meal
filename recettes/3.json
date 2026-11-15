@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "name": "Tartiflette : la vraie recette",
+  "source": "https://www.marmiton.org/recettes/recette_la-vraie-tartiflette_17634.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160401/38946_w150h150c1cx2690cy1793.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 744,
+  "time": 75,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 99,
+  "health": 42,
+  "p": 32,
+  "c": 48,
+  "f": 45,
+  "b": 5,
+  "kcal": 735,
+  "ing": [
+    {
+      "n": "pommes de terre",
+      "q": 250.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "reblochon",
+      "q": 112.5,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.5,
+      "u": "ml"
+    },
+    {
+      "n": "ail",
+      "q": 0.25,
+      "u": "gousse"
+    }
+  ],
+  "steps": [
+    "Peler les pommes de terre, les couper en cubes et les sécher.",
+    "Faire revenir les oignons dans l’huile puis ajouter les pommes de terre.",
+    "Remuer régulièrement jusqu’à ce que les cubes soient dorés et presque tendres.",
+    "Ajouter les lardons, laisser colorer et frotter le plat avec l’ail.",
+    "Répartir la garniture dans le plat et couvrir de reblochon coupé dans l’épaisseur.",
+    "Gratiner à 200 °C jusqu’à fonte du fromage et servir chaud."
+  ],
+  "emoji": "🍽️"
+}

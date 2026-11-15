@@ -1,0 +1,67 @@
+{
+  "id": 35,
+  "name": "Salade de pâtes, thon, tomates et avocat",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-pates-au-thon-tomates-et-avocat_225273.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170326/50160_w640cx545cy360.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5.0,
+  "reviews": 6,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 84,
+  "health": 88,
+  "p": 35,
+  "c": 72,
+  "f": 22,
+  "b": 9,
+  "kcal": 644,
+  "ing": [
+    {
+      "n": "pâtes",
+      "q": 80.0,
+      "u": "g"
+    },
+    {
+      "n": "thon au naturel",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "tomate",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "avocat",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "vinaigre balsamique",
+      "q": 10.0,
+      "u": "ml"
+    },
+    {
+      "n": "origan",
+      "q": 1.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Cuire les pâtes selon le temps indiqué sur le paquet.",
+    "Égoutter, refroidir brièvement sous l’eau froide et bien laisser s’écouler l’eau.",
+    "Couper la tomate et l’avocat en dés, émietter le thon égoutté.",
+    "Mélanger l’huile, le vinaigre, l’origan et le poivre dans le saladier.",
+    "Ajouter les pâtes et les garnitures, mélanger délicatement et servir frais."
+  ],
+  "emoji": "🍽️"
+}

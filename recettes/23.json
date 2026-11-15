@@ -1,0 +1,74 @@
+{
+  "id": 23,
+  "name": "Salade grecque très rapide",
+  "source": "https://www.marmiton.org/recettes/recette_salade-grecque-tres-rapide_72972.aspx",
+  "image": "https://assets.afcdn.com/recipe/20160726/25246_w640cx1500cy998.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 9,
+  "time": 15,
+  "tools": [],
+  "veg": true,
+  "side": true,
+  "taste": 79,
+  "health": 88,
+  "p": 10,
+  "c": 12,
+  "f": 21,
+  "b": 5,
+  "kcal": 287,
+  "ing": [
+    {
+      "n": "tomate",
+      "q": 0.75,
+      "u": "pièce"
+    },
+    {
+      "n": "poivron vert",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "poivron rouge",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "concombre",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "feta",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "olives noires",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.5,
+      "u": "ml"
+    },
+    {
+      "n": "citron",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "basilic",
+      "q": 2.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Rincer les légumes et retirer les pépins des poivrons.",
+    "Découper les poivrons et les tomates puis tailler le concombre en dés.",
+    "Ajouter les olives et la feta émiettée.",
+    "Assaisonner avec huile, citron et basilic; servir frais."
+  ],
+  "emoji": "🍽️"
+}

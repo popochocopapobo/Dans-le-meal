@@ -1,0 +1,78 @@
+{
+  "id": 43,
+  "name": "Gnocchis au poulet et aux champignons",
+  "source": "https://www.marmiton.org/recettes/recette_gnocchis-au-poulet-et-champignons_312746.aspx",
+  "image": "https://assets.afcdn.com/recipe/20131120/33545_w640cx908cy960.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5.0,
+  "reviews": 6,
+  "time": 40,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 92,
+  "health": 68,
+  "p": 37,
+  "c": 60,
+  "f": 23,
+  "b": 5,
+  "kcal": 605,
+  "ing": [
+    {
+      "n": "gnocchi",
+      "q": 180.0,
+      "u": "g"
+    },
+    {
+      "n": "poulet",
+      "q": 120.0,
+      "u": "g"
+    },
+    {
+      "n": "champignons de Paris",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "carotte",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "tomate",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "curry",
+      "q": 1.0,
+      "u": "g"
+    },
+    {
+      "n": "herbes de Provence",
+      "q": 1.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Nettoyer les légumes, émincer les champignons et couper la carotte et la tomate très finement.",
+    "Détailler le poulet en dés sur une planche séparée.",
+    "Faire sauter la carotte et les champignons dans le beurre, puis ajouter le poulet et cuire jusqu’à 74 °C à cœur.",
+    "Cuire parallèlement les gnocchis à l’eau selon le paquet.",
+    "Ajouter la tomate, le curry, les herbes et la crème au poulet; laisser épaissir.",
+    "Mélanger avec les gnocchis égouttés et servir chaud."
+  ],
+  "emoji": "🍽️"
+}

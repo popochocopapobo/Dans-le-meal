@@ -1,0 +1,47 @@
+{
+  "id": 41,
+  "name": "Gnocchis à la crème et aux lardons",
+  "source": "https://www.marmiton.org/recettes/recette_gnocchi-a-la-creme-fraiche-et-aux-lardons_84530.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140516/37456_w640cx1824cy1368.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.7,
+  "reviews": 15,
+  "time": 10,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 94,
+  "health": 43,
+  "p": 21,
+  "c": 68,
+  "f": 35,
+  "b": 3,
+  "kcal": 677,
+  "ing": [
+    {
+      "n": "gnocchi",
+      "q": 200.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 60.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Chauffer de l’eau dans une casserole.",
+    "Faire dorer les lardons dans une poêle pendant ce temps, puis retirer l’excédent de gras si nécessaire.",
+    "Plonger les gnocchis dans l’eau et les égoutter selon les indications du paquet.",
+    "Ajouter les gnocchis aux lardons et les faire sauter une minute.",
+    "Verser la crème, poivrer, chauffer doucement et servir."
+  ],
+  "emoji": "🍽️"
+}

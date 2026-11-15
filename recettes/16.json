@@ -1,0 +1,98 @@
+{
+  "id": 16,
+  "name": "Couscous poulet et merguez facile",
+  "source": "https://www.marmiton.org/recettes/recette_couscous-poulet-et-merguez-facile_17751.aspx",
+  "image": "https://assets.afcdn.com/recipe/20250304/158700_w225h225c1cx2592cy1728cxt0cyt0cxb5184cyb3456.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 618,
+  "time": 65,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 93,
+  "health": 78,
+  "p": 39,
+  "c": 79,
+  "f": 29,
+  "b": 13,
+  "kcal": 759,
+  "ing": [
+    {
+      "n": "pilon de poulet",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "merguez",
+      "q": 1.5,
+      "u": "pièce"
+    },
+    {
+      "n": "pois chiches",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "carotte",
+      "q": 0.625,
+      "u": "pièce"
+    },
+    {
+      "n": "tomate",
+      "q": 0.375,
+      "u": "pièce"
+    },
+    {
+      "n": "courgette",
+      "q": 0.25,
+      "u": "pièce"
+    },
+    {
+      "n": "navet",
+      "q": 1.25,
+      "u": "pièce"
+    },
+    {
+      "n": "concentré de tomates",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "bouillon de bœuf",
+      "q": 0.25,
+      "u": "cube"
+    },
+    {
+      "n": "harissa",
+      "q": 0.125,
+      "u": "c. à café"
+    },
+    {
+      "n": "épices à couscous",
+      "q": 0.375,
+      "u": "c. à soupe"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "semoule",
+      "q": 75.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Couper en morceaux les carottes, navets, tomates et courgettes.",
+    "Faire dorer le poulet dans une grande cocotte avec l’huile.",
+    "Ajouter les légumes, le concentré, le bouillon reconstitué et les épices. Cuire à couvert jusqu’à tendreté.",
+    "Incorporer les pois chiches en fin de cuisson et contrôler la cuisson du poulet à 74 °C.",
+    "Griller les merguez séparément et préparer la semoule selon son emballage.",
+    "Dresser la semoule, ajouter viandes, légumes et bouillon; ajuster avec la harissa."
+  ],
+  "emoji": "🍽️"
+}

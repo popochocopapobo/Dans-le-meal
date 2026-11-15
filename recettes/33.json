@@ -1,0 +1,57 @@
+{
+  "id": 33,
+  "name": "Salade chèvre et poires caramélisées",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-chevre-et-poires-caramelisees_32665.aspx",
+  "image": "https://assets.afcdn.com/recipe/20140814/26647_w640cx900cy1350.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 36,
+  "time": 10,
+  "tools": [
+    "plaques",
+    "four"
+  ],
+  "veg": true,
+  "side": true,
+  "taste": 89,
+  "health": 73,
+  "p": 14,
+  "c": 24,
+  "f": 20,
+  "b": 5,
+  "kcal": 342,
+  "ing": [
+    {
+      "n": "crottin de chèvre",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "poire",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "salade",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "miel",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 5.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Laver et essorer la salade, couper la poire en lamelles.",
+    "Faire chauffer le gril du four et y placer le chèvre sous surveillance.",
+    "Saisir les lamelles de poire au beurre puis ajouter le miel pour les napper.",
+    "Disposer la salade, les poires et le chèvre chaud dans une assiette."
+  ],
+  "emoji": "🍽️"
+}

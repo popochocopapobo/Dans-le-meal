@@ -1,0 +1,62 @@
+{
+  "id": 40,
+  "name": "Bagel saumon fumé et roquette",
+  "source": "https://www.marmiton.org/recettes/recette_bagel-saumon-fume-roquette_340408.aspx",
+  "image": "https://assets.afcdn.com/recipe/20151004/59223_w640cx600cy398.webp",
+  "kind": "Photo Marmiton",
+  "rating": 5.0,
+  "reviews": 4,
+  "time": 12,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 86,
+  "health": 75,
+  "p": 25,
+  "c": 51,
+  "f": 17,
+  "b": 4,
+  "kcal": 465,
+  "ing": [
+    {
+      "n": "bagel",
+      "q": 1.0,
+      "u": "pièce"
+    },
+    {
+      "n": "saumon fumé",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "échalote",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "roquette",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "aneth",
+      "q": 2.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Laver et sécher la roquette, émincer finement l’échalote.",
+    "Ouvrir le bagel et dorer les faces coupées deux minutes à la poêle sèche.",
+    "Répartir la crème et l’aneth sur le pain.",
+    "Déposer le saumon fumé, l’échalote et la roquette.",
+    "Refermer et déguster encore tiède."
+  ],
+  "emoji": "🍽️"
+}

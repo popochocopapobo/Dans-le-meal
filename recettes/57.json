@@ -1,0 +1,59 @@
+{
+  "id": 57,
+  "name": "Poulet miel et citron",
+  "source": "https://www.marmiton.org/recettes/recette_blancs-de-poulet-au-miel-et-au-citron_59433.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170912/71971_w640cxt0cyt0cxb747cyb744.webp",
+  "kind": "Photo Marmiton",
+  "rating": 3.9,
+  "reviews": 23,
+  "time": 15,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 85,
+  "health": 78,
+  "p": 34,
+  "c": 12,
+  "f": 10,
+  "b": 1,
+  "kcal": 274,
+  "ing": [
+    {
+      "n": "poulet",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "miel",
+      "q": 10,
+      "u": "g"
+    },
+    {
+      "n": "échalote",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "citron",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Peler et émincer finement l’échalote; presser le citron.",
+    "Couper le poulet en fines lanières pour accélérer la cuisson.",
+    "Faire chauffer l’huile et attendrir l’échalote deux minutes.",
+    "Ajouter le poulet et le retourner régulièrement jusqu’à 74 °C à cœur.",
+    "Incorporer le citron et le miel, puis laisser réduire brièvement en enrobant les morceaux.",
+    "Servir chaud, avec du riz si souhaité (non compté dans les macros)."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

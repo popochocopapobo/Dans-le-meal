@@ -1,0 +1,57 @@
+{
+  "id": 37,
+  "name": "Crevettes au curry express",
+  "source": "https://www.marmiton.org/recettes/recette_crevettes-au-curry-express_12645.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150225/32437_w150h150c1cx1250cy1747.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 468,
+  "time": 15,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 89,
+  "health": 82,
+  "p": 34,
+  "c": 59,
+  "f": 13,
+  "b": 2,
+  "kcal": 493,
+  "ing": [
+    {
+      "n": "crevettes décortiquées",
+      "q": 150.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 30.0,
+      "u": "g"
+    },
+    {
+      "n": "curry",
+      "q": 2.0,
+      "u": "g"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "riz",
+      "q": 75.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Mettre le riz à cuire dans de l’eau salée selon son emballage.",
+    "Éponger les crevettes décongelées ou fraîches.",
+    "Chauffer l’huile et les faire sauter avec le curry; si elles sont crues, attendre qu’elles deviennent opaques.",
+    "Baisser le feu, ajouter la crème et laisser napper les crevettes sans les dessécher.",
+    "Égoutter le riz et servir avec les crevettes et leur sauce."
+  ],
+  "emoji": "🍽️"
+}

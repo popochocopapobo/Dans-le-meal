@@ -1,0 +1,64 @@
+{
+  "id": 66,
+  "name": "Tofu mariné à la moutarde et au soja",
+  "source": "https://www.marmiton.org/recettes/recette_tofu-marine_32904.aspx",
+  "image": "https://assets.afcdn.com/recipe/20150831/931_w640cx2808cy1872.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 47,
+  "time": 80,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": true,
+  "taste": 82,
+  "health": 87,
+  "p": 23,
+  "c": 5,
+  "f": 20,
+  "b": 3,
+  "kcal": 292,
+  "ing": [
+    {
+      "n": "tofu",
+      "q": 150,
+      "u": "g"
+    },
+    {
+      "n": "sauce soja",
+      "q": 15,
+      "u": "ml"
+    },
+    {
+      "n": "moutarde",
+      "q": 5,
+      "u": "g"
+    },
+    {
+      "n": "ail",
+      "q": 1,
+      "u": "gousse"
+    },
+    {
+      "n": "herbes de Provence",
+      "q": 1,
+      "u": "g"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 7.5,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Prévoir une heure de marinade en plus du temps de préparation et de cuisson.",
+    "Éponger le tofu puis le couper en dés réguliers.",
+    "Mélanger sauce soja, moutarde, ail haché, huile et herbes.",
+    "Enrober les dés et réserver une heure au réfrigérateur.",
+    "Faire dorer le tofu environ dix minutes à la poêle, en retournant les dés.",
+    "Servir avec des légumes ou un féculent (non inclus dans les valeurs)."
+  ],
+  "emoji": "🍽️",
+  "rating_date": "Consulté le 15/11/2026"
+}

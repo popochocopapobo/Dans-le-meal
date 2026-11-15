@@ -1,0 +1,68 @@
+{
+  "id": 9,
+  "name": "Croque-monsieur",
+  "source": "https://www.marmiton.org/recettes/recette_croque-monsieur_19208.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170112/28965_w225h225c1cx1500cy1000.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 107,
+  "time": 15,
+  "tools": [
+    "four"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 95,
+  "health": 47,
+  "p": 27,
+  "c": 35,
+  "f": 30,
+  "b": 2,
+  "kcal": 522,
+  "ing": [
+    {
+      "n": "pain de mie",
+      "q": 2.0,
+      "u": "tranche"
+    },
+    {
+      "n": "jambon",
+      "q": 1.0,
+      "u": "tranche"
+    },
+    {
+      "n": "fromage en tranches",
+      "q": 2.0,
+      "u": "tranche"
+    },
+    {
+      "n": "beurre",
+      "q": 12.5,
+      "u": "g"
+    },
+    {
+      "n": "gruyère râpé",
+      "q": 25.0,
+      "u": "g"
+    },
+    {
+      "n": "lait",
+      "q": 15.0,
+      "u": "ml"
+    },
+    {
+      "n": "muscade",
+      "q": 0.25,
+      "u": "pincée"
+    }
+  ],
+  "steps": [
+    "Allumer le gril du four.",
+    "Tartiner un côté des tranches de pain avec le beurre.",
+    "Intercaler jambon et fromage entre deux tranches.",
+    "Mélanger le gruyère avec le lait et la muscade.",
+    "Répartir ce mélange sur le dessus de chaque sandwich.",
+    "Faire gratiner sous surveillance jusqu’à coloration et fromage fondu."
+  ],
+  "emoji": "🍽️"
+}

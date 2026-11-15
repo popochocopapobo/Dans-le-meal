@@ -1,0 +1,74 @@
+{
+  "id": 11,
+  "name": "Soupe de lentilles corail, carottes et coco",
+  "source": "https://www.marmiton.org/recettes/recette_soupe-de-lentille-corail-aux-carottes-et-lait-de-coco_336353.aspx",
+  "image": "https://assets.afcdn.com/recipe/20200709/112654_w225h225c1cx1920cy2880cxt0cyt0cxb3840cyb5760.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 34,
+  "time": 40,
+  "tools": [
+    "plaques",
+    "mixeur"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 80,
+  "health": 88,
+  "p": 10,
+  "c": 30,
+  "f": 13,
+  "b": 7,
+  "kcal": 291,
+  "ing": [
+    {
+      "n": "lentilles corail",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "carotte",
+      "q": 0.67,
+      "u": "pièce"
+    },
+    {
+      "n": "oignon",
+      "q": 0.33,
+      "u": "pièce"
+    },
+    {
+      "n": "ail",
+      "q": 0.67,
+      "u": "gousse"
+    },
+    {
+      "n": "lait de coco",
+      "q": 67.0,
+      "u": "ml"
+    },
+    {
+      "n": "huile d’olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "curry",
+      "q": 0.33,
+      "u": "c. à soupe"
+    },
+    {
+      "n": "coriandre",
+      "q": 0.33,
+      "u": "c. à café"
+    }
+  ],
+  "steps": [
+    "Rincer les lentilles et couper les carottes en rondelles.",
+    "Faire revenir l’oignon et l’ail avec l’huile et les épices.",
+    "Ajouter les carottes, les lentilles et environ 330 ml d’eau par portion.",
+    "Cuire à petit bouillon vingt minutes jusqu’à ce que les légumes soient tendres.",
+    "Verser le lait de coco et mixer prudemment jusqu’à la texture souhaitée.",
+    "Réchauffer sans faire bouillir fortement et rectifier l’assaisonnement."
+  ],
+  "emoji": "🍽️"
+}

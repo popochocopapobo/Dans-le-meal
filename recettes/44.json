@@ -1,0 +1,52 @@
+{
+  "id": 44,
+  "name": "Quesadillas aux poireaux",
+  "source": "https://www.marmiton.org/recettes/recette_quesadillas-aux-poireaux-wraps-chauds_72750.aspx",
+  "image": "https://assets.afcdn.com/recipe/20100120/22839_w640cx256cy179.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.4,
+  "reviews": 14,
+  "time": 20,
+  "tools": [
+    "plaques"
+  ],
+  "veg": true,
+  "side": false,
+  "taste": 87,
+  "health": 73,
+  "p": 19,
+  "c": 57,
+  "f": 22,
+  "b": 7,
+  "kcal": 516,
+  "ing": [
+    {
+      "n": "tortilla",
+      "q": 2.0,
+      "u": "pièce"
+    },
+    {
+      "n": "poireau",
+      "q": 180.0,
+      "u": "g"
+    },
+    {
+      "n": "emmental",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 8.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Fendre et rincer les poireaux pour retirer toute trace de terre.",
+    "Émincer très finement et faire fondre dans le beurre à feu moyen, couvrir quelques minutes si nécessaire.",
+    "Incorporer le fromage râpé aux poireaux devenus tendres.",
+    "Répartir la garniture sur une moitié de chaque tortilla et rabattre.",
+    "Dorer les quesadillas dans une poêle sèche sur les deux faces en pressant légèrement. Couper en triangles."
+  ],
+  "emoji": "🍽️"
+}

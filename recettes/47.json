@@ -1,0 +1,62 @@
+{
+  "id": 47,
+  "name": "Pâtes à la crème de parmesan et jambon",
+  "source": "https://www.marmiton.org/recettes/recette_pates-a-la-creme-de-parmesan-et-jambon_27928.aspx",
+  "image": "https://assets.afcdn.com/recipe/20170223/19236_w640cx360cy560.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 13,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 93,
+  "health": 49,
+  "p": 28,
+  "c": 76,
+  "f": 33,
+  "b": 4,
+  "kcal": 721,
+  "ing": [
+    {
+      "n": "pâtes",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "jambon",
+      "q": 50.0,
+      "u": "g"
+    },
+    {
+      "n": "parmesan",
+      "q": 20.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 60.0,
+      "u": "g"
+    },
+    {
+      "n": "beurre",
+      "q": 8.0,
+      "u": "g"
+    },
+    {
+      "n": "oignon",
+      "q": 0.25,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Cuire les pâtes al dente dans un grand volume d’eau.",
+    "Hacher l’oignon et découper le jambon en fines bandes.",
+    "Faire fondre le beurre et y faire revenir l’oignon avec le jambon.",
+    "Incorporer la crème et le parmesan à feu doux jusqu’à obtenir une sauce lisse.",
+    "Égoutter les pâtes en gardant un peu d’eau de cuisson; les mélanger à la sauce et rectifier la texture. Servir chaud."
+  ],
+  "emoji": "🍽️"
+}

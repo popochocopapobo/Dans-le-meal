@@ -1,0 +1,58 @@
+{
+  "id": 0,
+  "name": "Spaghettis carbonara très simples",
+  "source": "https://www.marmiton.org/recettes/recette_spaghetti-carbonara-tres-simples_171430.aspx",
+  "image": "https://assets.afcdn.com/recipe/20171019/73353_w640cx2880cy1920cxt0cyt0cxb5760cyb3840.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.5,
+  "reviews": 35,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 96,
+  "health": 48,
+  "p": 29,
+  "c": 49,
+  "f": 38,
+  "b": 2,
+  "kcal": 658,
+  "ing": [
+    {
+      "n": "spaghetti",
+      "q": 83.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 100.0,
+      "u": "g"
+    },
+    {
+      "n": "crème fraîche",
+      "q": 100.0,
+      "u": "ml"
+    },
+    {
+      "n": "parmesan",
+      "q": 13.0,
+      "u": "g"
+    },
+    {
+      "n": "jaune d’œuf",
+      "q": 0.33,
+      "u": "pièce"
+    }
+  ],
+  "steps": [
+    "Mettre une grande casserole d’eau à chauffer.",
+    "Faire rissoler les lardons dans une poêle, sans huile supplémentaire.",
+    "Mélanger la crème avec le parmesan et le jaune dans un bol.",
+    "Cuire les spaghetti selon le paquet et conserver un peu d’eau de cuisson.",
+    "Verser les pâtes dans la poêle, incorporer la sauce et mélanger à feu très doux jusqu’à ce qu’elle soit chaude et crémeuse.",
+    "Poivrer et servir aussitôt. Pour une personne fragile, cuire le jaune complètement."
+  ],
+  "emoji": "🍽️"
+}

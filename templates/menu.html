@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="#173e30" name="theme-color"/>
+  <title>
+   Menu · À table !
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="data.js">
+  </script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body data-root="" data-standalone="false">
+  <header>
+   <a class="brand" href="index.html">
+    <span>
+     À table
+     <span class="dot">
+      .
+     </span>
+    </span>
+    <small>
+     La cuisine à ton rythme.
+    </small>
+   </a>
+   <a class="header-link" href="cuisine.html">
+    ⚙ Ma cuisine
+   </a>
+  </header>
+  <main>
+   <section class="view" id="menu">
+    <div class="page-title">
+     <p class="eyebrow">
+      PLANIFIER
+     </p>
+     <h1>
+      Mon menu
+     </h1>
+     <p>
+      Choisis tes plats ou laisse le hasard composer tes repas.
+     </p>
+    </div>
+    <section class="panel">
+     <h2>
+      Créer un menu aléatoire
+     </h2>
+     <div class="filter-row">
+      <label>
+       Nombre de plats
+       <input id="random-count" max="{{COUNT}}" min="1" type="number" value="5"/>
+      </label>
+      <label>
+       Personnes par plat
+       <input id="random-people" max="30" min="1" type="number" value="2"/>
+      </label>
+      <label>
+       Préférence
+       <select id="random-style">
+        <option value="all">
+         Tout
+        </option>
+        <option value="veg">
+         Végétarien*
+        </option>
+        <option value="balanced">
+         Équilibré
+        </option>
+        <option value="quick">
+         Rapide · 25 min max
+        </option>
+        <option value="gourmet">
+         Gourmand
+        </option>
+        <option value="express">
+         Express · 15 min max
+        </option>
+        <option value="nocook">
+         Sans cuisson
+        </option>
+       </select>
+      </label>
+     </div>
+     <label class="checkline">
+      <input id="random-sides" type="checkbox"/>
+      Inclure les accompagnements seuls
+     </label>
+     <button class="primary" id="random-btn">
+      ↻ Générer mon menu
+     </button>
+     <p class="muted" id="random-message">
+      Le tirage tient compte de tes appareils.
+     </p>
+    </section>
+    <div class="section-heading">
+     <h2>
+      Mes plats
+     </h2>
+     <span id="menu-summary">
+      0 plat
+     </span>
+    </div>
+    <div id="menu-items">
+     <p>
+      Active JavaScript pour utiliser le menu.
+     </p>
+    </div>
+    <div id="menu-total">
+    </div>
+    <div class="actions-row">
+     <a class="secondary" data-link="recipes" href="index.html">
+      ＋ Choisir une recette
+     </a>
+     <a class="primary" data-link="shopping" href="courses.html">
+      Faire les courses →
+     </a>
+     <button class="secondary" id="clear-menu">
+      Vider
+     </button>
+    </div>
+   </section>
+  </main>
+  <nav aria-label="Navigation principale">
+   <a class="" data-nav="recipes" href="index.html">
+    <span aria-hidden="true">
+     ⌂
+    </span>
+    Recettes
+   </a>
+   <a class="active" data-nav="menu" href="menu.html">
+    <span aria-hidden="true">
+     ▤
+    </span>
+    Menu
+    <b id="menu-count">
+    </b>
+   </a>
+   <a class="" data-nav="shopping" href="courses.html">
+    <span aria-hidden="true">
+     ✓
+    </span>
+    Courses
+   </a>
+   <a class="" data-nav="kitchen" href="cuisine.html">
+    <span aria-hidden="true">
+     ⚙
+    </span>
+    Cuisine
+   </a>
+  </nav>
+  <div aria-live="polite" id="toast" role="status">
+  </div>
+  <noscript>
+   <p class="noscript">
+    Le catalogue et les fiches sont disponibles. Active JavaScript dans un navigateur pour les portions, menus, courses et favoris.
+   </p>
+  </noscript>
+ </body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "id": 49,
+  "name": "Salade de lentilles au cantal",
+  "source": "https://www.marmiton.org/recettes/recette_salade-de-lentilles-au-cantal_71698.aspx",
+  "image": "https://assets.afcdn.com/recipe/20100528/1531_w640cx256cy192.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.8,
+  "reviews": 23,
+  "time": 25,
+  "tools": [
+    "plaques"
+  ],
+  "veg": false,
+  "side": false,
+  "taste": 87,
+  "health": 82,
+  "p": 28,
+  "c": 32,
+  "f": 30,
+  "b": 13,
+  "kcal": 536,
+  "ing": [
+    {
+      "n": "lentilles vertes cuites",
+      "q": 180.0,
+      "u": "g"
+    },
+    {
+      "n": "cantal",
+      "q": 40.0,
+      "u": "g"
+    },
+    {
+      "n": "lardons",
+      "q": 35.0,
+      "u": "g"
+    },
+    {
+      "n": "noix",
+      "q": 15.0,
+      "u": "g"
+    },
+    {
+      "n": "échalote",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "huile d'olive",
+      "q": 5.0,
+      "u": "ml"
+    },
+    {
+      "n": "moutarde",
+      "q": 5.0,
+      "u": "g"
+    },
+    {
+      "n": "vinaigre",
+      "q": 10.0,
+      "u": "ml"
+    }
+  ],
+  "steps": [
+    "Utiliser des lentilles déjà cuites, les rincer et les égoutter; si elles sont sèches, prévoir leur cuisson en plus.",
+    "Faire dorer les lardons et les laisser tiédir.",
+    "Couper le cantal en dés et hacher grossièrement les noix.",
+    "Battre la moutarde avec l’huile, le vinaigre et l’échalote finement ciselée.",
+    "Réunir tous les ingrédients et mélanger avec la vinaigrette."
+  ],
+  "emoji": "🍽️"
+}

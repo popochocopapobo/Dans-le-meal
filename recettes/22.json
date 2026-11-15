@@ -1,0 +1,44 @@
+{
+  "id": 22,
+  "name": "Avocats au thon facile",
+  "source": "https://www.marmiton.org/recettes/recette_avocats-au-thon_14658.aspx",
+  "image": "https://assets.afcdn.com/recipe/20230621/143724_w150h150c1cx960cy540cxt0cyt0cxb1920cyb1080.webp",
+  "kind": "Photo Marmiton",
+  "rating": 4.6,
+  "reviews": 79,
+  "time": 10,
+  "tools": [],
+  "veg": false,
+  "side": true,
+  "taste": 83,
+  "health": 73,
+  "p": 19,
+  "c": 5,
+  "f": 28,
+  "b": 7,
+  "kcal": 362,
+  "ing": [
+    {
+      "n": "avocat",
+      "q": 0.5,
+      "u": "pièce"
+    },
+    {
+      "n": "thon au naturel",
+      "q": 70.0,
+      "u": "g"
+    },
+    {
+      "n": "mayonnaise",
+      "q": 15.0,
+      "u": "g"
+    }
+  ],
+  "steps": [
+    "Ouvrir l’avocat et retirer le noyau.",
+    "Prélever la chair sans abîmer la peau et la couper en dés.",
+    "Égoutter le poisson puis le mélanger à la mayonnaise et à l’avocat.",
+    "Répartir dans les coques et déguster frais."
+  ],
+  "emoji": "🍽️"
+}
