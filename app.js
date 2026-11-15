@@ -26,8 +26,29 @@ let filter = 'all';
 // Le filtre est réactivé à chaque arrivée sur un catalogue.
 let showUnavailable = false;
 const category = r => r.category || 'savory';
-const catalogCategory = document.body.dataset.category || 'savory';
-const catalogRecipes = RECIPES.filter(r=>category(r)===catalogCategory);
+let catalogCategory = document.body.dataset.category || 'savory';
+let catalogRecipes = RECIPES.filter(r=>category(r)===catalogCategory);
+function selectCategory(cat, updateURL=false) {
+  if (!$('catalog') || !['sweet','savory'].includes(cat)) return;
+  catalogCategory=cat;
+  catalogRecipes=RECIPES.filter(r=>category(r)===cat);
+  document.body.dataset.category=cat;
+  $$('[data-catalog-category]').forEach(a=>{
+    const active=a.dataset.catalogCategory===cat;
+    a.classList.toggle('active',active);
+    if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
+  });
+  if($('catalog-heading'))$('catalog-heading').textContent=cat==='sweet'?'Pause sucrée':'On mange quoi aujourd’hui ?';
+  if($('catalog-intro'))$('catalog-intro').textContent=cat==='sweet'?'Desserts, goûters et petits déjeuners.':'Des recettes salées adaptées à ta cuisine.';
+  document.title=(cat==='sweet'?'Sucré':'Salé')+' · À table !';
+  filter='all';showUnavailable=false;
+  $('search').value='';$('duration').value='1440';
+  if(updateURL){
+    try { const url=new URL(location.href);url.searchParams.set('category',cat);history.pushState(null,'',url); } catch(e) { /* Les onglets restent utilisables dans un aperçu local. */ }
+  }
+  filterCatalog();
+}
+function initialCategory(){const query=new URLSearchParams(location.search).get('category');return ['sweet','savory'].includes(query)?query:(location.pathname.endsWith('/sucre.html')?'sweet':document.body.dataset.initialCategory||'savory');}
 function eligible(r, cat='all'){return compatible(r)&&(cat==='all'||category(r)===cat);}
 function surprisePool(){const available=catalogRecipes.filter(r=>eligible(r,catalogCategory)&&!r.side);const quick=available.filter(r=>r.time<=25);return quick.length?quick:available;}
 let toastTimer;
@@ -71,14 +92,20 @@ function filterCatalog() {
   cards.sort((a,b)=>{const x=BY_ID[+a.dataset.id],y=BY_ID[+b.dataset.id];return sort==='name'?x.name.localeCompare(y.name,'fr'):['time','kcal'].includes(sort)?x[sort]-y[sort]:y[sort]-x[sort];});
   let n=0;
   const needsReorder=cards.some((card,i)=>card!==$('catalog').querySelectorAll('.recipe-card')[i]);
-  cards.forEach(card=>{const r=BY_ID[+card.dataset.id];const ok=matches(r,filter)&&(showUnavailable||compatible(r))&&r.time<=duration&&normalize(r.name+' '+r.ing.map(i=>i.n).join(' ')).includes(q);card.hidden=!ok;if(ok)n++;if(needsReorder)$('catalog').append(card);});
+  cards.forEach(card=>{const r=BY_ID[+card.dataset.id];const ok=category(r)===catalogCategory&&matches(r,filter)&&(showUnavailable||compatible(r))&&r.time<=duration&&normalize(r.name+' '+r.ing.map(i=>i.n).join(' ')).includes(q);card.hidden=!ok;if(ok)n++;if(needsReorder)$('catalog').append(card);});
   $('results').textContent=n+' recette'+(n>1?'s':'');
   $('catalog').classList.toggle('list-mode',state.layout==='list');
   $$('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===state.layout)));
   if($('only-compatible'))$('only-compatible').checked=!showUnavailable;
   $$('[data-shortcut]').forEach(b=>b.classList.toggle('active',b.dataset.shortcut===filter));
   $$('[data-filter]').forEach(b=>{b.classList.toggle('selected',b.dataset.filter===filter);b.setAttribute('aria-pressed',String(b.dataset.filter===filter));});
-  let empty=$('catalog-empty'); if(!empty) { empty=document.createElement('p');empty.className='empty';empty.id='catalog-empty';empty.textContent='Aucune recette ne correspond. Essaie un autre filtre.';$('catalog').append(empty); } empty.hidden=!!n;
+  let empty=$('catalog-empty'); if(!empty) { empty=document.createElement('p');empty.className='empty';empty.id='catalog-empty';$('catalog').append(empty); }
+  empty.replaceChildren();
+  if(!n){
+    const message=document.createElement('span');message.textContent=available.length?'Aucune recette ne correspond. Réinitialise les filtres.':'Aucune recette réalisable avec tes équipements dans cette catégorie.';empty.append(message);
+    if(catalogRecipes.length&&!showUnavailable){const btn=document.createElement('button');btn.type='button';btn.id='show-unavailable';btn.textContent='Consulter toutes les recettes de cette catégorie';empty.append(document.createElement('br'),btn);}
+  }
+  empty.hidden=!!n;
 }
 function adjustDetail(section,p) {
   const r=BY_ID[+section.dataset.detail]; p=clamp(p); lastPortions[r.id]=p;
@@ -158,8 +185,11 @@ function initImages() {
   if('IntersectionObserver' in window){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){o.unobserve(e.target);load(e.target);}}));$$('[data-remote]').forEach(el=>o.observe(el));}else $$('[data-remote]').forEach(load);
 }
 document.addEventListener('click', e=>{
-  const a=e.target.closest('a');if(a&&lastView==='recipes'&&a.getAttribute('href')?.startsWith('#r-'))catalogScroll=window.scrollY;
+  const a=e.target.closest('a');
+  if(a?.dataset.catalogCategory && $('catalog') && $('catalog').querySelector('[data-category="'+a.dataset.catalogCategory+'"]') && !e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();selectCategory(a.dataset.catalogCategory,true);return;}
+  if(a&&lastView==='recipes'&&a.getAttribute('href')?.startsWith('#r-'))catalogScroll=window.scrollY;
   const b=e.target.closest('button');if(!b)return;
+  if(b.id==='show-unavailable'){filter='all';showUnavailable=true;$('search').value='';$('duration').value='1440';filterCatalog();}
   if(b.dataset.shortcut){filter=b.dataset.shortcut; showUnavailable=false; $('duration').value='1440';$('search').value='';$('sort').value='time';filterCatalog();$('searchbox').scrollIntoView({block:'start',behavior:'smooth'});}
   if(b.dataset.layout){state.layout=b.dataset.layout;save();filterCatalog();}
   if(b.id==='reset-filters'){filter='all';showUnavailable=false;$('search').value='';$('duration').value='1440';$('sort').value='rating';save();filterCatalog();}
@@ -193,7 +223,9 @@ document.addEventListener('change',e=>{
 if($('people'))$('people').value=state.people;
 if($('random-people'))$('random-people').value=state.people;
 $$('[data-detail]').forEach(el=>adjustDetail(el,state.people));
-refreshCommon();renderMenu();renderShopping();renderKitchen();filterCatalog();initImages();
+refreshCommon();renderMenu();renderShopping();renderKitchen();
+if($('catalog')){document.body.dataset.initialCategory=document.body.dataset.category||'savory';selectCategory(initialCategory());window.addEventListener('popstate',()=>selectCategory(initialCategory()));}
+initImages();
 if(standalone){document.body.classList.add('js');window.addEventListener('hashchange',showView);showView();}
 if(!storageAvailable)notify('Stockage local indisponible : les données ne seront pas conservées après fermeture.');
 

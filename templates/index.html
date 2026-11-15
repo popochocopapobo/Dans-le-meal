@@ -33,17 +33,17 @@
   <main>
    <section class="view" id="recipes">
     <div class="category-tabs" aria-label="Univers de recettes">
-      <a class="{{SAVORYACTIVE}}" href="index.html"><span>Salé</span><small>{{SAVORY}} recettes</small></a>
-      <a class="{{SWEETACTIVE}}" href="sucre.html"><span>Sucré</span><small>{{SWEET}} recettes</small></a>
+      <a class="{{SAVORYACTIVE}}" data-catalog-category="savory" href="index.html"><span>Salé</span><small>{{SAVORY}} recettes</small></a>
+      <a class="{{SWEETACTIVE}}" data-catalog-category="sweet" href="sucre.html"><span>Sucré</span><small>{{SWEET}} recettes</small></a>
     </div>
     <div class="hero-intro">
      <div class="eyebrow">
       TON CARNET DE RECETTES
      </div>
-     <h1>
+     <h1 id="catalog-heading">
       {{HEADING}}
      </h1>
-     <p>
+     <p id="catalog-intro">
       {{INTRO}}
      </p>
      <div class="hero-actions">

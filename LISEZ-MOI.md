@@ -1,3 +1,7 @@
+# Correctif V10.1 — accès aux recettes sucrées
+
+Sur GitHub, conserver la source de publication « GitHub Actions » (Settings → Pages). Décompresser le correctif et déposer son contenu dans le dépôt, en respectant les dossiers. Les 30 fichiers JSON sucrés 67 à 96 sont fournis à nouveau, sans modification, pour réparer une installation incomplète. Si tu les as personnalisés, conserve tes propres versions. Ne pas effacer les autres recettes. Attendre que le workflow « À table — publication automatique » soit vert, puis actualiser la page. Les deux onglets sont accessibles depuis le même catalogue sans rechargement ; `sucre.html` reste une page autonome de secours. La page peut aussi être ouverte avec `index.html?category=sweet`. Le filtre des équipements est actif par défaut ; décocher « Uniquement réalisables avec ma cuisine » permet de consulter toutes les recettes sans autoriser des ajouts incompatibles. Les préférences restent sur la même clé locale.
+
 # À table ! V10 — Salé et Sucré
 
 97 recettes : 67 salées de la V9 inchangées et 30 sucrées (ID 67 à 96). Le site final reste en HTML/CSS/JS natif. Python intervient uniquement à la génération, jamais sur l'iPhone.

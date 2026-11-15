@@ -1,6 +1,6 @@
 """Construit le site statique depuis recettes/*.json. Python 3, sans dépendances."""
 from pathlib import Path
-import html, json, math, shutil, sys, re
+import html, json, math, shutil, sys, re, hashlib
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
@@ -31,9 +31,9 @@ def rating(r):
 def marks(r):
     return f'<div class="marks"><span class="taste">♥ {r["taste"]}/100 gourmandise</span><span class="health">✦ {r["health"]}/100 nutrition</span></div>'
 def tools(r): return e(' · '.join(r['tools']) or 'Sans cuisson')
-def card(r):
+def card(r, active_category):
     i=r['id']; name=e(r['name']); href=f'recettes/{i}.html'
-    return f'''<article class="recipe-card" data-id="{i}">
+    return f'''<article class="recipe-card" data-id="{i}" data-category="{category(r)}"{" hidden" if category(r)!=active_category else ""}>
   <div class="cover"><a href="{href}">{photo(r)}</a><button class="favorite" data-fav="{i}" aria-label="Ajouter aux favoris">♡</button><span class="duration">{r['time']} min</span></div>
   <div class="card-body"><a class="recipe-title" href="{href}">{name}</a>{rating(r)}{marks(r)}
   <p class="subline">{r['kcal']} kcal · {r['p']} g prot. · {category_label(r)}</p><p class="compat" data-compat="{i}">{tools(r)}</p><button class="add" data-add="{i}">＋ Ajouter au menu</button></div>
@@ -74,12 +74,17 @@ def build():
     recipes.sort(key=lambda r:r['id']); assert recipes,'Catalogue vide'
     if OUT.exists(): shutil.rmtree(OUT)
     (OUT/'recettes').mkdir(parents=True)
-    def write(path,s): (OUT/path).write_text(s,encoding='utf-8')
+    # La même révision de JS, CSS et données est utilisée sur toutes les pages.
+    rev=hashlib.sha256((json.dumps(recipes,sort_keys=True,ensure_ascii=False)+(ROOT/'app.js').read_text()+(ROOT/'style.css').read_text()).encode()).hexdigest()[:12]
+    def write(path,s):
+        if path.endswith('.html'):
+            s=re.sub(r'((?:src|href)="(?:\.\./)?(?:app\.js|data\.js|style\.css))"',lambda m:f'{m.group(1)}?v={rev}"',s)
+        (OUT/path).write_text(s,encoding='utf-8')
     for f in ('app.js','style.css','courses.html','cuisine.html'): shutil.copy2(ROOT/f,OUT/f)
     write('data.js','const RECIPES = '+json.dumps(recipes,ensure_ascii=False,indent=2)+';\n')
     for cat,page in [('savory','index.html'),('sweet','sucre.html')]:
         subset=[r for r in recipes if category(r)==cat]
-        write(page,template('index.html',dict(CATEGORY=cat,HEADING='Pause sucrée' if cat=='sweet' else 'On mange quoi aujourd’hui ?',INTRO='Desserts, goûters et petits déjeuners.' if cat=='sweet' else 'Des recettes salées adaptées à ta cuisine.', CARDS='\n'.join(map(card,subset)),COUNT=len(subset),QUICK=sum(r['time']<=25 for r in subset),EXPRESS=sum(r['time']<=15 for r in subset),NOCOOK=sum(set(r['tools']) <= {'mixeur'} for r in subset),SAVORY=sum(category(r)=='savory' for r in recipes),SWEET=sum(category(r)=='sweet' for r in recipes),SAVORYACTIVE='active' if cat=='savory' else '',SWEETACTIVE='active' if cat=='sweet' else '')))
+        write(page,template('index.html',dict(CATEGORY=cat,HEADING='Pause sucrée' if cat=='sweet' else 'On mange quoi aujourd’hui ?',INTRO='Desserts, goûters et petits déjeuners.' if cat=='sweet' else 'Des recettes salées adaptées à ta cuisine.', CARDS='\n'.join(card(r,cat) for r in recipes),COUNT=len(subset),QUICK=sum(r['time']<=25 for r in subset),EXPRESS=sum(r['time']<=15 for r in subset),NOCOOK=sum(set(r['tools']) <= {'mixeur'} for r in subset),SAVORY=sum(category(r)=='savory' for r in recipes),SWEET=sum(category(r)=='sweet' for r in recipes),SAVORYACTIVE='active' if cat=='savory' else '',SWEETACTIVE='active' if cat=='sweet' else '')))
     write('menu.html',template('menu.html',dict(COUNT=len(recipes))))
     for r in recipes: write(f'recettes/{r["id"]}.html',template('detail.html',dict(NAME=e(r['name']),DETAIL=detail(r))))
     write('.nojekyll','')
