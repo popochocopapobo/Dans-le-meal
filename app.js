@@ -1,0 +1,187 @@
+'use strict';
+const $ = id => document.getElementById(id);
+const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+const root = document.body.dataset.root || '';
+const standalone = document.body.dataset.standalone === 'true';
+const files = { recipes:'index.html', menu:'menu.html', shopping:'courses.html', kitchen:'cuisine.html' };
+const ALL_TOOLS = ['plaques','four','micro-ondes','air fryer','mixeur'];
+const clamp = (n, max = 30) => Math.max(1, Math.min(max, Math.round(Number(n)||1)));
+const fmt = n => Number(n.toFixed(2)).toLocaleString('fr-FR');
+const esc = s => String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
+let saved = {};
+let storageAvailable = true;
+try { saved = JSON.parse(localStorage.getItem('atable-v7') || '{}') || {}; } catch(e) { storageAvailable = false; }
+let state = {
+  tools: Array.isArray(saved.tools) ? saved.tools.filter(t=>ALL_TOOLS.includes(t)) : ['plaques','four'],
+  menu: Array.isArray(saved.menu) ? saved.menu.filter(x=>x && RECIPES[x.id]).map(x=>({id:Number(x.id),p:clamp(x.p)})) : [],
+  people: clamp(saved.people || 2),
+  fav: Array.isArray(saved.fav) ? saved.fav.filter(x=>RECIPES[x]) : [],
+  checked: saved.checked && typeof saved.checked === 'object' ? saved.checked : {},
+  compatibleOnly: saved.compatibleOnly === true,
+  layout: saved.layout==='list'?'list':'grid',
+  catalogCompatible: saved.catalogCompatible===true
+};
+let filter = state.compatibleOnly ? 'compatible' : 'all';
+let toastTimer;
+let lastView = '';
+let catalogScroll=0;
+const lastPortions = {};
+function save() {
+  try { localStorage.setItem('atable-v7', JSON.stringify(state)); } catch(e) { storageAvailable = false; }
+  const count = $('menu-count'); if(count) count.textContent = state.menu.length || '';
+}
+function notify(message) {
+  $('toast').textContent = message;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ $('toast').textContent=''; }, 2600);
+}
+function link(page) { return standalone ? '#'+page : root+files[page]; }
+function recipeLink(id) { return standalone ? '#r-'+id : root+'recettes/'+id+'.html'; }
+function navigate(page) { location.href = link(page); }
+function compatible(r) { return r.tools.every(t=>state.tools.includes(t)); }
+function matches(r, type) {
+  return type==='compatible' ? compatible(r) : type==='fav' ? state.fav.includes(r.id) : type==='veg' ? r.veg : type==='express' ? r.time<=15 : type==='quick' ? r.time<=25 : type==='nocook' ? r.tools.length===0 : type==='new' ? r.id>=21 : type==='quick30' ? r.time<=30 : type==='balanced' ? r.health>=80 : type==='gourmet' ? r.taste>=90 : true;
+}
+function refreshCommon() {
+  save();
+  $$('[data-fav]').forEach(b=>{ const on=state.fav.includes(+b.dataset.fav); b.textContent=on?'♥':'♡'; b.setAttribute('aria-pressed',String(on)); b.setAttribute('aria-label',on?'Retirer des favoris':'Ajouter aux favoris'); });
+  $$('[data-compat]').forEach(el=>{const r=RECIPES[+el.dataset.compat];const missing=r.tools.filter(t=>!state.tools.includes(t));el.classList.toggle('missing',missing.length>0);el.textContent=missing.length?'Manque : '+missing.join(', '):(r.tools.join(' · ')||'Sans cuisson');});
+  $$('[data-add]').forEach(b=>{b.disabled=!compatible(RECIPES[+b.dataset.add]);});
+}
+function filterCatalog() {
+  if (!$('catalog')) return;
+  const normalize = s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  const q=normalize($('search').value.trim());
+  const duration=Number($('duration').value); const sort=$('sort').value;
+  const cards=$$('.recipe-card',$('catalog'));
+  cards.sort((a,b)=>{const x=RECIPES[+a.dataset.id],y=RECIPES[+b.dataset.id];return sort==='name'?x.name.localeCompare(y.name,'fr'):['time','kcal'].includes(sort)?x[sort]-y[sort]:y[sort]-x[sort];});
+  let n=0;
+  const needsReorder=cards.some((card,i)=>card!==$('catalog').querySelectorAll('.recipe-card')[i]);
+  cards.forEach(card=>{const r=RECIPES[+card.dataset.id];const ok=matches(r,filter)&&(!state.catalogCompatible||compatible(r))&&r.time<=duration&&normalize(r.name+' '+r.ing.map(i=>i.n).join(' ')).includes(q);card.hidden=!ok;if(ok)n++;if(needsReorder)$('catalog').append(card);});
+  $('results').textContent=n+' recette'+(n>1?'s':'');
+  $('catalog').classList.toggle('list-mode',state.layout==='list');
+  $$('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===state.layout)));
+  if($('only-compatible'))$('only-compatible').checked=state.catalogCompatible;
+  $$('[data-shortcut]').forEach(b=>b.classList.toggle('active',b.dataset.shortcut===filter));
+  $$('[data-filter]').forEach(b=>{b.classList.toggle('selected',b.dataset.filter===filter);b.setAttribute('aria-pressed',String(b.dataset.filter===filter));});
+  let empty=$('catalog-empty'); if(!empty) { empty=document.createElement('p');empty.className='empty';empty.id='catalog-empty';empty.textContent='Aucune recette ne correspond. Essaie un autre filtre.';$('catalog').append(empty); } empty.hidden=!!n;
+}
+function adjustDetail(section,p) {
+  const r=RECIPES[+section.dataset.detail]; p=clamp(p); lastPortions[r.id]=p;
+  section.querySelector('.portions').value=p;
+  $$('.portion-label',section).forEach(x=>x.textContent=p);
+  $$('[data-q]',section).forEach(x=>{ x.textContent=fmt(Number(x.dataset.q)*p)+' '+x.parentElement.querySelector('[data-unit]').dataset.unit; });
+  section.querySelector('.total-kcal').textContent=fmt(r.kcal*p);
+}
+function progressSteps(section) {
+  const boxes=$$('.step-check',section);section.querySelector('.step-progress').textContent=boxes.filter(x=>x.checked).length+'/'+boxes.length;
+}
+function addToMenu(id,p,shopping=false) {
+  if(!compatible(RECIPES[id])){notify('Il manque un appareil pour cette recette.');return;}
+  state.menu.push({id,p:clamp(p)});state.checked={};save();refreshCommon();renderMenu();renderShopping();
+  if(shopping) navigate('shopping');else notify(RECIPES[id].name+' ajouté au menu');
+}
+function randomMenu() {
+  const type=$('random-style').value;const n=clamp($('random-count').value,RECIPES.length);const p=clamp($('random-people').value);const sides=$('random-sides').checked;
+  const pool=RECIPES.filter(r=>compatible(r)&&matches(r,type)&&(sides||!r.side));
+  if (!pool.length) { $('random-message').textContent='Aucun plat compatible avec ces critères. Change ta préférence ou tes appareils.';return; }
+  if(state.menu.length&&!confirm('Remplacer le menu actuel ?'))return;
+  for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
+  state.menu=pool.slice(0,n).map(r=>({id:r.id,p}));state.checked={};save();renderMenu();renderShopping();
+  $('random-message').textContent=state.menu.length+' plat(s) généré(s).'+(pool.length<n?' Seulement '+pool.length+' plats différents correspondent.':'');
+  notify('Menu prêt !');
+}
+function renderMenu(updateItems = true) {
+  if(!$('menu-items'))return;
+  $('menu-summary').textContent=state.menu.length+' plat(s) · '+state.menu.reduce((s,x)=>s+x.p,0)+' portion(s)';
+  if(updateItems) $('menu-items').innerHTML=state.menu.map((x,i)=>{const r=RECIPES[x.id];return `<article class="menu-item"><a href="${recipeLink(r.id)}"><img class="food" src="${r.image}" referrerpolicy="no-referrer" alt="${esc(r.name)}" width="110" height="73"></a><div><a href="${recipeLink(r.id)}">${esc(r.name)}</a><p class="muted">${r.time} min · ${r.kcal} kcal/pers.${compatible(r)?'':' · ⚠ appareil manquant'}</p></div><div class="menu-control"><label><small>Pers.</small><input type="number" min="1" max="30" value="${x.p}" data-menu-p="${i}" aria-label="Nombre de personnes pour ${esc(r.name)}"></label><button data-remove="${i}" aria-label="Retirer ${esc(r.name)}">×</button></div></article>`;}).join('')||'<p class="empty">Ton menu est vide. Ajoute des plats depuis le catalogue ou lance un tirage.</p>';
+  const totals=state.menu.reduce((a,x)=>{const r=RECIPES[x.id];['kcal','p','c','f','b'].forEach(k=>a[k]+=r[k]*x.p);return a;},{kcal:0,p:0,c:0,f:0,b:0});
+  $('menu-total').innerHTML=state.menu.length?`<section class="panel"><h2>Nutrition du menu entier</h2><p class="muted">Somme de toutes les portions, pas une journée type.</p><div class="macros">${[['kcal',totals.kcal],['Protéines',totals.p+' g'],['Glucides',totals.c+' g'],['Lipides',totals.f+' g'],['Fibres',totals.b+' g']].map(x=>`<div><b>${x[1]}</b><small>${x[0]}</small></div>`).join('')}</div></section>`:'';
+}
+function aisle(name) {
+  if(/poulet|bœuf|guanciale|lardons|jambon|saumon|cabillaud|thon|crevettes/.test(name))return 'Viandes, poissons et conserves de poisson';
+  if(/œufs|pecorino|crème|lait$|emmental|cheddar|reblochon|feta|mozzarella|parmesan|burrata|yaourt|béchamel|fromage|beurre|chèvre|kiri|crottin/.test(name)&&name!=='lait de coco')return 'Produits frais et œufs';
+  if(/pommes de terre|^tomate$|tomates cerises|oignon|ail|poivron|concombre|avocat|^salade$|champignons|courgette|citron|carotte|patate douce|aubergine|épinards|poire|mangue|basilic|ciboulette|aneth/.test(name))return 'Fruits et légumes';
+  if(/pain|bagel|tortillas/.test(name))return 'Boulangerie';
+  return 'Épicerie et autres';
+}
+function shoppingItems() {
+  const grouped=new Map();
+  for(const x of state.menu)for(const ing of RECIPES[x.id].ing){const name=ing.n;const key=name+'|'+ing.u;const line=grouped.get(key)||{key,n:name,u:ing.u,q:0,group:aisle(name)};line.q+=ing.q*x.p;grouped.set(key,line);}
+  return Array.from(grouped.values()).sort((a,b)=>a.group.localeCompare(b.group,'fr')||a.n.localeCompare(b.n,'fr'));
+}
+function renderShopping() {
+  if(!$('shopping-items'))return;
+  const items=shoppingItems();const done=items.filter(x=>state.checked[x.key]).length;
+  $('shopping-summary').textContent=items.length+' ingrédient(s)';$('shopping-progress').textContent=done+'/'+items.length+' cochés';$('shopping-bar').max=items.length||1;$('shopping-bar').value=done;
+  const groups=Array.from(new Set(items.map(x=>x.group)));
+  $('shopping-items').innerHTML=groups.map(g=>`<section class="shop-group"><h3>${esc(g)}</h3>${items.filter(x=>x.group===g).map(x=>`<label class="shop-line ${state.checked[x.key]?'done':''}"><input type="checkbox" data-shop="${esc(x.key)}" ${state.checked[x.key]?'checked':''}><span>${esc(x.n)}</span><b>${fmt(x.q)} ${esc(x.u)}</b></label>`).join('')}</section>`).join('')||'<p class="empty">Ajoute des plats à ton menu pour obtenir la liste de courses.</p>';
+}
+function renderKitchen() {
+  if(!$('compat-count'))return;
+  $$('[data-tool]').forEach(x=>x.checked=state.tools.includes(x.dataset.tool));
+  $('default-compatible').checked=state.compatibleOnly;
+  $('compat-count').textContent=RECIPES.filter(compatible).length+' recettes réalisables sur '+RECIPES.length;
+}
+async function copyList() {
+  const text=shoppingItems().map(x=>(state.checked[x.key]?'✓':'☐')+' '+x.n+' : '+fmt(x.q)+' '+x.u).join('\n');
+  if(!text){notify('La liste est vide.');return;}
+  try { await navigator.clipboard.writeText(text);notify('Liste copiée.'); } catch(e) { const ta=$('copy-fallback');ta.hidden=false;ta.value=text;ta.rows=8;ta.focus();ta.select();notify('Sélectionne et copie le texte.'); }
+}
+function showView() {
+  if(!standalone)return;
+  let id=location.hash.slice(1)||'recipes';if(!$(id)||!$(id).classList.contains('view'))id='recipes';
+  $$('.view').forEach(el=>el.classList.toggle('current',el.id===id));
+  $$('[data-nav]').forEach(a=>a.classList.toggle('active',a.dataset.nav===(id.startsWith('r-')?'recipes':id)));
+  const section=$(id);if(section.dataset.detail!==undefined)adjustDetail(section,lastPortions[section.dataset.detail]||state.people);
+  if(id==='menu')renderMenu();if(id==='shopping')renderShopping();if(id==='kitchen')renderKitchen();if(id==='recipes')filterCatalog();
+  if(lastView!==id){const restore=id==='recipes'&&lastView.startsWith('r-');window.scrollTo(0,restore?catalogScroll:0);lastView=id;}
+}
+// Optional external photos: local image stays in place unless the replacement loads.
+function initImages() {
+  const load=img=>{if(img.dataset.tried)return;img.dataset.tried='1';const test=new Image();test.referrerPolicy='no-referrer';test.onload=()=>{img.src=test.src;};test.src=img.dataset.remote;};
+  if('IntersectionObserver' in window){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){o.unobserve(e.target);load(e.target);}}));$$('[data-remote]').forEach(el=>o.observe(el));}else $$('[data-remote]').forEach(load);
+}
+document.addEventListener('click', e=>{
+  const a=e.target.closest('a');if(a&&lastView==='recipes'&&a.getAttribute('href')?.startsWith('#r-'))catalogScroll=window.scrollY;
+  const b=e.target.closest('button');if(!b)return;
+  if(b.dataset.shortcut){filter=b.dataset.shortcut; $('duration').value='1440';$('search').value='';$('sort').value='time';filterCatalog();$('searchbox').scrollIntoView({block:'start',behavior:'smooth'});}
+  if(b.dataset.layout){state.layout=b.dataset.layout;save();filterCatalog();}
+  if(b.id==='reset-filters'){filter='all';state.catalogCompatible=false;$('search').value='';$('duration').value='1440';$('sort').value='rating';save();filterCatalog();}
+  if(b.id==='surprise'){const pool=RECIPES.filter(r=>compatible(r)&&r.time<=25&&!r.side);if(!pool.length){notify('Aucun plat express compatible.');return;} catalogScroll=window.scrollY;location.href=recipeLink(pool[Math.floor(Math.random()*pool.length)].id);}
+  if(b.dataset.jump){const sec=b.closest('[data-detail]');sec.querySelector(b.dataset.jump)?.scrollIntoView({block:'start',behavior:'smooth'});}
+  if(b.dataset.filter!==undefined){filter=b.dataset.filter;filterCatalog();}
+  if(b.dataset.fav!==undefined){const id=+b.dataset.fav;state.fav=state.fav.includes(id)?state.fav.filter(x=>x!==id):[...state.fav,id];refreshCommon();filterCatalog();}
+  if(b.dataset.add!==undefined){const section=b.closest('[data-detail]');const p=section?section.querySelector('.portions').value:state.people;addToMenu(+b.dataset.add,p,b.hasAttribute('data-go-shopping'));}
+  if(b.dataset.portion!==undefined){const sec=b.closest('[data-detail]');adjustDetail(sec,Number(sec.querySelector('.portions').value)+Number(b.dataset.portion));}
+  if(b.hasAttribute('data-reset-steps')){const sec=b.closest('[data-detail]');$$('.step-check,.ingredient-check',sec).forEach(x=>x.checked=false);progressSteps(sec);}
+  if(b.dataset.remove!==undefined){state.menu.splice(+b.dataset.remove,1);state.checked={};save();renderMenu();renderShopping();}
+  if(b.id==='random-btn')randomMenu();
+  if(b.id==='clear-menu'&&confirm('Vider le menu ?')){state.menu=[];state.checked={};save();renderMenu();renderShopping();}
+  if(b.id==='copy-list')copyList();
+  if(b.id==='uncheck-all'){state.checked={};save();renderShopping();}
+  if(b.id==='reset-data'&&confirm('Effacer les menus, favoris et préférences ?')){state={tools:['plaques','four'],menu:[],people:2,fav:[],checked:{},compatibleOnly:true};filter='compatible';save();refreshCommon();renderKitchen();renderMenu();renderShopping();filterCatalog();notify('Données réinitialisées.');}
+});
+document.addEventListener('input',e=>{if(e.target.id==='search')filterCatalog();});
+document.addEventListener('change',e=>{
+  const t=e.target;
+  if(t.id==='people'){state.people=clamp(t.value);t.value=state.people;save();}
+  if(t.id==='only-compatible'){state.catalogCompatible=t.checked;save();filterCatalog();}
+  if(t.id==='sort'||t.id==='duration')filterCatalog();
+  if(t.classList.contains('portions'))adjustDetail(t.closest('[data-detail]'),t.value);
+  if(t.classList.contains('step-check'))progressSteps(t.closest('[data-detail]'));
+  if(t.dataset.menuP!==undefined){const item=state.menu[+t.dataset.menuP];if(!item)return;const n=clamp(t.value);t.value=n;if(item.p!==n){item.p=n;state.checked={};save();renderMenu(false);renderShopping();}}
+  if(t.dataset.shop!==undefined){state.checked[t.dataset.shop]=t.checked;save();renderShopping();}
+  if(t.dataset.tool!==undefined){state.tools=t.checked?[...new Set([...state.tools,t.dataset.tool])]:state.tools.filter(x=>x!==t.dataset.tool);save();refreshCommon();renderKitchen();renderMenu();filterCatalog();}
+  if(t.id==='default-compatible'){state.compatibleOnly=t.checked;filter=t.checked?'compatible':'all';save();filterCatalog();}
+});
+if($('people'))$('people').value=state.people;
+if($('random-people'))$('random-people').value=state.people;
+$$('[data-detail]').forEach(el=>adjustDetail(el,state.people));
+refreshCommon();renderMenu();renderShopping();renderKitchen();filterCatalog();initImages();
+if(standalone){document.body.classList.add('js');window.addEventListener('hashchange',showView);showView();}
+if(!storageAvailable)notify('Stockage local indisponible : les données ne seront pas conservées après fermeture.');
+
+
+// Images du CDN Marmiton : aucune requête fetch/CORS requise.
+document.addEventListener('error',e=>{const im=e.target;if(im.tagName==='IMG'&&im.classList.contains('food')&&im.src.startsWith('https:')){im.dataset.failed='true';im.src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20720%20480%22%3E%3Crect%20width%3D%22720%22%20height%3D%22480%22%20fill%3D%22%23e8eee5%22/%3E%3Ctext%20x%3D%22360%22%20y%3D%22230%22%20font-family%3D%22sans-serif%22%20font-size%3D%2227%22%20text-anchor%3D%22middle%22%20fill%3D%22%23375748%22%3EPhoto%20inaccessible%3C/text%3E%3Ctext%20x%3D%22360%22%20y%3D%22270%22%20font-family%3D%22sans-serif%22%20font-size%3D%2217%22%20text-anchor%3D%22middle%22%20fill%3D%22%23375748%22%3EOuvrir%20la%20recette%20Marmiton%3C/text%3E%3C/svg%3E";}},true);

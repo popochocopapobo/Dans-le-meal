@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="#173e30" name="theme-color"/>
+  <title>
+   Ma cuisine · À table !
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="data.js">
+  </script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body data-root="" data-standalone="false">
+  <header>
+   <a class="brand" href="index.html">
+    <span>
+     À table
+     <span class="dot">
+      .
+     </span>
+    </span>
+    <small>
+     La cuisine à ton rythme.
+    </small>
+   </a>
+   <a class="header-link" href="cuisine.html">
+    ⚙ Ma cuisine
+   </a>
+  </header>
+  <main>
+   <section class="view" id="kitchen">
+    <div class="page-title">
+     <p class="eyebrow">
+      PERSONNALISER
+     </p>
+     <h1>
+      Ma cuisine
+     </h1>
+     <p>
+      Quels appareils as-tu à disposition ? Le catalogue et les menus s’adaptent.
+     </p>
+    </div>
+    <section class="panel">
+     <h2>
+      Mes appareils
+     </h2>
+     <div class="equipment">
+      <label>
+       <input data-tool="plaques" type="checkbox"/>
+       <span class="equip-icon">
+        ◉
+       </span>
+       <b>
+        Plaques de cuisson
+       </b>
+      </label>
+      <label>
+       <input data-tool="four" type="checkbox"/>
+       <span class="equip-icon">
+        ▣
+       </span>
+       <b>
+        Four
+       </b>
+      </label>
+      <label>
+       <input data-tool="micro-ondes" type="checkbox"/>
+       <span class="equip-icon">
+        ▤
+       </span>
+       <b>
+        Micro-ondes
+       </b>
+      </label>
+      <label>
+       <input data-tool="air fryer" type="checkbox"/>
+       <span class="equip-icon">
+        ♨
+       </span>
+       <b>
+        Air Fryer
+       </b>
+      </label>
+      <label>
+       <input data-tool="mixeur" type="checkbox"/>
+       <span class="equip-icon">
+        ◈
+       </span>
+       <b>
+        Mixeur / blender
+       </b>
+      </label>
+     </div>
+     <p class="muted">
+      Casseroles, poêles, couteau, planche et ustensiles de base sont supposés disponibles. Les plats sans cuisson restent toujours compatibles.
+     </p>
+     <h3 id="compat-count">
+      Recettes compatibles
+     </h3>
+     <label class="checkline">
+      <input id="default-compatible" type="checkbox"/>
+      Filtrer les recettes selon ma cuisine par défaut
+     </label>
+     <a class="primary" data-link="recipes" href="index.html">
+      Voir le catalogue →
+     </a>
+    </section>
+    <section class="panel">
+     <h2>
+      À propos
+     </h2>
+     <p>
+      Les préférences, favoris, menus et courses sont conservés sur cet appareil si le navigateur autorise le stockage local. Les photos Marmiton sont chargées en ligne ; une connexion est nécessaire. Si une photo est bloquée, ouvre la fiche Marmiton.
+     </p>
+     <p>
+      Les macros sont des estimations reprises du catalogue, et non des données médicales ou des mesures certifiées.
+     </p>
+     <button class="secondary" id="reset-data">
+      Réinitialiser mes données
+     </button>
+    </section>
+   </section>
+  </main>
+  <nav aria-label="Navigation principale">
+   <a class="" data-nav="recipes" href="index.html">
+    <span aria-hidden="true">
+     ⌂
+    </span>
+    Recettes
+   </a>
+   <a class="" data-nav="menu" href="menu.html">
+    <span aria-hidden="true">
+     ▤
+    </span>
+    Menu
+    <b id="menu-count">
+    </b>
+   </a>
+   <a class="" data-nav="shopping" href="courses.html">
+    <span aria-hidden="true">
+     ✓
+    </span>
+    Courses
+   </a>
+   <a class="active" data-nav="kitchen" href="cuisine.html">
+    <span aria-hidden="true">
+     ⚙
+    </span>
+    Cuisine
+   </a>
+  </nav>
+  <div aria-live="polite" id="toast" role="status">
+  </div>
+  <noscript>
+   <p class="noscript">
+    Le catalogue et les fiches sont disponibles. Active JavaScript dans un navigateur pour les portions, menus, courses et favoris.
+   </p>
+  </noscript>
+ </body>
+</html>

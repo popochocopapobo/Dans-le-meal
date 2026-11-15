@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="#173e30" name="theme-color"/>
+  <title>
+   Courses · À table !
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="data.js">
+  </script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body data-root="" data-standalone="false">
+  <header>
+   <a class="brand" href="index.html">
+    <span>
+     À table
+     <span class="dot">
+      .
+     </span>
+    </span>
+    <small>
+     La cuisine à ton rythme.
+    </small>
+   </a>
+   <a class="header-link" href="cuisine.html">
+    ⚙ Ma cuisine
+   </a>
+  </header>
+  <main>
+   <section class="view" id="shopping">
+    <div class="page-title">
+     <p class="eyebrow">
+      ORGANISER
+     </p>
+     <h1>
+      Ma liste de courses
+     </h1>
+     <p>
+      Les quantités de tes plats sont additionnées, puis classées par rayon.
+     </p>
+    </div>
+    <div class="actions-row">
+     <a class="secondary" data-link="menu" href="menu.html">
+      ← Modifier mon menu
+     </a>
+     <button class="primary" id="copy-list">
+      Copier la liste
+     </button>
+     <button class="secondary" id="uncheck-all">
+      Tout décocher
+     </button>
+    </div>
+    <section class="panel">
+     <div class="section-heading">
+      <h2 id="shopping-summary">
+       Mes achats
+      </h2>
+      <span id="shopping-progress">
+      </span>
+     </div>
+     <progress id="shopping-bar" max="1" value="0">
+     </progress>
+     <div id="shopping-items">
+      <p>
+       Active JavaScript pour calculer les courses.
+      </p>
+     </div>
+    </section>
+    <p class="muted">
+     Quantités nécessaires, à arrondir au conditionnement supérieur. Les unités différentes ne sont pas fusionnées artificiellement. Vérifie aussi sel, poivre, huile et épices de placard.
+    </p>
+    <textarea aria-label="Liste à copier" hidden="" id="copy-fallback" readonly=""></textarea>
+   </section>
+  </main>
+  <nav aria-label="Navigation principale">
+   <a class="" data-nav="recipes" href="index.html">
+    <span aria-hidden="true">
+     ⌂
+    </span>
+    Recettes
+   </a>
+   <a class="" data-nav="menu" href="menu.html">
+    <span aria-hidden="true">
+     ▤
+    </span>
+    Menu
+    <b id="menu-count">
+    </b>
+   </a>
+   <a class="active" data-nav="shopping" href="courses.html">
+    <span aria-hidden="true">
+     ✓
+    </span>
+    Courses
+   </a>
+   <a class="" data-nav="kitchen" href="cuisine.html">
+    <span aria-hidden="true">
+     ⚙
+    </span>
+    Cuisine
+   </a>
+  </nav>
+  <div aria-live="polite" id="toast" role="status">
+  </div>
+  <noscript>
+   <p class="noscript">
+    Le catalogue et les fiches sont disponibles. Active JavaScript dans un navigateur pour les portions, menus, courses et favoris.
+   </p>
+  </noscript>
+ </body>
+</html>
