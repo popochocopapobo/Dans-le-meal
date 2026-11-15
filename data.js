@@ -2388,5 +2388,1383 @@ const RECIPES = [
       "Disposer la salade, les poires et le chèvre chaud dans une assiette."
     ],
     "emoji": "🍽️"
+  },
+  {
+    "id": 34,
+    "name": "Omelette jambon et fromage",
+    "source": "https://www.marmiton.org/recettes/recette_omelette-jambon-fromage_68824.aspx",
+    "image": "https://assets.afcdn.com/recipe/20150218/43131_w640cx1632cy1224.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.9,
+    "reviews": 12,
+    "time": 10,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 90,
+    "health": 68,
+    "p": 26,
+    "c": 3,
+    "f": 25,
+    "b": 0,
+    "kcal": 341,
+    "ing": [
+      {
+        "n": "œufs",
+        "q": 2.0,
+        "u": "pièce"
+      },
+      {
+        "n": "jambon",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "emmental",
+        "q": 30.0,
+        "u": "g"
+      },
+      {
+        "n": "parmesan",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Tailler le jambon en lanières et préparer le fromage.",
+      "Fouetter les œufs avec le parmesan, un peu de poivre et une pincée de sel.",
+      "Chauffer une poêle antiadhésive avec l’huile, puis verser les œufs.",
+      "Quand le dessous se tient, répartir le jambon et l’emmental sur une moitié.",
+      "Replier l’omelette et laisser le fromage fondre à feu doux, jusqu’à la cuisson souhaitée. Servir chaud."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 35,
+    "name": "Salade de pâtes, thon, tomates et avocat",
+    "source": "https://www.marmiton.org/recettes/recette_salade-de-pates-au-thon-tomates-et-avocat_225273.aspx",
+    "image": "https://assets.afcdn.com/recipe/20170326/50160_w640cx545cy360.webp",
+    "kind": "Photo Marmiton",
+    "rating": 5.0,
+    "reviews": 6,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 84,
+    "health": 88,
+    "p": 35,
+    "c": 72,
+    "f": 22,
+    "b": 9,
+    "kcal": 644,
+    "ing": [
+      {
+        "n": "pâtes",
+        "q": 80.0,
+        "u": "g"
+      },
+      {
+        "n": "thon au naturel",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "tomate",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "avocat",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "vinaigre balsamique",
+        "q": 10.0,
+        "u": "ml"
+      },
+      {
+        "n": "origan",
+        "q": 1.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes selon le temps indiqué sur le paquet.",
+      "Égoutter, refroidir brièvement sous l’eau froide et bien laisser s’écouler l’eau.",
+      "Couper la tomate et l’avocat en dés, émietter le thon égoutté.",
+      "Mélanger l’huile, le vinaigre, l’origan et le poivre dans le saladier.",
+      "Ajouter les pâtes et les garnitures, mélanger délicatement et servir frais."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 36,
+    "name": "Salade d’avocat, thon, œufs et maïs",
+    "source": "https://www.marmiton.org/recettes/recette_salade-d-avocats-et-thon_227701.aspx",
+    "image": "https://assets.afcdn.com/recipe/20160927/7808_w640cx918cy1632.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.6,
+    "reviews": 16,
+    "time": 25,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 82,
+    "health": 91,
+    "p": 32,
+    "c": 25,
+    "f": 26,
+    "b": 8,
+    "kcal": 478,
+    "ing": [
+      {
+        "n": "avocat",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "œufs",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "thon au naturel",
+        "q": 80.0,
+        "u": "g"
+      },
+      {
+        "n": "maïs",
+        "q": 80.0,
+        "u": "g"
+      },
+      {
+        "n": "échalote",
+        "q": 0.25,
+        "u": "pièce"
+      },
+      {
+        "n": "ciboulette",
+        "q": 3.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "jus de citron",
+        "q": 10.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Faire durcir l’œuf 10 minutes dans l’eau frémissante.",
+      "Refroidir sous l’eau froide, écaler puis couper en quartiers.",
+      "Égoutter les conserves et couper l’avocat en cubes.",
+      "Ciseler l’échalote et la ciboulette; les réunir avec l’huile et le citron.",
+      "Mélanger délicatement thon, maïs et avocat avec la sauce, puis déposer les quartiers d’œuf."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 37,
+    "name": "Crevettes au curry express",
+    "source": "https://www.marmiton.org/recettes/recette_crevettes-au-curry-express_12645.aspx",
+    "image": "https://assets.afcdn.com/recipe/20150225/32437_w150h150c1cx1250cy1747.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 468,
+    "time": 15,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 89,
+    "health": 82,
+    "p": 34,
+    "c": 59,
+    "f": 13,
+    "b": 2,
+    "kcal": 493,
+    "ing": [
+      {
+        "n": "crevettes décortiquées",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 30.0,
+        "u": "g"
+      },
+      {
+        "n": "curry",
+        "q": 2.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "riz",
+        "q": 75.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Mettre le riz à cuire dans de l’eau salée selon son emballage.",
+      "Éponger les crevettes décongelées ou fraîches.",
+      "Chauffer l’huile et les faire sauter avec le curry; si elles sont crues, attendre qu’elles deviennent opaques.",
+      "Baisser le feu, ajouter la crème et laisser napper les crevettes sans les dessécher.",
+      "Égoutter le riz et servir avec les crevettes et leur sauce."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 38,
+    "name": "Crevettes à l’ail et au persil",
+    "source": "https://www.marmiton.org/recettes/recette_crevettes-a-l-ail_23490.aspx",
+    "image": "https://assets.afcdn.com/recipe/20200513/111128_w150h150c1cx540cy960cxt0cyt0cxb1080cyb1920.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 88,
+    "time": 25,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": true,
+    "taste": 86,
+    "health": 85,
+    "p": 31,
+    "c": 5,
+    "f": 15,
+    "b": 1,
+    "kcal": 281,
+    "ing": [
+      {
+        "n": "crevettes décortiquées",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 15.0,
+        "u": "ml"
+      },
+      {
+        "n": "ail",
+        "q": 2.0,
+        "u": "gousse"
+      },
+      {
+        "n": "persil",
+        "q": 8.0,
+        "u": "g"
+      },
+      {
+        "n": "piment doux",
+        "q": 0.25,
+        "u": "pièce"
+      }
+    ],
+    "steps": [
+      "Sécher les crevettes avec du papier absorbant.",
+      "Hacher à la main l’ail, le persil et le piment.",
+      "Saisir les crevettes dans la moitié de l’huile jusqu’à ce qu’elles soient opaques et les réserver.",
+      "Faire revenir brièvement la persillade dans le reste de l’huile sans brunir l’ail.",
+      "Remettre les crevettes dans la poêle, les enrober et servir chaud avec un accompagnement au choix non compté."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 39,
+    "name": "Bagel au saumon fumé et fromage frais",
+    "source": "https://www.marmiton.org/recettes/recette_bagel-toaste-au-saumon-fume_73662.aspx",
+    "image": "https://assets.afcdn.com/recipe/20201210/116274_w150h150c1cx676cy673cxt0cyt0cxb1352cyb1346.png",
+    "kind": "Photo Marmiton",
+    "rating": 4.4,
+    "reviews": 25,
+    "time": 5,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 87,
+    "health": 73,
+    "p": 28,
+    "c": 49,
+    "f": 16,
+    "b": 3,
+    "kcal": 458,
+    "ing": [
+      {
+        "n": "bagel",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "saumon fumé",
+        "q": 80.0,
+        "u": "g"
+      },
+      {
+        "n": "fromage frais",
+        "q": 40.0,
+        "u": "g"
+      },
+      {
+        "n": "jus de citron",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "aneth",
+        "q": 2.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Ouvrir le bagel dans l’épaisseur.",
+      "Le placer côté mie dans une poêle sèche pour le rendre légèrement croustillant.",
+      "Étaler le fromage frais sur les deux faces.",
+      "Ajouter le saumon, le citron et l’aneth; fermer et servir immédiatement."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 40,
+    "name": "Bagel saumon fumé et roquette",
+    "source": "https://www.marmiton.org/recettes/recette_bagel-saumon-fume-roquette_340408.aspx",
+    "image": "https://assets.afcdn.com/recipe/20151004/59223_w640cx600cy398.webp",
+    "kind": "Photo Marmiton",
+    "rating": 5.0,
+    "reviews": 4,
+    "time": 12,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 86,
+    "health": 75,
+    "p": 25,
+    "c": 51,
+    "f": 17,
+    "b": 4,
+    "kcal": 465,
+    "ing": [
+      {
+        "n": "bagel",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "saumon fumé",
+        "q": 60.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 30.0,
+        "u": "g"
+      },
+      {
+        "n": "échalote",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "roquette",
+        "q": 25.0,
+        "u": "g"
+      },
+      {
+        "n": "aneth",
+        "q": 2.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Laver et sécher la roquette, émincer finement l’échalote.",
+      "Ouvrir le bagel et dorer les faces coupées deux minutes à la poêle sèche.",
+      "Répartir la crème et l’aneth sur le pain.",
+      "Déposer le saumon fumé, l’échalote et la roquette.",
+      "Refermer et déguster encore tiède."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 41,
+    "name": "Gnocchis à la crème et aux lardons",
+    "source": "https://www.marmiton.org/recettes/recette_gnocchi-a-la-creme-fraiche-et-aux-lardons_84530.aspx",
+    "image": "https://assets.afcdn.com/recipe/20140516/37456_w640cx1824cy1368.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.7,
+    "reviews": 15,
+    "time": 10,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 94,
+    "health": 43,
+    "p": 21,
+    "c": 68,
+    "f": 35,
+    "b": 3,
+    "kcal": 677,
+    "ing": [
+      {
+        "n": "gnocchi",
+        "q": 200.0,
+        "u": "g"
+      },
+      {
+        "n": "lardons",
+        "q": 60.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 60.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Chauffer de l’eau dans une casserole.",
+      "Faire dorer les lardons dans une poêle pendant ce temps, puis retirer l’excédent de gras si nécessaire.",
+      "Plonger les gnocchis dans l’eau et les égoutter selon les indications du paquet.",
+      "Ajouter les gnocchis aux lardons et les faire sauter une minute.",
+      "Verser la crème, poivrer, chauffer doucement et servir."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 42,
+    "name": "Gratin de gnocchis aux courgettes",
+    "source": "https://www.marmiton.org/recettes/recette_gnocchis-aux-courgettes_314311.aspx",
+    "image": "https://assets.afcdn.com/recipe/20220126/128052_w640cx1062cy706cxt0cyt0cxb2124cyb1412.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 29,
+    "time": 45,
+    "tools": [
+      "plaques",
+      "four"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 91,
+    "health": 61,
+    "p": 25,
+    "c": 55,
+    "f": 30,
+    "b": 5,
+    "kcal": 600,
+    "ing": [
+      {
+        "n": "gnocchi",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "courgette",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "lardons",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "crème liquide",
+        "q": 60.0,
+        "u": "ml"
+      },
+      {
+        "n": "gruyère râpé",
+        "q": 25.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Mettre le four à chauffer à 180 °C.",
+      "Laver la courgette et la découper en petits cubes.",
+      "Faire rissoler les lardons, puis ajouter la courgette et l’huile si nécessaire.",
+      "Répartir les gnocchis, la courgette et les lardons dans un plat; napper de crème.",
+      "Saupoudrer de gruyère et cuire environ 20 à 25 minutes, jusqu’à ce que les gnocchis soient tendres et le dessus doré."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 43,
+    "name": "Gnocchis au poulet et aux champignons",
+    "source": "https://www.marmiton.org/recettes/recette_gnocchis-au-poulet-et-champignons_312746.aspx",
+    "image": "https://assets.afcdn.com/recipe/20131120/33545_w640cx908cy960.webp",
+    "kind": "Photo Marmiton",
+    "rating": 5.0,
+    "reviews": 6,
+    "time": 40,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 92,
+    "health": 68,
+    "p": 37,
+    "c": 60,
+    "f": 23,
+    "b": 5,
+    "kcal": 605,
+    "ing": [
+      {
+        "n": "gnocchi",
+        "q": 180.0,
+        "u": "g"
+      },
+      {
+        "n": "poulet",
+        "q": 120.0,
+        "u": "g"
+      },
+      {
+        "n": "champignons de Paris",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 60.0,
+        "u": "g"
+      },
+      {
+        "n": "beurre",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "carotte",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "tomate",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "curry",
+        "q": 1.0,
+        "u": "g"
+      },
+      {
+        "n": "herbes de Provence",
+        "q": 1.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Nettoyer les légumes, émincer les champignons et couper la carotte et la tomate très finement.",
+      "Détailler le poulet en dés sur une planche séparée.",
+      "Faire sauter la carotte et les champignons dans le beurre, puis ajouter le poulet et cuire jusqu’à 74 °C à cœur.",
+      "Cuire parallèlement les gnocchis à l’eau selon le paquet.",
+      "Ajouter la tomate, le curry, les herbes et la crème au poulet; laisser épaissir.",
+      "Mélanger avec les gnocchis égouttés et servir chaud."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 44,
+    "name": "Quesadillas aux poireaux",
+    "source": "https://www.marmiton.org/recettes/recette_quesadillas-aux-poireaux-wraps-chauds_72750.aspx",
+    "image": "https://assets.afcdn.com/recipe/20100120/22839_w640cx256cy179.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.4,
+    "reviews": 14,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": true,
+    "side": false,
+    "taste": 87,
+    "health": 73,
+    "p": 19,
+    "c": 57,
+    "f": 22,
+    "b": 7,
+    "kcal": 516,
+    "ing": [
+      {
+        "n": "tortilla",
+        "q": 2.0,
+        "u": "pièce"
+      },
+      {
+        "n": "poireau",
+        "q": 180.0,
+        "u": "g"
+      },
+      {
+        "n": "emmental",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "beurre",
+        "q": 8.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Fendre et rincer les poireaux pour retirer toute trace de terre.",
+      "Émincer très finement et faire fondre dans le beurre à feu moyen, couvrir quelques minutes si nécessaire.",
+      "Incorporer le fromage râpé aux poireaux devenus tendres.",
+      "Répartir la garniture sur une moitié de chaque tortilla et rabattre.",
+      "Dorer les quesadillas dans une poêle sèche sur les deux faces en pressant légèrement. Couper en triangles."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 45,
+    "name": "Émincé de poulet aux épices et au miel",
+    "source": "https://www.marmiton.org/recettes/recette_emince-de-poulet-aux-epices-et-au-miel_35498.aspx",
+    "image": "https://assets.afcdn.com/recipe/20130122/63407_w150h150c1cx750cy794.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 347,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 90,
+    "health": 78,
+    "p": 39,
+    "c": 14,
+    "f": 17,
+    "b": 2,
+    "kcal": 369,
+    "ing": [
+      {
+        "n": "poulet",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "oignon",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "ail",
+        "q": 1.0,
+        "u": "gousse"
+      },
+      {
+        "n": "beurre",
+        "q": 8.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "miel",
+        "q": 7.0,
+        "u": "g"
+      },
+      {
+        "n": "sauce soja",
+        "q": 15.0,
+        "u": "ml"
+      },
+      {
+        "n": "cannelle",
+        "q": 0.5,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Émincer l’oignon et l’ail, puis couper le poulet en lanières.",
+      "Réunir la sauce soja, le miel et la cannelle dans un bol.",
+      "Faire suer l’oignon dans le mélange beurre-huile puis ajouter l’ail.",
+      "Saisir le poulet en remuant et poursuivre jusqu’à 74 °C à cœur.",
+      "Ajouter la sauce et laisser réduire brièvement pour obtenir un enrobage brillant. Servir avec le féculent de ton choix non compté."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 46,
+    "name": "Filets de poulet au sésame",
+    "source": "https://www.marmiton.org/recettes/recette_filets-de-poulet-au-sesame_30075.aspx",
+    "image": "https://assets.afcdn.com/recipe/20170427/9723_w640cx2080cy1560.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 28,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 87,
+    "health": 80,
+    "p": 39,
+    "c": 4,
+    "f": 22,
+    "b": 2,
+    "kcal": 374,
+    "ing": [
+      {
+        "n": "poulet",
+        "q": 150.0,
+        "u": "g"
+      },
+      {
+        "n": "sésame",
+        "q": 12.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 25.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "beurre",
+        "q": 5.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Griller les graines de sésame à feu moyen dans une poêle sèche, sous surveillance; les mettre de côté.",
+      "Chauffer l’huile et le beurre dans la poêle.",
+      "Saisir les filets de poulet et poursuivre la cuisson à feu modéré jusqu’à 74 °C à cœur.",
+      "Ajouter la crème et les graines grillées.",
+      "Chauffer doucement pour obtenir une sauce nappante, poivrer et servir avec un accompagnement non compté."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 47,
+    "name": "Pâtes à la crème de parmesan et jambon",
+    "source": "https://www.marmiton.org/recettes/recette_pates-a-la-creme-de-parmesan-et-jambon_27928.aspx",
+    "image": "https://assets.afcdn.com/recipe/20170223/19236_w640cx360cy560.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 13,
+    "time": 25,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 93,
+    "health": 49,
+    "p": 28,
+    "c": 76,
+    "f": 33,
+    "b": 4,
+    "kcal": 721,
+    "ing": [
+      {
+        "n": "pâtes",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "jambon",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "parmesan",
+        "q": 20.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 60.0,
+        "u": "g"
+      },
+      {
+        "n": "beurre",
+        "q": 8.0,
+        "u": "g"
+      },
+      {
+        "n": "oignon",
+        "q": 0.25,
+        "u": "pièce"
+      }
+    ],
+    "steps": [
+      "Cuire les pâtes al dente dans un grand volume d’eau.",
+      "Hacher l’oignon et découper le jambon en fines bandes.",
+      "Faire fondre le beurre et y faire revenir l’oignon avec le jambon.",
+      "Incorporer la crème et le parmesan à feu doux jusqu’à obtenir une sauce lisse.",
+      "Égoutter les pâtes en gardant un peu d’eau de cuisson; les mélanger à la sauce et rectifier la texture. Servir chaud."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 48,
+    "name": "Sandwichs frais au concombre",
+    "source": "https://www.marmiton.org/recettes/recette_sandwichs-de-concombre_63337.aspx",
+    "image": "https://assets.afcdn.com/recipe/20161012/43051_w640cx1224cy1632.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 10,
+    "time": 10,
+    "tools": [],
+    "veg": true,
+    "side": false,
+    "taste": 76,
+    "health": 69,
+    "p": 10,
+    "c": 37,
+    "f": 16,
+    "b": 5,
+    "kcal": 342,
+    "ing": [
+      {
+        "n": "pain de mie complet",
+        "q": 4.0,
+        "u": "tranche"
+      },
+      {
+        "n": "concombre",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 40.0,
+        "u": "g"
+      },
+      {
+        "n": "ciboulette",
+        "q": 5.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Laver le concombre et le tailler en fines rondelles.",
+      "Éponger les rondelles pour éviter de détremper le pain.",
+      "Assaisonner la crème avec la ciboulette ciselée et du poivre.",
+      "Tartiner le pain, répartir le concombre en couches et refermer les sandwichs.",
+      "Couper en triangles et conserver au frais jusqu’au repas."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 49,
+    "name": "Salade de lentilles au cantal",
+    "source": "https://www.marmiton.org/recettes/recette_salade-de-lentilles-au-cantal_71698.aspx",
+    "image": "https://assets.afcdn.com/recipe/20100528/1531_w640cx256cy192.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 23,
+    "time": 25,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 87,
+    "health": 82,
+    "p": 28,
+    "c": 32,
+    "f": 30,
+    "b": 13,
+    "kcal": 536,
+    "ing": [
+      {
+        "n": "lentilles vertes cuites",
+        "q": 180.0,
+        "u": "g"
+      },
+      {
+        "n": "cantal",
+        "q": 40.0,
+        "u": "g"
+      },
+      {
+        "n": "lardons",
+        "q": 35.0,
+        "u": "g"
+      },
+      {
+        "n": "noix",
+        "q": 15.0,
+        "u": "g"
+      },
+      {
+        "n": "échalote",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      },
+      {
+        "n": "moutarde",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "vinaigre",
+        "q": 10.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Utiliser des lentilles déjà cuites, les rincer et les égoutter; si elles sont sèches, prévoir leur cuisson en plus.",
+      "Faire dorer les lardons et les laisser tiédir.",
+      "Couper le cantal en dés et hacher grossièrement les noix.",
+      "Battre la moutarde avec l’huile, le vinaigre et l’échalote finement ciselée.",
+      "Réunir tous les ingrédients et mélanger avec la vinaigrette."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 50,
+    "name": "Pâtes au saumon fumé et à la crème",
+    "source": "https://www.marmiton.org/recettes/recette_pates-au-creme-fraiche-saumon_315842.aspx",
+    "image": "https://assets.afcdn.com/recipe/20140818/51274_w640cx1024cy768.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.9,
+    "reviews": 38,
+    "time": 40,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 92,
+    "health": 65,
+    "p": 31,
+    "c": 74,
+    "f": 26,
+    "b": 4,
+    "kcal": 662,
+    "ing": [
+      {
+        "n": "pâtes",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "saumon fumé",
+        "q": 70.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 50.0,
+        "u": "g"
+      },
+      {
+        "n": "crème liquide",
+        "q": 30.0,
+        "u": "ml"
+      },
+      {
+        "n": "oignon",
+        "q": 0.25,
+        "u": "pièce"
+      },
+      {
+        "n": "ciboulette",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Faire chauffer l’eau des pâtes et les cuire selon le paquet.",
+      "Faire fondre l’oignon émincé dans un filet d’huile à feu moyen.",
+      "Découper le saumon en lanières.",
+      "Verser les deux crèmes sur l’oignon, ajouter le saumon et la ciboulette et chauffer doucement.",
+      "Égoutter les pâtes, les mêler à la sauce et poivrer; goûter avant de saler."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 51,
+    "name": "Pâtes sauce Alfredo",
+    "source": "https://www.marmiton.org/recettes/recette_pates-sauce-alfredo_82510.aspx",
+    "image": "https://assets.afcdn.com/recipe/20140310/25516_w640cx1224cy1632.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 11,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": true,
+    "side": false,
+    "taste": 94,
+    "health": 43,
+    "p": 23,
+    "c": 74,
+    "f": 38,
+    "b": 4,
+    "kcal": 738,
+    "ing": [
+      {
+        "n": "tagliatelles",
+        "q": 90.0,
+        "u": "g"
+      },
+      {
+        "n": "beurre",
+        "q": 23.0,
+        "u": "g"
+      },
+      {
+        "n": "parmesan",
+        "q": 23.0,
+        "u": "g"
+      },
+      {
+        "n": "crème liquide",
+        "q": 40.0,
+        "u": "ml"
+      },
+      {
+        "n": "persil",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "piment",
+        "q": 0.25,
+        "u": "pièce"
+      }
+    ],
+    "steps": [
+      "Mettre les tagliatelles à cuire.",
+      "Dans une grande poêle, faire fondre doucement le beurre avec la crème.",
+      "Incorporer le fromage râpé, une partie du persil et le piment entier fendu.",
+      "Prélever un peu d’eau de cuisson et égoutter les pâtes; retirer le piment de la sauce.",
+      "Mélanger les pâtes à la sauce et détendre avec l’eau réservée si besoin. Parsemer du reste de persil."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 52,
+    "name": "Quiche sans pâte au jambon",
+    "source": "https://www.marmiton.org/recettes/recette_quiche-sans-pate_12744.aspx",
+    "image": "https://assets.afcdn.com/recipe/20221010/135902_w150h150c1cx1360cy887cxt0cyt0cxb2121cyb1414.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.9,
+    "reviews": 610,
+    "time": 40,
+    "tools": [
+      "four"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 90,
+    "health": 66,
+    "p": 23,
+    "c": 14,
+    "f": 24,
+    "b": 1,
+    "kcal": 366,
+    "ing": [
+      {
+        "n": "œufs",
+        "q": 0.75,
+        "u": "pièce"
+      },
+      {
+        "n": "lait",
+        "q": 65.0,
+        "u": "ml"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 25.0,
+        "u": "g"
+      },
+      {
+        "n": "gruyère râpé",
+        "q": 25.0,
+        "u": "g"
+      },
+      {
+        "n": "farine",
+        "q": 12.0,
+        "u": "g"
+      },
+      {
+        "n": "jambon",
+        "q": 40.0,
+        "u": "g"
+      },
+      {
+        "n": "beurre",
+        "q": 3.0,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Préchauffer le four à 200 °C et beurrer un petit moule adapté au nombre de portions.",
+      "Battre les œufs avec le lait et la crème.",
+      "Incorporer la farine progressivement en fouettant, puis le fromage.",
+      "Ajouter le jambon détaillé et verser dans le moule.",
+      "Cuire environ 30 minutes jusqu’à ce que le centre soit pris. Laisser tiédir avant de découper."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 53,
+    "name": "Taboulé express aux herbes",
+    "source": "https://www.marmiton.org/recettes/recette_taboule-rapide_93815.aspx",
+    "image": "https://assets.afcdn.com/recipe/20200518/111358_w150h150c1cx540cy960cxt0cyt0cxb1080cyb1920.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.3,
+    "reviews": 39,
+    "time": 20,
+    "tools": [
+      "plaques"
+    ],
+    "veg": true,
+    "side": true,
+    "taste": 78,
+    "health": 90,
+    "p": 10,
+    "c": 59,
+    "f": 1,
+    "b": 7,
+    "kcal": 299,
+    "ing": [
+      {
+        "n": "semoule",
+        "q": 70.0,
+        "u": "g"
+      },
+      {
+        "n": "tomate",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "concombre",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "oignon",
+        "q": 0.25,
+        "u": "pièce"
+      },
+      {
+        "n": "persil",
+        "q": 8.0,
+        "u": "g"
+      },
+      {
+        "n": "menthe",
+        "q": 5.0,
+        "u": "g"
+      },
+      {
+        "n": "jus de citron",
+        "q": 25.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Laver les tomates, le concombre et les herbes.",
+      "Hydrater la semoule avec de l’eau chaude selon les indications du paquet, puis égrener à la fourchette.",
+      "Découper les légumes en petits dés et hacher l’oignon.",
+      "Ciseler les herbes et tout mélanger avec le jus de citron.",
+      "Assaisonner et laisser refroidir avant de servir. Pour un taboulé plus frais, le préparer en avance."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 54,
+    "name": "Poêlée de courgettes aux lardons",
+    "source": "https://www.marmiton.org/recettes/recette_poelee-de-courgette_25061.aspx",
+    "image": "https://assets.afcdn.com/recipe/20140806/55157_w640cx1224cy1632.webp",
+    "kind": "Photo Marmiton",
+    "rating": 4.8,
+    "reviews": 37,
+    "time": 30,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": true,
+    "taste": 84,
+    "health": 75,
+    "p": 15,
+    "c": 11,
+    "f": 19,
+    "b": 4,
+    "kcal": 283,
+    "ing": [
+      {
+        "n": "courgette",
+        "q": 250.0,
+        "u": "g"
+      },
+      {
+        "n": "lardons",
+        "q": 60.0,
+        "u": "g"
+      },
+      {
+        "n": "crème fraîche",
+        "q": 20.0,
+        "u": "g"
+      },
+      {
+        "n": "muscade",
+        "q": 0.5,
+        "u": "g"
+      }
+    ],
+    "steps": [
+      "Couper les courgettes lavées en dés réguliers.",
+      "Saisir les lardons dans une poêle bien chaude.",
+      "Ajouter les courgettes et remuer pendant cinq minutes pour les colorer.",
+      "Couvrir et poursuivre la cuisson à feu doux, environ quinze minutes; ajouter un filet d’eau au besoin.",
+      "Lorsque les légumes sont tendres, ajouter crème et muscade puis mélanger et servir."
+    ],
+    "emoji": "🍽️"
+  },
+  {
+    "id": 55,
+    "name": "Burger maison à l’emmental",
+    "source": "https://www.marmiton.org/recettes/recette_home-burger_93645.aspx",
+    "image": "https://assets.afcdn.com/recipe/20190206/87301_w640cx2213cy1453cxt0cyt0cxb4500cyb3000.webp",
+    "kind": "Photo Marmiton",
+    "rating": 5.0,
+    "reviews": 7,
+    "time": 40,
+    "tools": [
+      "plaques"
+    ],
+    "veg": false,
+    "side": false,
+    "taste": 98,
+    "health": 56,
+    "p": 30,
+    "c": 49,
+    "f": 33,
+    "b": 5,
+    "kcal": 623,
+    "ing": [
+      {
+        "n": "pain burger",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "bœuf haché",
+        "q": 100.0,
+        "u": "g"
+      },
+      {
+        "n": "emmental",
+        "q": 10.0,
+        "u": "g"
+      },
+      {
+        "n": "oignon",
+        "q": 0.5,
+        "u": "pièce"
+      },
+      {
+        "n": "tomate",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "cornichon",
+        "q": 1.0,
+        "u": "pièce"
+      },
+      {
+        "n": "salade",
+        "q": 20.0,
+        "u": "g"
+      },
+      {
+        "n": "mayonnaise",
+        "q": 15.0,
+        "u": "g"
+      },
+      {
+        "n": "ketchup",
+        "q": 15.0,
+        "u": "g"
+      },
+      {
+        "n": "huile d'olive",
+        "q": 5.0,
+        "u": "ml"
+      }
+    ],
+    "steps": [
+      "Émincer l’oignon, couper la tomate et les cornichons, laver la salade.",
+      "Faire doucement dorer l’oignon dans l’huile.",
+      "Façonner le bœuf en steak et le cuire à la poêle jusqu’à 71 °C à cœur; poser le fromage dessus à la fin.",
+      "Griller les faces du pain dans la poêle.",
+      "Tartiner de mayonnaise et ketchup, ajouter salade, tomate, steak, oignons et cornichons. Refermer et déguster aussitôt."
+    ],
+    "emoji": "🍽️"
   }
 ];
