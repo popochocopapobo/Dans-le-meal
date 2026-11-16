@@ -49,12 +49,15 @@
      </h2>
      <div class="filter-row">
       <label>
-       Nombre de plats
-       <input id="random-count" max="56" min="1" type="number" value="5"/>
+       Nombre de recettes
+       <input id="random-count" max="{{COUNT}}" min="1" type="number" value="5"/>
       </label>
       <label>
-       Personnes par plat
+       Personnes par recette
        <input id="random-people" max="30" min="1" type="number" value="2"/>
+      </label>
+      <label>Type de recettes
+       <select id="random-category"><option value="savory">Salées uniquement</option><option value="sweet">Sucrées uniquement</option><option value="all">Salées et sucrées</option></select>
       </label>
       <label>
        Préférence
@@ -91,7 +94,7 @@
       ↻ Générer mon menu
      </button>
      <p class="muted" id="random-message">
-      Le tirage tient compte de tes appareils.
+      Le tirage exclut toujours les recettes qui nécessitent un appareil manquant.
      </p>
     </section>
     <div class="section-heading">
